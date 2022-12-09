@@ -1,0 +1,6 @@
+Dec 09 2022 06:19:16
+{"type":2,"message":"file_get_contents(C:\\res\\htdocs\\inflight\/.well-known\/apple-developer-merchantid-domain-association): failed to open stream: No such file or directory","file":"C:\\res\\htdocs\\inflight\\wp-content\\plugins\\woocommerce-gateway-stripe\\includes\\class-wc-stripe-apple-pay-registration.php","line":129}
+
+Dec 09 2022 06:19:16
+{"type":2,"message":"file_get_contents(C:\\res\\htdocs\\inflight\/.well-known\/apple-developer-merchantid-domain-association): failed to open stream: No such file or directory","file":"C:\\res\\htdocs\\inflight\\wp-content\\plugins\\woocommerce-gateway-stripe\\includes\\class-wc-stripe-apple-pay-registration.php","line":129}
+
