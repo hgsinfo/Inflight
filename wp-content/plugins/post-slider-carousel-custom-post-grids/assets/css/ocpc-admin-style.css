@@ -1,0 +1,172 @@
+.ocpc-container ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.ocpc-container ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.ocpc-container ul.tabs li.current{
+    background: #e6e6e6;
+    color: #222;
+}
+.ocpc-container .tab-content{
+    display: none;
+    background: #e6e6e6;
+    padding: 15px;
+}
+.ocpc-container .tab-content.current{
+    display: inherit;
+}
+p.ocpc-tips {
+    margin: 2px 0 5px !important;
+    color: #666;
+    font-size: 12px !important;
+    font-style: italic;
+}
+.ocpc_shortcode {
+    margin-bottom: 15px;
+    background-color: #009688;
+    padding: 10px;
+}
+.ocpc_shortcode span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.ocpc-container tr td:first-child {
+    width: 190px;
+}
+.ocpc-container table.form-table select, 
+.ocpc-container table.form-table input[type="text"], 
+.ocpc-container table.form-table input[type="number"], 
+.ocpc-container table.form-table input[type="color"] {
+    width: 40%;
+}
+.ocpc-container .radio {
+    margin: 16px 0;
+    cursor: pointer;
+    width: 22%;
+    display: inline-block;
+}
+.ocpc-distype td label {
+    vertical-align: text-top;
+    margin-left: 5px;
+    margin-right: 35px;
+}
+.ocpc_plchldr_tr img {
+    margin-top: 15px;
+}
+.ocpc_postcats_tr, .ocpc_posttags_tr, .ocpc_prodcats_tr, .ocpc_prodtags_tr, .ocpc_options_ids {
+    display: none;
+}
+label.ocpc_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+label.ocpc_pro_link_fw {
+    display: block;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+/*CSS for support rating donation start*/
+.ocpc_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.ocpc_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.ocpc_rateus_notice, .ocpc_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.ocpc_rateus_notice h3, .ocpc_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.ocpc_rateus_notice label, .ocpc_support_notice label {
+    font-size: 16px;
+}
+.ocpc_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.ocpc_rateus_notice a, .ocpc_support_notice a {
+    color: #fff;
+}
+.ocpc_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.ocpc_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.ocpc_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.ocpc_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.ocpc_donate_main img {
+    height: 32px;
+}
+.ocpc_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.ocpc_donate_main h3 {
+    font-size: 15px;
+}
+.ocpc_donate_form {
+    display: flex;
+}
+.ocpc_donate_main .button {
+    text-align: center;
+}
+.ocpc-container .form-table td {
+    padding: 15px 10px;
+}
+a.ocpc_remove_image_button {
+    padding: 1px 8px 3px 8px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid;
+    margin: 5px;
+}
+/*CSS for support rating donation end*/

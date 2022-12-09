@@ -1,0 +1,1 @@
+(function(a){a(function(){if(a(".input-status").length>0){a(".input-status").on("click",function(){if(a(this).is(":checked")){a("#handler-minifier").show(100)}else{a("#handler-minifier").hide(500)}});if(a("#handler-minifier.show").length){a("#handler-minifier").show()}}})})(jQuery);
