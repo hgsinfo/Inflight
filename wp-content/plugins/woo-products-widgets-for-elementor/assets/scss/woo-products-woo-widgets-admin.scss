@@ -1,0 +1,23 @@
+.woo-products-widgets-settings-page {
+	display: flex;
+	flex-wrap: nowrap;
+	@media screen and (max-width: 1200px) {
+		flex-wrap: wrap;
+	}
+	
+	.woo_products_widgets_settings {
+		flex-grow: 1;
+		margin-right: 20px;
+	}
+	
+	.woo-products-widgets-banner {
+		flex-shrink: 0;
+		margin: 20px 20px 0 0;
+		&__link {
+			display: block;
+		}
+		&__img {
+			vertical-align: top;
+		}
+	}
+}

@@ -1,0 +1,1990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UPS WooCommerce Shipping\n"
+"POT-Creation-Date: 2018-11-15 10:30+0530\n"
+"PO-Revision-Date: 2018-11-15 10:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ups-woocommerce-shipping.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wf-shipping-ups-admin.php:301
+msgid "UPS Shipment Label"
+msgstr "Libellé d'expédition"
+
+#: includes/class-wf-shipping-ups-admin.php:320
+msgid "Step 1: Auto generate packages."
+msgstr "Étape 1 : Auto générer des packages."
+
+#: includes/class-wf-shipping-ups-admin.php:322
+#: includes/class-wf-shipping-ups-admin.php:464
+msgid "Generate Packages"
+msgstr "Générer des packages"
+
+#: includes/class-wf-shipping-ups-admin.php:325
+msgid "Step 2: Initiate your shipment."
+msgstr "Etape 2 : Lancer votre envoi."
+
+#: includes/class-wf-shipping-ups-admin.php:334
+msgid "UPS Freight Options"
+msgstr "Options de fret UPS"
+
+#: includes/class-wf-shipping-ups-admin.php:348
+msgid "Request Holiday Pickup"
+msgstr "Demande de vacances Pickup"
+
+#: includes/class-wf-shipping-ups-admin.php:349
+msgid "Request Inside Pickup"
+msgstr "Demander à l’intérieur de la camionnette"
+
+#: includes/class-wf-shipping-ups-admin.php:350
+msgid "Request Residential Pickup"
+msgstr "Demande de ramassage résidentiel"
+
+#: includes/class-wf-shipping-ups-admin.php:351
+msgid "Request Weekend Pickup"
+msgstr "Demande de ramassage en fin de semaine"
+
+#: includes/class-wf-shipping-ups-admin.php:352
+msgid "Request Lift Gate for Pickup"
+msgstr "Demande Lift Gate pour le ramassage"
+
+#: includes/class-wf-shipping-ups-admin.php:353
+msgid "Notify UPS For Limited Access Pickup"
+msgstr "Notifier l’UPS pour le ramassage d’accès limité"
+
+#: includes/class-wf-shipping-ups-admin.php:354
+msgid "Pickup Instruction"
+msgstr "Instruction de ramassage"
+
+#: includes/class-wf-shipping-ups-admin.php:359
+msgid "Package(s)"
+msgstr "Package (s)"
+
+#: includes/class-wf-shipping-ups-admin.php:362
+#: includes/class-wf-shipping-ups-admin.php:422
+msgid "Wt."
+msgstr "Pds."
+
+#: includes/class-wf-shipping-ups-admin.php:363
+#: includes/class-wf-shipping-ups-admin.php:423
+msgid "L"
+msgstr "L"
+
+#: includes/class-wf-shipping-ups-admin.php:364
+#: includes/class-wf-shipping-ups-admin.php:424
+msgid "W"
+msgstr "M"
+
+#: includes/class-wf-shipping-ups-admin.php:365
+#: includes/class-wf-shipping-ups-admin.php:425
+msgid "H"
+msgstr "Dom."
+
+#: includes/class-wf-shipping-ups-admin.php:366
+#: includes/class-wf-shipping-ups-admin.php:426
+msgid "Insur."
+msgstr "Titres ( autres qu&apos; actions )"
+
+#: includes/class-wf-shipping-ups-admin.php:367
+#: includes/class-wf-shipping-ups-admin.php:427
+msgid ""
+"<div style='text-align :left;'>* Leave as it is if you want to go for "
+"Default Insurance Value.<br/>* Enter amount manually if you want to provide "
+"Customized Insurance. <br/>* Keep it blank if you do not want insurance for "
+"particular package.</div>"
+msgstr ""
+"<div style='text-align :left;'>* Laisser tel quel si vous voulez aller pour "
+"valeur par défaut de l’assurance.<br>* Entrer montant manuellement si vous "
+"souhaitez fournir personnalisé d’assurance.<br>* Garder vide si vous ne "
+"voulez pas d’assurance pour paquet particulier.</div>"
+
+#: includes/class-wf-shipping-ups-admin.php:372
+#: includes/class-wf-shipping-ups-admin.php:430
+msgid "Service"
+msgstr "Qualité de Service"
+
+#: includes/class-wf-shipping-ups-admin.php:373
+#: includes/class-wf-shipping-ups-admin.php:431
+msgid "Contact UPS for more info on this services."
+msgstr "Contacter UPS pour plus d’informations sur ces services."
+
+#: includes/class-wf-shipping-ups-admin.php:419
+msgid "Return Package"
+msgstr "Renvoyer le package"
+
+#: includes/class-wf-shipping-ups-admin.php:657
+msgid "Service Name"
+msgstr "Nom du diagnostic"
+
+#: includes/class-wf-shipping-ups-admin.php:658
+msgid "Delivery Time"
+msgstr "Délai de livraison"
+
+#: includes/class-wf-shipping-ups-admin.php:659
+msgid "Cost ("
+msgstr "Coût ("
+
+#: includes/class-wf-shipping-ups-admin.php:659
+msgid ")"
+msgstr ")"
+
+#: includes/class-wf-shipping-ups-admin.php:683
+msgid "Calculate the shipping rates for UPS services."
+msgstr "Calculer les tarifs d’expédition pour les services UPS."
+
+#: includes/class-wf-shipping-ups-admin.php:683
+msgid "Calculate Shipping Cost"
+msgstr "Calculer le coût d'expédition"
+
+#: includes/class-wf-shipping-ups-admin.php:685
+msgid "Collect On Delivery"
+msgstr "contre-remboursement"
+
+#: includes/class-wf-shipping-ups-admin.php:685
+msgid ""
+"Collect On Delivery would be applicable only for single package which may "
+"contain single or multiple product(s)."
+msgstr ""
+"Recueillir sur livraison serait applicable uniquement pour le seul boîtier "
+"qui peut contenir un ou plusieurs produit (s)."
+
+#: includes/class-wf-shipping-ups-admin.php:686
+msgid "Include Return Label"
+msgstr "Inclure l’étiquette de retour"
+
+#: includes/class-wf-shipping-ups-admin.php:686
+msgid "You can generate the return label only for single package order."
+msgstr ""
+"Vous pouvez générer l’étiquette de retour seulement pour l’ordre monobloc."
+
+#: includes/class-wf-shipping-ups-admin.php:687
+msgid "Saturday Delivery"
+msgstr "Livraison le samedi"
+
+#: includes/class-wf-shipping-ups-admin.php:687
+msgid ""
+"Saturday Delivery from UPS allows you to stretch your business week to "
+"Saturday"
+msgstr ""
+"Livraison le samedi de l’onduleur permet d’étirer votre semaine de la PME au "
+"samedi"
+
+#: includes/class-wf-shipping-ups-admin.php:690
+msgid "Confirm Shipment"
+msgstr "Confirmer l’expédition"
+
+#: includes/class-wf-shipping-ups-admin.php:815
+#: includes/class-wf-shipping-ups-admin.php:830
+#: includes/wf-automatic-label-generation.php:374
+#: includes/wf-automatic-label-generation.php:389
+msgid "Tracking No: "
+msgstr "Numéro de suivis:"
+
+#: includes/class-wf-shipping-ups-admin.php:816
+#: includes/wf-automatic-label-generation.php:375
+msgid "Print Label "
+msgstr "Imprimer libellé"
+
+#: includes/class-wf-shipping-ups-admin.php:831
+msgid "Print Return Label "
+msgstr "Imprimer le libellé de retour"
+
+#: includes/class-wf-shipping-ups-admin.php:843
+#: includes/wf-automatic-label-generation.php:402
+msgid "Print Commercial Invoice"
+msgstr "Imprimer une facture commerciale"
+
+#: includes/class-wf-shipping-ups-admin.php:843
+#: includes/class-wf-shipping-ups.php:1580
+#: includes/wf-automatic-label-generation.php:402
+msgid "Commercial Invoice"
+msgstr "Facture commerciale"
+
+#: includes/class-wf-shipping-ups-admin.php:853
+msgid "Generate Return label : "
+msgstr "Générer l’étiquette de retour :"
+
+#: includes/class-wf-shipping-ups-admin.php:855
+msgid "Generate Return Label"
+msgstr "Générer l’étiquette de retour"
+
+#: includes/class-wf-shipping-ups-admin.php:863
+msgid "Cancel the Shipment"
+msgstr "Annuler l’envoi"
+
+#: includes/class-wf-shipping-ups-admin.php:864
+msgid "Void Shipment"
+msgstr "Annuler l’envoi"
+
+#: includes/class-wf-shipping-ups-admin.php:869
+msgid "Step 3: Accept your shipment."
+msgstr "Etape 3 : Accepter votre envoi."
+
+#: includes/class-wf-shipping-ups-admin.php:870
+msgid "Accept Shipment"
+msgstr "Accepter la livraison"
+
+#: includes/class-wf-shipping-ups-admin.php:1806
+msgid ""
+"UPS Warning! One or more Ordered Products have been deleted from the Order. "
+"Please check these Products- "
+msgstr ""
+"Avertissement UPS! Un ou plusieurs produits commandés ont été supprimés de "
+"la commande. S'il vous plaît vérifier ces produits-"
+
+#: includes/class-wf-shipping-ups-admin.php:1853
+#: includes/class-wf-shipping-ups.php:2026
+msgid "UPS : Skipped Products Id - "
+msgstr "UPS: ID de produits ignorés -"
+
+#: includes/class-wf-shipping-ups-admin.php:1873
+msgid ""
+"UPS Package Generation stopped. - Package Weight is not in range of Minimum "
+"and Maximum Weight Limit (Check UPS Plugin Settings)."
+msgstr ""
+"La génération de colis UPS s'est arrêtée. - Le poids du colis ne se situe "
+"pas entre les limites de poids minimal et maximal (vérifiez les paramètres "
+"du plug-in UPS)."
+
+#: includes/class-wf-shipping-ups-admin.php:1886
+msgid "UPS - No product Found."
+msgstr "Aucun produit trouvé."
+
+#: includes/class-wf-shipping-ups-admin.php:1952
+msgid "UPS Label has been already generated."
+msgstr "L’étiquette UPS a déjà été générée."
+
+#: includes/class-wf-shipping-ups-admin.php:2313
+#: includes/class-wf-shipping-ups-admin.php:2325
+msgid "Order # "
+msgstr "Commande #"
+
+#: includes/class-wf-shipping-ups-admin.php:2627
+msgid ""
+"Unable to Create Zip file. Please check permission of WP-Upload directory."
+msgstr ""
+"Impossible de créer un fichier Zip. Veuillez vérifier l'autorisation du "
+"répertoire WP-Upload."
+
+#: includes/class-wf-shipping-ups-admin.php:3171
+#: includes/class-wf-shipping-ups-admin.php:3172
+msgid "Generate UPS Label"
+msgstr "Générer une étiquette UPS"
+
+#: includes/class-wf-shipping-ups-admin.php:3174
+#: includes/class-wf-shipping-ups-admin.php:3175
+msgid "Void UPS Shipment"
+msgstr "Annulation de l'envoi par UPS"
+
+#: includes/class-wf-shipping-ups-admin.php:3178
+#: includes/class-wf-shipping-ups-admin.php:3179
+msgid "Print UPS Label (PDF)"
+msgstr "Imprimer UPS Label (PDF)"
+
+#: includes/class-wf-shipping-ups-admin.php:3182
+#: includes/class-wf-shipping-ups-admin.php:3183
+msgid "Print UPS Label (Image)"
+msgstr "Imprimer l'etiquette de l'onduleur (image)"
+
+#: includes/class-wf-shipping-ups-admin.php:3204
+#: includes/class-wf-shipping-ups-admin.php:3213
+msgid "Please select atleast one order"
+msgstr "Veuillez sélectionner au moins une commande."
+
+#: includes/class-wf-shipping-ups-admin.php:3808
+msgid "Print UPS Commercial Invoice"
+msgstr "Impression de la facture commerciale UPS"
+
+#: includes/class-wf-shipping-ups-admin.php:3808
+msgid "Print UPS Label"
+msgstr "Imprimer l'étiquette UPS"
+
+#: includes/class-wf-shipping-ups-admin.php:3851
+msgid "Pre packed product"
+msgstr "Produit emballé"
+
+#: includes/class-wf-shipping-ups-admin.php:3852
+msgid ""
+"Check this if the item comes in boxes. It will consider as a separate "
+"package and ship in its own box."
+msgstr ""
+"Cochez cette case si l'article est livré dans des boîtes. Il sera considéré "
+"comme un paquet séparé et livré dans sa propre boîte."
+
+#: includes/class-wf-shipping-ups-admin.php:3879
+msgid " Pre packed product"
+msgstr "Produit emballé"
+
+#: includes/class-wf-shipping-ups-admin.php:3880
+msgid ""
+"Check this if the item comes in boxes. It will override global product "
+"settings"
+msgstr ""
+"Cochez cette case si l’article est disponible en boîtes. Elle remplace "
+"paramètres produit global"
+
+#: includes/class-wf-shipping-ups-admin.php:3944
+msgid "UPS rate request failed - Weight is missing. Aborting."
+msgstr "Demande de tarif UPS a échoué - poids est manquant. Abandon."
+
+#: includes/class-wf-shipping-ups-tracking.php:94
+#: includes/class-wf-shipping-ups.php:1678
+msgid ""
+"Your order is shipped via UPS. To track shipment, please follow the shipment "
+"ID(s) "
+msgstr ""
+"Votre commande est expédiée via UPS. Pour suivre l’expédition, veuillez "
+"suivre l’expédition ID (s)"
+
+#: includes/class-wf-shipping-ups-tracking.php:95
+msgid "Shipping Detail"
+msgstr "Détail de la livraison"
+
+#: includes/class-wf-shipping-ups-tracking.php:214
+msgid "Save/Show Tracking Info"
+msgstr "Enregistrer / Afficher les informations de suivi"
+
+#: includes/class-wf-shipping-ups.php:261
+#: includes/class-wf-shipping-ups.php:1052
+msgid "UPS"
+msgstr "UPS "
+
+#: includes/class-wf-shipping-ups.php:262
+msgid ""
+"The <strong>UPS</strong> extension obtains rates dynamically from the UPS "
+"API during cart/checkout."
+msgstr ""
+"L’extension de <strong>l’UPS</strong> obtient taux dynamiquement de l’API "
+"UPS lors panier/Commander."
+
+#: includes/class-wf-shipping-ups.php:313
+msgid "Est delivery: "
+msgstr "Livraison est :"
+
+#: includes/class-wf-shipping-ups.php:515
+msgid "UPS is enabled, but Your Name has not been set."
+msgstr "UPS est activé, mais votre nom n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:521
+msgid "UPS is enabled, but the UPS User ID has not been set."
+msgstr "UPS est activée, mais l’ID d’utilisateur UPS n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:526
+msgid "UPS is enabled, but the UPS Password has not been set."
+msgstr "UPS est activé, mais le mot de passe UPS n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:531
+msgid "UPS is enabled, but the UPS Access Key has not been set."
+msgstr "UPS est activé, mais la touche d’accès rapide UPS n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:536
+msgid "UPS is enabled, but the UPS Shipper Number has not been set."
+msgstr "UPS est activé, mais le numéro de l’expéditeur UPS n’a pas été défini."
+
+#: includes/class-wf-shipping-ups.php:541
+msgid "UPS is enabled, but the origin postcode has not been set."
+msgstr ""
+"Postes Canada est activée, mais le code postale d'origine n'a pas été "
+"définie."
+
+#: includes/class-wf-shipping-ups.php:546
+msgid "UPS is enabled, but the origin country/state has not been set."
+msgstr "UPS est activée, mais l’État/pays d’origine n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:553
+msgid ""
+"UPS is enabled, and Parcel Packing Method is set to 'Pack into boxes', but "
+"no UPS Packaging is selected and there are no custom boxes defined. Items "
+"will be packed individually."
+msgstr ""
+"UPS est activé et méthode d’emballage de colis a la valeur « Pack dans des "
+"boîtes », mais aucun emballage UPS n’est sélectionné et il n’y a pas de "
+"boîtes personnalisées définies. Les éléments seront emballés "
+"individuellement."
+
+#: includes/class-wf-shipping-ups.php:566
+msgid "UPS is enabled, but there are no services enabled."
+msgstr "UPS est activé, mais il n’y a aucun service activé."
+
+#: includes/class-wf-shipping-ups.php:605
+msgid "Origin Country"
+msgstr "Pays d’origine"
+
+#: includes/class-wf-shipping-ups.php:607
+#: includes/class-wf-shipping-ups.php:632
+msgid "Choose a country&hellip;"
+msgstr "Choisissez un pays&hellip;"
+
+#: includes/class-wf-shipping-ups.php:630
+msgid "Ship From Country"
+msgstr "Depuis le pays"
+
+#: includes/class-wf-shipping-ups.php:665
+msgid "Service Code"
+msgstr "Code du service"
+
+#: includes/class-wf-shipping-ups.php:666
+msgid "Name"
+msgstr "Nom"
+
+#: includes/class-wf-shipping-ups.php:667
+msgid "Enabled"
+msgstr "Activée"
+
+#: includes/class-wf-shipping-ups.php:668
+#, php-format
+msgid "Price Adjustment (%s)"
+msgstr "Ajustement du prix (%s)"
+
+#: includes/class-wf-shipping-ups.php:669
+msgid "Price Adjustment (%)"
+msgstr "Ajustement du prix (%)"
+
+#: includes/class-wf-shipping-ups.php:677
+msgid ""
+"<strong>Domestic Rates</strong>: Next Day Air, 2nd Day Air, Ground, 3 Day "
+"Select, Next Day Air Saver, Next Day Air Early AM, 2nd Day Air AM"
+msgstr ""
+"<strong>Taux intérieurs</strong>: prochaine journée Air, 2e journée de "
+"l’Air, sol, sélectionnez 3 jours, prochain jour économiseur d’Air, Next Day "
+"Air tôt AM, 2e journée de l’Air AM"
+
+#: includes/class-wf-shipping-ups.php:678
+msgid ""
+"<strong>International Rates</strong>: Worldwide Express, Worldwide "
+"Expedited, Standard, Worldwide Express Plus, UPS Saver"
+msgstr ""
+"<strong>Tarifs internationaux</strong>: Express dans le monde entier, dans "
+"le monde entier Express rapide, Standard et dans le monde entier Plus, UPS "
+"Saver"
+
+#: includes/class-wf-shipping-ups.php:771
+msgid "Custom Box Dimensions"
+msgstr "Dimensions du boîtier personnalisé"
+
+#: includes/class-wf-shipping-ups.php:776
+msgid "Outer Length"
+msgstr "Longueur externe"
+
+#: includes/class-wf-shipping-ups.php:777
+msgid "Outer Width"
+msgstr "Largeur externe"
+
+#: includes/class-wf-shipping-ups.php:778
+msgid "Outer Height"
+msgstr "Hauteur externe"
+
+#: includes/class-wf-shipping-ups.php:779
+msgid "Inner Length"
+msgstr "Longueur interne"
+
+#: includes/class-wf-shipping-ups.php:780
+msgid "Inner Width"
+msgstr "Largeur"
+
+#: includes/class-wf-shipping-ups.php:781
+msgid "Inner Height"
+msgstr "Hauteur interne"
+
+#: includes/class-wf-shipping-ups.php:782
+msgid "Box Weight"
+msgstr "Težina kutije"
+
+#: includes/class-wf-shipping-ups.php:783
+msgid "Max Weight"
+msgstr "Maksimalna težina"
+
+#: includes/class-wf-shipping-ups.php:789
+msgid "Add Box"
+msgstr "Ajouter une Boîte"
+
+#: includes/class-wf-shipping-ups.php:790
+msgid "Remove selected box(es)"
+msgstr "Ukloni odabrane kutiju/je"
+
+#: includes/class-wf-shipping-ups.php:793
+msgid ""
+"Items will be packed into these boxes depending based on item dimensions and "
+"volume. Outer dimensions will be passed to UPS, whereas inner dimensions "
+"will be used for packing. Items not fitting into boxes will be packed "
+"individually."
+msgstr ""
+"Les articles seront emballés dans ces boîtes basées sur les dimensions et le "
+"volume article. Les dimensions externe seront transmises à Postes Canada, "
+"alors que les dimensions interne seront utilisés pour l'emballage. Les "
+"articles qui ne rentre pas dans des boîtes seront emballés individuellement."
+
+#: includes/class-wf-shipping-ups.php:1003
+#: includes/class-wf-shipping-ups.php:1009
+msgid "Test"
+msgstr "Test"
+
+#: includes/class-wf-shipping-ups.php:1008
+msgid "Live"
+msgstr "Publié"
+
+#: includes/class-wf-shipping-ups.php:1025
+#: includes/class-wf-shipping-ups.php:1296
+msgid "Origin Address"
+msgstr "Adresse d’origine"
+
+#: includes/class-wf-shipping-ups.php:1026
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: includes/class-wf-shipping-ups.php:1041
+msgid "Realtime Rates"
+msgstr "Taux en temps réel"
+
+#: includes/class-wf-shipping-ups.php:1043
+#: includes/class-wf-shipping-ups.php:1075
+#: includes/class-wf-shipping-ups.php:1151
+#: includes/class-wf-shipping-ups.php:1159
+#: includes/class-wf-shipping-ups.php:1173
+#: includes/class-wf-shipping-ups.php:1182
+#: includes/class-wf-shipping-ups.php:1228
+#: includes/class-wf-shipping-ups.php:1248
+#: includes/class-wf-shipping-ups.php:1280
+#: includes/class-wf-shipping-ups.php:1342
+#: includes/class-wf-shipping-ups.php:1502
+#: includes/class-wf-shipping-ups.php:1581
+#: includes/class-wf-shipping-ups.php:1590
+#: includes/class-wf-shipping-ups.php:1627
+#: includes/class-wf-shipping-ups.php:1668
+#: includes/class-wf-shipping-ups.php:1713
+#: includes/class-wf-shipping-ups.php:1721
+#: includes/class-wf-shipping-ups.php:1754
+msgid "Enable"
+msgstr "Autoriser"
+
+#: includes/class-wf-shipping-ups.php:1045
+msgid "Enable realtime rates on Cart/Checkout page."
+msgstr "Activez les taux en temps réel sur la page panier/Commander."
+
+#: includes/class-wf-shipping-ups.php:1049
+msgid "UPS Method Title"
+msgstr "Nom de la méthode"
+
+#: includes/class-wf-shipping-ups.php:1051
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Cela détermine le titre que les utilisateurs verront durant la réservation."
+
+#: includes/class-wf-shipping-ups.php:1056
+msgid "Method Availability"
+msgstr "Disponibilité des modes"
+
+#: includes/class-wf-shipping-ups.php:1061
+msgid "All Countries"
+msgstr "Tous les pays"
+
+#: includes/class-wf-shipping-ups.php:1062
+#: includes/class-wf-shipping-ups.php:1066
+msgid "Specific Countries"
+msgstr "Pays Spécifiques"
+
+#: includes/class-wf-shipping-ups.php:1074
+msgid "Debug Mode"
+msgstr "Mode débogage"
+
+#: includes/class-wf-shipping-ups.php:1078
+msgid "Enable debug mode to show debugging information on your cart/checkout."
+msgstr ""
+"Activer le mode de développement pour afficher l'information de déboggage "
+"dans le panier et à la caisse."
+
+#: includes/class-wf-shipping-ups.php:1082
+msgid "Generic API Settings"
+msgstr "Paramètres de l’API générique"
+
+#: includes/class-wf-shipping-ups.php:1084
+msgid "Obtain UPS account credentials by registering on UPS website."
+msgstr ""
+"Obtenir des informations d’identification de compte UPS en vous inscrivant "
+"sur le site de l’UPS."
+
+#: includes/class-wf-shipping-ups.php:1087
+msgid "API Mode"
+msgstr "Mode de l’API"
+
+#: includes/class-wf-shipping-ups.php:1092
+msgid ""
+"Set as Test to switch to UPS api test servers. Transaction will be treated "
+"as sample transactions by UPS."
+msgstr ""
+"Basculer vers les serveurs de test api UPS la valeur comme Test. Transaction "
+"doivent être considérée comme transactions échantillonnées par UPS."
+
+#: includes/class-wf-shipping-ups.php:1096
+msgid "Company Name"
+msgstr "Nom de l’entreprise"
+
+#: includes/class-wf-shipping-ups.php:1098
+msgid "Enter your company name"
+msgstr "Entrez le nom de votre société"
+
+#: includes/class-wf-shipping-ups.php:1103
+msgid "Attention Name"
+msgstr "Nom"
+
+#: includes/class-wf-shipping-ups.php:1105
+msgid "Your business/attention name."
+msgstr "Nom de votre entreprise/attention."
+
+#: includes/class-wf-shipping-ups.php:1110
+msgid "UPS User ID"
+msgstr "UPS est activée, mais l’ID d’utilisateur UPS n’a pas été définie."
+
+#: includes/class-wf-shipping-ups.php:1112
+#: includes/class-wf-shipping-ups.php:1119
+#: includes/class-wf-shipping-ups.php:1126
+#: includes/class-wf-shipping-ups.php:1133
+msgid "Obtained from UPS after getting an account."
+msgstr "Obtenu de l’onduleur après l’obtention d’un compte."
+
+#: includes/class-wf-shipping-ups.php:1117
+msgid "UPS Password"
+msgstr "Mot de passe"
+
+#: includes/class-wf-shipping-ups.php:1124
+msgid "UPS Access Key"
+msgstr "Clés d'Accès"
+
+#: includes/class-wf-shipping-ups.php:1131
+msgid "UPS Account Number"
+msgstr "Numéro de compte"
+
+#: includes/class-wf-shipping-ups.php:1138
+msgid "Weight/Dimension Units"
+msgstr "Poids/Dimension unités"
+
+#: includes/class-wf-shipping-ups.php:1140
+msgid ""
+"Switch this to metric units, if you see \"This measurement system is not "
+"valid for the selected country\" errors."
+msgstr ""
+"Basculez ceci en unités métriques si vous voyez \"Ce système de mesure n'est "
+"pas valable pour le pays sélectionné\"."
+
+#: includes/class-wf-shipping-ups.php:1144
+msgid "LB / IN"
+msgstr "1 livre par pouce"
+
+#: includes/class-wf-shipping-ups.php:1145
+msgid "KG / CM"
+msgstr "kg-cm"
+
+#: includes/class-wf-shipping-ups.php:1150
+msgid "Negotiated Rates"
+msgstr "tarifs négociés"
+
+#: includes/class-wf-shipping-ups.php:1154
+msgid "Enable this if this shipping account has negotiated rates available."
+msgstr ""
+"Activez cette option si ce compte d'expédition a des tarifs négociés "
+"disponibles."
+
+#: includes/class-wf-shipping-ups.php:1158
+msgid "Insurance Option"
+msgstr "Une option d'assurance"
+
+#: includes/class-wf-shipping-ups.php:1162
+msgid "Request Insurance to be included."
+msgstr "Demande d’assurance pour être inclus."
+
+#: includes/class-wf-shipping-ups.php:1166
+msgid "Min Order Amount"
+msgstr "Montant minimum de la commande"
+
+#: includes/class-wf-shipping-ups.php:1168
+msgid ""
+"Insurance will apply only if Order subtotal amount is greater or equal to "
+"the Min Order Amount. Note - For Comparison it will take only the sum of "
+"product price i.e Order Subtotal amount. In Cart It will take Cart Subtotal "
+"Amount."
+msgstr ""
+"L’assurance s’appliquera uniquement si le montant de la commande sous-total "
+"est supérieur ou égal à la quantité de commande Min. Remarque - pour "
+"comparaison, il faudra que la somme de la quantité de commande sous-total "
+"produit prix i.e. En Cart elle prendra panier sous-total quantité."
+
+#: includes/class-wf-shipping-ups.php:1172
+msgid "Freight Services"
+msgstr "Options de fret UPS"
+
+#: includes/class-wf-shipping-ups.php:1176
+msgid "Enable Freight Services\t"
+msgstr "Options de fret UPS"
+
+#: includes/class-wf-shipping-ups.php:1181
+msgid "Show Estimated Delivery"
+msgstr "Date de livraison estimée"
+
+#: includes/class-wf-shipping-ups.php:1185
+msgid "Enable it to display Estimated delivery."
+msgstr "Lui permettre de s’afficher livraison estimée."
+
+#: includes/class-wf-shipping-ups.php:1189
+msgid "Estimated Delivery Text"
+msgstr "Date de livraison estimée"
+
+#: includes/class-wf-shipping-ups.php:1193
+msgid "Given text will be used to show estimated delivery."
+msgstr "Le texte donné sera utilisé pour montrer la livraison estimée."
+
+#: includes/class-wf-shipping-ups.php:1197
+msgid "Cut-Off Time"
+msgstr "heure limite"
+
+#: includes/class-wf-shipping-ups.php:1201
+msgid ""
+"Estimated delivery will be adjusted to the next day if any order is placed "
+"after cut off time. Use 24 hour format (Hour:Minute). Example - 23:00."
+msgstr ""
+"La livraison estimée sera ajustée au lendemain si une commande est passée "
+"après l'heure limite. Utilisez le format 24 heures (heure: minute). Exemple "
+"- 23:00."
+
+#: includes/class-wf-shipping-ups.php:1206
+msgid "Pickup and Destination"
+msgstr "Ramassage et Destination"
+
+#: includes/class-wf-shipping-ups.php:1211
+msgid "Residential"
+msgstr "Résidentiel"
+
+#: includes/class-wf-shipping-ups.php:1212
+msgid "Ship to address is Residential."
+msgstr "L'adresse d'expédition est Résidentiel."
+
+#: includes/class-wf-shipping-ups.php:1215
+msgid ""
+"This will indicate to UPS that the receiver is always a residential address."
+msgstr ""
+"Cela indiquera à UPS que le destinataire est toujours une adresse "
+"résidentielle."
+
+#: includes/class-wf-shipping-ups.php:1219
+msgid "Label Printing API Settings"
+msgstr "Étiquette impression paramètres API"
+
+#: includes/class-wf-shipping-ups.php:1223
+msgid "Label Printing"
+msgstr "Label printing"
+
+#: includes/class-wf-shipping-ups.php:1229
+#: includes/class-wf-shipping-ups.php:1281
+msgid "Disable"
+msgstr "Désactiver"
+
+#: includes/class-wf-shipping-ups.php:1233
+msgid "Print Label Type"
+msgstr "Imprimer libellé"
+
+#: includes/class-wf-shipping-ups.php:1238
+msgid "GIF"
+msgstr "GIF"
+
+#: includes/class-wf-shipping-ups.php:1239
+msgid "PNG"
+msgstr "PNG"
+
+#: includes/class-wf-shipping-ups.php:1240
+msgid "ZPL"
+msgstr "ZPL"
+
+#: includes/class-wf-shipping-ups.php:1241
+msgid "EPL"
+msgstr "EPL"
+
+#: includes/class-wf-shipping-ups.php:1243
+msgid ""
+"Selecting PNG will enable ~4x6 dimension label. Note that an external api "
+"labelary is used. For Laser 8.5X11 please select GIF."
+msgstr ""
+"Sélectionner les PNG permettra ~ 4 x 6 dimension label. Notez que l’api "
+"externe labelary est utilisé. Pour Laser 8,5 x 11 s’il vous plaît "
+"sélectionnez GIF."
+
+#: includes/class-wf-shipping-ups.php:1247
+msgid "Display Label in Browser"
+msgstr "Étiquette d’affichage dans le navigateur"
+
+#: includes/class-wf-shipping-ups.php:1251
+msgid ""
+"Enabling this will print the label in the browser instead of downloading it. "
+"Useful if your downloaded file is getting currupted because of PHP BOM "
+"(ByteOrderMark). This option is only applicable for supported formats. For "
+"Laser 8.5X11 please keep it disable."
+msgstr ""
+"Permettre ceci imprime l’étiquette dans le navigateur au lieu de le "
+"télécharger. Utile si votre fichier téléchargé se currupted en raison de PHP "
+"BOM (bigEndian). Cette option est uniquement applicable pour les formats "
+"pris en charge. Pour Laser 8,5 x 11 s’il vous plaît garder disable."
+
+#: includes/class-wf-shipping-ups.php:1256
+msgid "Label Size"
+msgstr "Taille de l'étiquette"
+
+#: includes/class-wf-shipping-ups.php:1258
+msgid ""
+"Provide the size of UPS Label in Inches (W * H). Leave it blank for default."
+msgstr ""
+"Fournir la taille de l’étiquette de UPS en pouces (W * H). Laisser le champ "
+"vide pour la valeur par défaut."
+
+#: includes/class-wf-shipping-ups.php:1264
+msgid "Label Format"
+msgstr "Format de l' étiquette"
+
+#: includes/class-wf-shipping-ups.php:1266
+msgid ""
+"For Laser 8.5 X 11 - Two files will get downloaded one will have .html "
+"extension and another will have .gif extension. Please open .html file to "
+"see the label."
+msgstr ""
+"Pour Laser 8.5 X 11-deux fichiers seront téléchargés, on aura extension ."
+"html et une autre aura l’extension .gif. Veuillez ouvrir le fichier .html "
+"pour voir l’étiquette."
+
+#: includes/class-wf-shipping-ups.php:1269
+#: includes/class-wf-shipping-ups.php:1737
+#: includes/class-wf-shipping-ups.php:1748
+msgid "Select"
+msgstr "Choisir"
+
+#: includes/class-wf-shipping-ups.php:1270
+msgid "Laser 8.5 X 11"
+msgstr "Laser de 8.5 X 11"
+
+#: includes/class-wf-shipping-ups.php:1274
+msgid "Shipment Tracking"
+msgstr "Suivi des expéditions"
+
+#: includes/class-wf-shipping-ups.php:1279
+msgid "Disable for Customer"
+msgstr "Désactiver pour le client"
+
+#: includes/class-wf-shipping-ups.php:1283
+msgid ""
+"Selecting Disable for customer will hide shipment tracking info from "
+"customer side order details page."
+msgstr ""
+"Sélectionnant Disable pour client masquera expédition suivi d’informations "
+"de la page de détails de commande côté client."
+
+#: includes/class-wf-shipping-ups.php:1287
+msgid "Ship From Address Preference"
+msgstr "Navire de préférence adresse"
+
+#: includes/class-wf-shipping-ups.php:1292
+msgid ""
+"Change the preference of Ship From Address printed on the label. You can "
+"make  use of Billing Address from Order admin page, if you ship from a "
+"different location other than shipment origin address given below."
+msgstr ""
+"Modifier la préférence de l'adresse d'expédition à partir de l'impression "
+"sur l'étiquette. Vous pouvez utiliser la page d'administration de l'adresse "
+"de facturation si vous expédiez depuis un autre emplacement que l'adresse "
+"d'origine indiquée ci-dessous."
+
+#: includes/class-wf-shipping-ups.php:1298
+msgid "Shipping Origin address (Ship From address)."
+msgstr "Adresse d'origine d'expédition (adresse d'expédition)."
+
+#: includes/class-wf-shipping-ups.php:1303
+msgid "Origin City"
+msgstr "Ville d'origine"
+
+#: includes/class-wf-shipping-ups.php:1305
+msgid "Origin City (Ship From City)"
+msgstr "Ville d'origine (navire de la ville)"
+
+#: includes/class-wf-shipping-ups.php:1313
+msgid "Origin State Code"
+msgstr "Code d'état d'origine"
+
+#: includes/class-wf-shipping-ups.php:1315
+msgid ""
+"Specify shipper state province code if state not listed with Origin Country."
+msgstr ""
+"Spécifier l’expéditeur état province code si l’État ne figurent ne pas avec "
+"les pays d’origine."
+
+#: includes/class-wf-shipping-ups.php:1320
+msgid "Origin Postcode"
+msgstr "Code postal d'origine"
+
+#: includes/class-wf-shipping-ups.php:1322
+#: includes/class-wf-shipping-ups.php:1379
+msgid "Ship From Zip/postcode."
+msgstr "Navire de Zip/Code postal."
+
+#: includes/class-wf-shipping-ups.php:1327
+msgid "Your Phone Number"
+msgstr "Votre numéro de téléphone"
+
+#: includes/class-wf-shipping-ups.php:1329
+msgid "Your contact phone number."
+msgstr "Votre numéro de téléphone"
+
+#: includes/class-wf-shipping-ups.php:1334
+msgid "Your email"
+msgstr "Votre courriel"
+
+#: includes/class-wf-shipping-ups.php:1336
+msgid "Your email."
+msgstr "Votre e-mail"
+
+#: includes/class-wf-shipping-ups.php:1341
+msgid "Ship From Address Different from Shipper Address"
+msgstr "Expédier à l’adresse différente de l’adresse de l’expéditeur"
+
+#: includes/class-wf-shipping-ups.php:1343
+msgid ""
+"Shipper Address - Address to be printed on the label.<br> Ship From Address "
+"- Address from where the UPS will pickup the package (like Warehouse "
+"Address).<br>By Default Shipper address and Ship From Address are same. By "
+"enabling it, Ship From Address can be defined seperately."
+msgstr ""
+"L’expéditeur adresse - adresse pour être imprimé sur l’étiquette.<br>Navire "
+"d’adresse - adresse d’où l’onduleur sera ramassage le paquet (comme "
+"l’adresse de l’entrepôt).<br>Par expéditeur par défaut adresse et adresse de "
+"navire sont les mêmes. En l’activant, navire de l’adresse peut être défini "
+"séparément."
+
+#: includes/class-wf-shipping-ups.php:1350
+msgid "Ship From Address"
+msgstr "De l'adresse"
+
+#: includes/class-wf-shipping-ups.php:1352
+msgid "Ship From address."
+msgstr "De l'adresse"
+
+#: includes/class-wf-shipping-ups.php:1358
+#: includes/class-wf-shipping-ups.php:1360
+msgid "Ship From City"
+msgstr "Expédier à partir de"
+
+#: includes/class-wf-shipping-ups.php:1369
+msgid "Ship From State Code"
+msgstr "Code d'expédition du pays"
+
+#: includes/class-wf-shipping-ups.php:1371
+msgid ""
+"Specify shipper state province code if state not listed with Ship From "
+"Country."
+msgstr ""
+"Indiquez le code de la province de l'expéditeur si l'état ne figure pas dans "
+"la liste Expédier du pays."
+
+#: includes/class-wf-shipping-ups.php:1377
+msgid "Ship From Postcode"
+msgstr "Expédier de code postal"
+
+#: includes/class-wf-shipping-ups.php:1386
+msgid "Services and Packaging"
+msgstr "Services et emballage"
+
+#: includes/class-wf-shipping-ups.php:1394
+msgid "Offer Rates"
+msgstr "Tarifs offertes"
+
+#: includes/class-wf-shipping-ups.php:1397
+msgid "Default Shipping Rates - "
+msgstr "Calculer les tarifs d’expédition pour les services UPS."
+
+#: includes/class-wf-shipping-ups.php:1397
+msgid "It will return shipping rates for all the valid shipping services."
+msgstr ""
+"Elle renverra des frais de livraison pour tous les services d’expédition "
+"valides."
+
+#: includes/class-wf-shipping-ups.php:1397
+msgid "Cheapest Rate - "
+msgstr "Moindres frais-"
+
+#: includes/class-wf-shipping-ups.php:1397
+msgid ""
+"It will display only the cheapest shipping rate with service name as "
+"Shipping Method Title (if given) or the default Shipping Service Name will "
+"be shown."
+msgstr ""
+"Il affiche seulement les moindres frais expédition avec le nom du service "
+"expédition méthode titre (si accordée) ou la valeur par défaut sera montrée "
+"appellation réglementaire de Service."
+
+#: includes/class-wf-shipping-ups.php:1401
+msgid "All Shipping Rates (Default)"
+msgstr "Tous les tarifs d’expédition (par défaut)"
+
+#: includes/class-wf-shipping-ups.php:1402
+msgid "Cheapest Rate"
+msgstr "Le moins cher"
+
+#: includes/class-wf-shipping-ups.php:1406
+msgid "Fallback"
+msgstr "Retrait"
+
+#: includes/class-wf-shipping-ups.php:1408
+msgid ""
+"If UPS returns no matching rates, offer this amount for shipping so that the "
+"user can still checkout. Leave blank to disable."
+msgstr ""
+"Si UPS ne retourne aucun taux correspondant, offrir cette somme pour "
+"l’expédition afin que l’utilisateur peut toujours commander. Laissez vide "
+"pour désactiver."
+
+#: includes/class-wf-shipping-ups.php:1413
+#: includes/class-wf-shipping-ups.php:1414
+msgid "Currency"
+msgstr "Devise"
+
+#: includes/class-wf-shipping-ups.php:1420
+msgid "This currency will be used to communicate with UPS."
+msgstr "Cette monnaie sera utilisée pour communiquer avec UPS."
+
+#: includes/class-wf-shipping-ups.php:1423
+msgid "Conversion Rate."
+msgstr "Taux de conversion"
+
+#: includes/class-wf-shipping-ups.php:1426
+msgid ""
+"Enter the conversion amount in case you have a different currency set up "
+"comparing to the currency of origin location. This amount will be multiplied "
+"with the shipping rates. Leave it empty if no conversion required."
+msgstr ""
+"Inscrivez le montant de la conversion dans le cas où vous avez une autre "
+"devise, mises en place en la comparant à la monnaie du lieu d’origine. Ce "
+"montant sera multiplié avec les tarifs d’expédition. Laisser vide si aucune "
+"conversion requise."
+
+#: includes/class-wf-shipping-ups.php:1430
+msgid "Parcel Packing"
+msgstr "Emballage de colis"
+
+#: includes/class-wf-shipping-ups.php:1435
+msgid "Default: Pack items individually"
+msgstr "Stavke paketa pojedinačno"
+
+#: includes/class-wf-shipping-ups.php:1436
+msgid "Recommended: Pack into boxes with weights and dimensions"
+msgstr "Recommandé: emballer dans des boîtes avec les poids et les dimensions"
+
+#: includes/class-wf-shipping-ups.php:1437
+msgid "Weight based: Calculate shipping on the basis of order total weight"
+msgstr ""
+"Poids de base : calculer expédition sur la base du poids total de commande"
+
+#: includes/class-wf-shipping-ups.php:1441
+msgid "Packing Algorithm"
+msgstr "Algorithme d’emballage"
+
+#: includes/class-wf-shipping-ups.php:1446
+msgid "Default: Volume Based Packing"
+msgstr "Par défaut : Volume fondé d’emballage"
+
+#: includes/class-wf-shipping-ups.php:1447
+msgid "Stack First Packing"
+msgstr "Empiler le premier emballage"
+
+#: includes/class-wf-shipping-ups.php:1448
+msgid "New Algorithm(Based on Volume Used * Item Count)"
+msgstr "Nouvel algorithme (basé sur le Volume utilisé * point Count)"
+
+#: includes/class-wf-shipping-ups.php:1453
+msgid "Enable Volumetric weight"
+msgstr "Activez le poids volumétrique"
+
+#: includes/class-wf-shipping-ups.php:1456
+msgid ""
+"This option will calculate the volumetric weight. Then a comparison is made "
+"on the total weight of cart to the volumetric weight.</br>The higher weight "
+"of the two will be sent in the request."
+msgstr ""
+"Cette option va calculer le poids volumétrique. Puis on fait une comparaison "
+"sur le poids total du chariot au poids volumétrique.<br>Le poids plus élevé "
+"des deux sera envoyé dans la requête."
+
+#: includes/class-wf-shipping-ups.php:1461
+msgid "Max Package Weight"
+msgstr "Package weight"
+
+#: includes/class-wf-shipping-ups.php:1466
+msgid "Maximum weight allowed for single box."
+msgstr "Poids maximum autorisé pour la seule boîte."
+
+#: includes/class-wf-shipping-ups.php:1469
+msgid "Packing Process"
+msgstr "procédé d'emballage"
+
+#: includes/class-wf-shipping-ups.php:1474
+msgid "Pack heavier items first"
+msgstr "Prvo ispišite teže artikle"
+
+#: includes/class-wf-shipping-ups.php:1475
+msgid "Pack lighter items first."
+msgstr "Stavke upaljača pakirajte prvo"
+
+#: includes/class-wf-shipping-ups.php:1476
+msgid "Pack purely divided by weight."
+msgstr "Pakiranje  dijeli po težini"
+
+#: includes/class-wf-shipping-ups.php:1479
+msgid "Select your packing order."
+msgstr "Sélectionnez votre commande d'emballage."
+
+#: includes/class-wf-shipping-ups.php:1482
+msgid "UPS Packaging"
+msgstr ""
+"UPS est activé et méthode d’emballage de colis a la valeur « Pack dans des "
+"boîtes », mais aucun emballage UPS n’est sélectionné et il n’y a pas de "
+"boîtes personnalisées définies. Les éléments seront emballés "
+"individuellement."
+
+#: includes/class-wf-shipping-ups.php:1484
+msgid "UPS standard packaging options"
+msgstr "Options de fret UPS"
+
+#: includes/class-wf-shipping-ups.php:1496
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: includes/class-wf-shipping-ups.php:1501
+msgid "Show All Services in Order Page"
+msgstr "Afficher tous les services dans la page de commande"
+
+#: includes/class-wf-shipping-ups.php:1505
+msgid "Check this option to show all services in create label drop down(UPS)."
+msgstr ""
+"Cochez cette option pour afficher tous les services dans la liste déroulante "
+"Créer une étiquette (UPS)."
+
+#: includes/class-wf-shipping-ups.php:1509
+msgid "Rates Based On Pickup Type"
+msgstr "Tarifs basés sur le type de ramassage"
+
+#: includes/class-wf-shipping-ups.php:1517
+msgid "Customer Classification"
+msgstr "Classification du client"
+
+#: includes/class-wf-shipping-ups.php:1523
+msgid "Valid if origin country is US."
+msgstr "Valide si le pays d'origine est américain."
+
+#: includes/class-wf-shipping-ups.php:1527
+msgid "Tax On Rates"
+msgstr "Taxe sur les taux"
+
+#: includes/class-wf-shipping-ups.php:1528
+msgid "Taxes may be applicable to shipment"
+msgstr "Les taxes peuvent être applicables à l'expédition"
+
+#: includes/class-wf-shipping-ups.php:1534
+msgid "Enable Pickup"
+msgstr "Demande de vacances Pickup"
+
+#: includes/class-wf-shipping-ups.php:1535
+msgid "Enable this to setup pickup request"
+msgstr "Demande Lift Gate pour le ramassage"
+
+#: includes/class-wf-shipping-ups.php:1541
+msgid "Pickup Start Time"
+msgstr "Instruction de ramassage"
+
+#: includes/class-wf-shipping-ups.php:1542
+msgid "Items will be ready for pickup by this time from shop"
+msgstr "Éléments seront prêts pour le ramassage à cette époque de boutique"
+
+#: includes/class-wf-shipping-ups.php:1550
+msgid "Company Close Time"
+msgstr "Période de fermeture de compagnie"
+
+#: includes/class-wf-shipping-ups.php:1551
+msgid "Your shop closing time. It must be greater than company open time"
+msgstr ""
+"Votre heure de fermeture de magasin. Elle doit être supérieure à temps "
+"ouvert de société"
+
+#: includes/class-wf-shipping-ups.php:1559
+msgid "Pick up date"
+msgstr "Date de prise en charge"
+
+#: includes/class-wf-shipping-ups.php:1562
+msgid ""
+"Default option will pick current date. Choos 'Select working days' to "
+"configure working days"
+msgstr ""
+"Option par défaut choisira la date actuelle. Pharmasset « Select jours "
+"ouvrables » pour configurer les jours ouvrables"
+
+#: includes/class-wf-shipping-ups.php:1566
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: includes/class-wf-shipping-ups.php:1567
+#: includes/class-wf-shipping-ups.php:1571
+msgid "Select working days"
+msgstr "Sélectionnez les jours ouvrables"
+
+#: includes/class-wf-shipping-ups.php:1574
+msgid "Select working days here. Selected days will be used for pickup"
+msgstr ""
+"Sélectionnez les jours de travail ici. Les jours sélectionnés seront "
+"utilisés pour le ramassage"
+
+#: includes/class-wf-shipping-ups.php:1585
+msgid ""
+"On enabling this option will create commercial invoice. Applicable for "
+"international shipping only."
+msgstr ""
+"Sur l’activation de cette option créera une facture commerciale. Il y a lieu "
+"pour l’expédition internationale uniquement."
+
+#: includes/class-wf-shipping-ups.php:1588
+msgid "Declaration Statement"
+msgstr "instruction de déclaration"
+
+#: includes/class-wf-shipping-ups.php:1593
+msgid ""
+"Example: I hereby certify that the goods covered by this shipment qualify as "
+"originating goods for purposes of preferential tariff treatment under the "
+"NAFTA."
+msgstr ""
+"Exemple : J’atteste que les produits couverts par cette expédition sont "
+"originaires des marchandises aux fins du traitement tarifaire préférentiel "
+"en vertu de l’ALENA."
+
+#: includes/class-wf-shipping-ups.php:1594
+msgid ""
+"This is an optional field for the legal explanation, used by Customs, for "
+"the delivering of this shipment. It must be identical to the set of "
+"declarations actually used by Customs."
+msgstr ""
+"Il s’agit d’un champ facultatif pour l’explication juridique, utilisé par "
+"les douanes, pour la délivrer de cette expédition. Il doit être identique à "
+"l’ensemble des déclarations en fait utilisé par les douanes."
+
+#: includes/class-wf-shipping-ups.php:1597
+msgid "Reason For Export"
+msgstr "Motif de l’exportation"
+
+#: includes/class-wf-shipping-ups.php:1602
+msgid "Select one"
+msgstr "Sélectionnez-en un(e)"
+
+#: includes/class-wf-shipping-ups.php:1603
+msgid "SALE"
+msgstr "SOLDES"
+
+#: includes/class-wf-shipping-ups.php:1604
+msgid "GIFT"
+msgstr "LES FÊTES"
+
+#: includes/class-wf-shipping-ups.php:1605
+msgid "SAMPLE"
+msgstr "EXEMPLE"
+
+#: includes/class-wf-shipping-ups.php:1606
+msgid "RETURN"
+msgstr "RETOUR :"
+
+#: includes/class-wf-shipping-ups.php:1607
+msgid "REPAIR"
+msgstr "RÉPARATION"
+
+#: includes/class-wf-shipping-ups.php:1608
+msgid "INTERCOMPANYDATA"
+msgstr "INTERCOMPANYDATA"
+
+#: includes/class-wf-shipping-ups.php:1610
+msgid "This may required for customs purpose"
+msgstr "Cette mai requis pour fins de douanes"
+
+#: includes/class-wf-shipping-ups.php:1614
+msgid "SSL Verify"
+msgstr "Vérification SSL"
+
+#: includes/class-wf-shipping-ups.php:1619
+msgid "No"
+msgstr "Non"
+
+#: includes/class-wf-shipping-ups.php:1620
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/class-wf-shipping-ups.php:1622
+msgid "SSL Verification for API call. Recommended select 'No'."
+msgstr "Vérification SSL pour appel API. Recommandé sélectionnez \"Non\"."
+
+#: includes/class-wf-shipping-ups.php:1626
+msgid "Access Point Locator"
+msgstr "Notifier l’UPS pour le ramassage d’accès limité"
+
+#: includes/class-wf-shipping-ups.php:1632
+msgid "Minimum Order Amount"
+msgstr "Montant minimum de commande"
+
+#: includes/class-wf-shipping-ups.php:1636
+msgid "Users will need to spend this amount to get this shipping available."
+msgstr ""
+"Les utilisateurs devront dépenser ce montant pour que cette livraison soit "
+"disponible."
+
+#: includes/class-wf-shipping-ups.php:1640
+msgid "TIN Number"
+msgstr "Numéro de l’étain"
+
+#: includes/class-wf-shipping-ups.php:1643
+msgid "Tax Identification Number"
+msgstr "Numéro d'identification aux fins de l'impôt"
+
+#: includes/class-wf-shipping-ups.php:1655
+msgid "Send email notification to"
+msgstr "Envoyer un message de notification pour"
+
+#: includes/class-wf-shipping-ups.php:1663
+msgid ""
+"Choose whom to send the notification. Leave blank to not send notification."
+msgstr ""
+"Choisir à qui envoyer la notification. Laissez vide pour ne pas envoyer de "
+"notification."
+
+#: includes/class-wf-shipping-ups.php:1667
+msgid "Enable Latin Encoding"
+msgstr "Active l’encodage Latin"
+
+#: includes/class-wf-shipping-ups.php:1671
+msgid "Check this option to use Latin encoding over default encoding."
+msgstr ""
+"Cochez cette option pour utiliser le codage Latin sur le codage par défaut."
+
+#: includes/class-wf-shipping-ups.php:1676
+msgid "Tracking Message"
+msgstr "Message de suivi"
+
+#: includes/class-wf-shipping-ups.php:1679
+msgid ""
+"Provide Your Tracking Message. Tracking Id(s) will be appended at the end of "
+"the tracking message."
+msgstr ""
+"Fournir votre Message de suivi. Les ID de suivi sera ajouté à la fin du "
+"message suivi."
+
+#: includes/class-wf-shipping-ups.php:1684
+msgid "Skip Products"
+msgstr "Ignorer les produits"
+
+#: includes/class-wf-shipping-ups.php:1687
+msgid ""
+"Skip all the products belonging to the selected Shipping Classes while "
+"fetching rates and creating Shipping Label."
+msgstr ""
+"Ignorez tous les produits appartenant aux classes d'expédition sélectionnées "
+"lors de la récupération des taux et de la création d'une étiquette "
+"d'expédition."
+
+#: includes/class-wf-shipping-ups.php:1693
+msgid "Minimum Weight"
+msgstr "Poids minima"
+
+#: includes/class-wf-shipping-ups.php:1695
+msgid ""
+"Shipping Rates will be returned and Label will be created, if the total "
+"weight(After skipping the Products) is more than the Minimum Weight."
+msgstr ""
+"Les tarifs d'expédition seront retournés et une étiquette sera créée si le "
+"poids total (après avoir sauté les produits) est supérieur au poids minimum."
+
+#: includes/class-wf-shipping-ups.php:1700
+msgid "Maximun Weight"
+msgstr "Poids maximal"
+
+#: includes/class-wf-shipping-ups.php:1702
+msgid ""
+"Shipping Rates will be returned and Label will be created, if the total "
+"weight(After skipping the Products) is less than the Maximum Weight."
+msgstr ""
+"Les tarifs d'expédition seront retournés et une étiquette sera créée si le "
+"poids total (après avoir ignoré les produits) est inférieur au poids maximal."
+
+#: includes/class-wf-shipping-ups.php:1707
+msgid "Label Generation(Advance Setting)"
+msgstr "Génération d’étiquette (réglage de l’avance)"
+
+#: includes/class-wf-shipping-ups.php:1712
+msgid "Generate Packages Automatically After Order Received"
+msgstr "Générer automatiquement les paquets après commande reçue"
+
+#: includes/class-wf-shipping-ups.php:1714
+msgid ""
+"This will generate packages automatically after order is received and "
+"payment is successful"
+msgstr ""
+"Cela va générer des paquets automatiquement après la commande est reçue et "
+"le paiement est réussie"
+
+#: includes/class-wf-shipping-ups.php:1720
+msgid "Generate Shipping Labels Automatically After Order Received"
+msgstr ""
+"Générer des étiquettes d’expédition automatiquement après l’ordre de "
+"réception"
+
+#: includes/class-wf-shipping-ups.php:1722
+msgid ""
+"This will generate shipping labels automatically after order is received and "
+"payment is successful"
+msgstr ""
+"Cela va générer des étiquettes d’envoi automatiquement après la commande est "
+"reçue et le paiement est réussie"
+
+#: includes/class-wf-shipping-ups.php:1730
+msgid "Default service for domestic"
+msgstr "Nom du diagnostic"
+
+#: includes/class-wf-shipping-ups.php:1731
+msgid ""
+"Default service for domestic label. This will consider if no UPS services "
+"selected from frond end while placing the order"
+msgstr ""
+"Service par défaut pour l’étiquette intérieure. Cela ne tient pas compte si "
+"aucun service UPS sélectionné depuis la fin de la fronde lors de la commande"
+
+#: includes/class-wf-shipping-ups.php:1741
+msgid "Default service for International"
+msgstr "Nom du diagnostic"
+
+#: includes/class-wf-shipping-ups.php:1742
+msgid ""
+"Default service for International label. This will consider if no UPS "
+"services selected from frond end while placing the order"
+msgstr ""
+"Service par défaut pour le label International. Cela ne tient pas compte si "
+"aucun service UPS sélectionné depuis la fin de la fronde lors de la commande"
+
+#: includes/class-wf-shipping-ups.php:1753
+msgid "Allow customer to print label from his myaccount->order page"
+msgstr ""
+"Permettre aux clients d’imprimer l’étiquette de son myaccount-> page de "
+"commande"
+
+#: includes/class-wf-shipping-ups.php:1755
+msgid "A button will be available for downloading the label and printing"
+msgstr ""
+"Un bouton sera disponible pour téléchargement à l’étiquette et l’impression"
+
+#: includes/class-wf-shipping-ups.php:1763
+msgid "Send Shipping Label via Email"
+msgstr "Envoyer l’étiquette dans email au client après la génération du label"
+
+#: includes/class-wf-shipping-ups.php:1773
+msgid "Email Subject"
+msgstr "Sujet de l'e-mail"
+
+#: includes/class-wf-shipping-ups.php:1774
+msgid ""
+"Subject of Email sent for UPS Label. Supported Tags : [ORDER_NO] - Order "
+"Number."
+msgstr ""
+"Objet de l'e-mail envoyé pour l'étiquette UPS. Tags pris en charge: "
+"[ORDER_NO] - Numéro de commande."
+
+#: includes/class-wf-shipping-ups.php:1777
+#: includes/wf-automatic-label-generation.php:246
+msgid "Shipment Label For Your Order"
+msgstr "Étiquette d'expédition pour votre commande"
+
+#: includes/class-wf-shipping-ups.php:1781
+msgid "Content of Email With Label"
+msgstr "Libellé d'expédition"
+
+#: includes/class-wf-shipping-ups.php:1789
+msgid ""
+"Define your own email html here. Use the place holder tag [DOWNLOAD LINK] to "
+"get the label dowload link.<br />Supported Tags - <br />[DOWNLOAD LINK] - "
+"Label Link. <br />[ORDER NO] - Get order number. <br />[ORDER AMOUNT] - "
+"Order total Cost. <br />[PRODUCTS ID] - Comma seperated product ids in "
+"label. <br />[PRODUCTS SKU] - Comma seperated product sku in label. <br /"
+">[PRODUCTS NAME] - Comma seperated products name in label. <br />[PRODUCTS "
+"QUANTITY] - Comma seperated product quantities in label. <br />[ALL_PRODUCT "
+"INFO] - Product info in label in table form. <br />[ORDER_PRODUCTS] - "
+"Product info of order in table form."
+msgstr ""
+"Définissez votre propre email html ici. Utilisez la balise d'emplacement "
+"[DOWNLOAD LINK] pour obtenir le lien de téléchargement d'étiquette. <br /> "
+"Balises prises en charge - <br /> [DOWNLOAD LINK] - Lien d'étiquette. <br /> "
+"[ORDER NO] - Obtenir le numéro de commande. <br /> [ORDER AMOUNT] - Coût "
+"total de la commande. <br /> [PRODUCTS ID] - Des identifiants de produit "
+"séparés par une virgule dans l’étiquette. <br /> [PRODUCTS SKU] - Produit "
+"séparé par une étiquette en sku. <br /> [PRODUCTS NAME] - Nom de produit "
+"séparé par une virgule dans l'étiquette. <br /> [PRODUCTS QUANTITY] - "
+"Virgule séparée des quantités de produits dans l’étiquette. <br /> "
+"[ALL_PRODUCT INFO] - Informations sur le produit dans l'étiquette sous forme "
+"de tableau. <br /> [ORDER_PRODUCTS] - Informations de commande du produit "
+"sous forme de tableau."
+
+#: includes/class-wf-shipping-ups.php:1854
+msgid "UPS: Country not yet supplied. Rates not requested."
+msgstr "UPS : Pays non encore livrés. Tarifs n’ont ne pas demandés."
+
+#: includes/class-wf-shipping-ups.php:1860
+msgid "UPS: City not yet supplied. Rates not requested."
+msgstr "UPS : Ville non encore livrée. Tarifs n’ont ne pas demandés."
+
+#: includes/class-wf-shipping-ups.php:1865
+msgid "UPS: Zip not yet supplied. Rates not requested."
+msgstr "UPS : Zip non encore livrés. Tarifs n’ont ne pas demandés."
+
+#: includes/class-wf-shipping-ups.php:2045
+msgid ""
+"UPS Shipping Calculation Skipped - Package Weight is not in range of Minimum "
+"and Maximum Weight Limit (Check UPS Plugin Settings)."
+msgstr ""
+"Calcul d'expédition UPS ignoré - Le poids du colis ne se situe pas dans les "
+"limites de poids minimal et maximal (vérifiez les paramètres du plug-in UPS)."
+
+#: includes/class-wf-shipping-ups.php:2090
+msgid "UPS: Using Fallback setting."
+msgstr "UPS : Utilisation d’installation de secours."
+
+#: includes/class-wf-shipping-ups.php:2104
+msgid "Failed loading XML"
+msgstr "Échec de chargement XML"
+
+#: includes/class-wf-shipping-ups.php:2242
+msgid "UPS: Using cached response."
+msgstr "UPS : En utilisant la réponse mise en cache."
+
+#: includes/class-wf-shipping-ups.php:2257
+msgid ""
+"------------------------UPS Rate Request -------------------------------"
+msgstr ""
+"------------------------ Demande de taux UPS ----------------------- --------"
+
+#: includes/class-wf-shipping-ups.php:2258
+msgid ""
+"------------------------UPS Rate Response -------------------------------"
+msgstr ""
+"------------------------ Réponse au taux UPS ----------------------- --------"
+
+#: includes/class-wf-shipping-ups.php:2425
+msgid ""
+"UPS - Something wrong with products associated with order, or no products "
+"associated with order."
+msgstr ""
+"UPS - quelque chose de mal avec les produits associés à commande ou aucun "
+"associés à commande."
+
+#: includes/class-wf-shipping-ups.php:2446
+#, php-format
+msgid ""
+"Package Weight has been reset to Minimum Weight. [ Actual Weight - %lf "
+"Minimum Weight - 0.0001 ]"
+msgstr ""
+"Le poids du colis a été réinitialisé sur Poids minimum. [Poids réel -% lf "
+"Poids minimum - 0.0001]"
+
+#: includes/class-wf-shipping-ups.php:2846
+#: includes/class-wf-shipping-ups.php:3045
+#: includes/class-wf-shipping-ups.php:3655
+#, php-format
+msgid "Product #%d is virtual. Skipping."
+msgstr "Produit #%d est virtuel. Passer."
+
+#: includes/class-wf-shipping-ups.php:2851
+#: includes/class-wf-shipping-ups.php:3660
+#, php-format
+msgid "Product #%d is missing weight. Aborting."
+msgstr "Produit #%d manque son poids. Abandon."
+
+#: includes/class-wf-shipping-ups.php:3059
+#: includes/class-wf-shipping-ups.php:3293
+#, php-format
+msgid "Pre Packed product. Skipping the product # %d"
+msgstr "Produit pré emballé. Sauter le produit # %d"
+
+#: includes/class-wf-shipping-ups.php:3079
+#, php-format
+msgid ""
+"UPS Parcel Packing Method is set to Pack into Boxes. Product #%d is missing "
+"dimensions. Aborting."
+msgstr ""
+"Méthode d’emballage colis UPS est définie sur Pack dans des boîtes. Produit #"
+"%d est manquant dimensions. Abandon."
+
+#: includes/class-wf-shipping-ups.php:3276
+#, php-format
+msgid "Product # %d is virtual. Skipping."
+msgstr "Produit #%d est virtuel. Passer."
+
+#: includes/class-wf-shipping-ups.php:3281
+#, php-format
+msgid "Product # %d is missing weight. Aborting."
+msgstr "Produit #%d manque son poids. Abandon."
+
+#: includes/class-wf-shipping-ups.php:3669
+msgid "Product is missing dimensions. Aborting."
+msgstr "Produit #%d manque des dimensions. Abandon."
+
+#: includes/class-wf-ups-accesspoint-locator.php:78
+msgid "Access Point Locations"
+msgstr "Emplacements de Point d’accès"
+
+#: includes/class-wf-ups-accesspoint-locator.php:79
+msgctxt "placeholder"
+msgid ""
+msgstr ""
+
+#: includes/class-wf-ups-accesspoint-locator.php:86
+#: includes/class-wf-ups-accesspoint-locator.php:261
+msgid "Select Access Point Location"
+msgstr "Sélectionnez l’emplacement de Point d’accès"
+
+#: includes/class-wf-ups-accesspoint-locator.php:136
+msgid "Access Point Location:  "
+msgstr "Accès Point de situation :"
+
+#: includes/class-wf-ups-admin-options.php:21
+msgid "Delivery Confirmation"
+msgstr "Confirmation de livraison"
+
+#: includes/class-wf-ups-admin-options.php:23
+msgid "Confirmation Not Required"
+msgstr "Ne pas besoin de confirmation"
+
+#: includes/class-wf-ups-admin-options.php:24
+msgid "Confirmation Required"
+msgstr "Confirmation nÃ©cessaire"
+
+#: includes/class-wf-ups-admin-options.php:25
+msgid "Confirmation With Signature"
+msgstr "Confirmation de Signature"
+
+#: includes/class-wf-ups-admin-options.php:26
+msgid "Confirmation With Adult Signature"
+msgstr "Confirmation avec Signature adulte"
+
+#: includes/class-wf-ups-admin-options.php:33
+msgid "Custom Declared Value (UPS)"
+msgstr "Custom a déclaré valeur (UPS)"
+
+#: includes/class-wf-ups-admin-options.php:34
+msgid ""
+"This amount will be reimbursed from UPS if products get damaged and you have "
+"opt for Insurance."
+msgstr ""
+"Ce montant sera remboursé de l’onduleur si les produits s’abîment et vous "
+"avez opter pour l’assurance."
+
+#: includes/class-wf-ups-admin-options.php:36
+msgid "Insurance amount UPS"
+msgstr "Montant de l'assurance"
+
+#: includes/class-wf-ups-admin-options.php:41
+msgid "H.S. tariff (UPS)"
+msgstr "Tarif H.S. (UPS)"
+
+#: includes/class-wf-ups-admin-options.php:42
+msgid "H.S. tariff number"
+msgstr "Numéro tarifaire H.S."
+
+#: includes/class-wf-ups-admin-options.php:49
+msgid "Direct Delivery (UPS)"
+msgstr "contre-remboursement"
+
+#: includes/class-wf-ups-admin-options.php:50
+msgid "Check this to enable direct delivery."
+msgstr "Cochez cette case pour activer la livraison directe."
+
+#: includes/class-wf-ups-pickup-admin.php:76
+#: includes/class-wf-ups-pickup-admin.php:77
+msgid "Request UPS Pickup"
+msgstr "Demander le ramassage par UPS"
+
+#: includes/class-wf-ups-pickup-admin.php:91
+#: includes/class-wf-ups-pickup-admin.php:92
+msgid "Cancel UPS Pickup"
+msgstr "Annuler l’envoi"
+
+#: includes/class-wf-ups-pickup-admin.php:492
+msgid "UPS PRN: "
+msgstr "UPS "
+
+#: includes/wf-automatic-label-generation.php:17
+msgid "Since Order Status is "
+msgstr "Étant donné que le statut de la commande est"
+
+#: includes/wf-automatic-label-generation.php:17
+msgid ". Automatic Package / Label generation has been suspended."
+msgstr ". Le paquet automatique / génération d’étiquette a été suspendue."
+
+#: includes/wf-automatic-label-generation.php:24
+msgid "UPS - No product Found. Please check the products in order."
+msgstr ""
+"UPS - aucun produit trouvé. S’il vous plaît vérifier les produits dans "
+"l’ordre."
+
+#: includes/wf-automatic-label-generation.php:36
+msgid "UPS - Curl error while automatic package generation. Error number - "
+msgstr ""
+"UPS - Curl erreur lors de la génération automatique de paquet. Numéro de "
+"l’erreur-"
+
+#: includes/wf-automatic-label-generation.php:95
+msgid ""
+"UPS - Automatic Label Generation has been suspended. Reason - Service Code "
+"not found."
+msgstr ""
+"UPS - génération automatique de l’étiquette a été suspendue. Code de motif - "
+"Service introuvable."
+
+#: includes/wf-automatic-label-generation.php:140
+msgid "UPS - Curl error while automatic label generation. Error number - "
+msgstr ""
+"UPS - Curl erreur lors de la génération automatique d’étiquettes. Numéro de "
+"l’erreur-"
+
+#: includes/wf-automatic-label-generation.php:360
+msgid "Shipment ID: "
+msgstr "Livraison :"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La clé de licence de %s est expirée. Vous pouvez réactiver ou acheter une "
+"clé de licence depuis votre <a href=\" %s\" target=\"_blank\">tableau de "
+"bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement à %s est en attente. Vous pouvez réactiver votre abonnement "
+"depuis votre <a href=\"%s\" target=\"_blank\">tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"L'abonnement %s a été annulé. Vous pouvez renouveler votre abonnement depuis "
+"votre <a href=\" %s \" target=\"_blank\">tableau de bord</a>. Une nouvelle "
+"clé de licence vous sera envoyé une fois vore commande terminée."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement à %s a expiré. Vous pouvez réactiver l'abonnement depuis votre "
+"<a href=\" %s \" target=\"_blank\">tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement à %s a été suspendu. Vous pouvez réactiver votre abonnement "
+"depuis votre <a href=\" %s \" target=\"_blank\">tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement à %s est toujours en attente. Vous pouvez vérifier l'état votre "
+"abonnement depuis <a href=\" %s \" target=\"_blank\">votre tableau de bord</"
+"a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement à %s a été placé dans la corbeille et sera bientôt supprimé "
+"Vous pouvez souscrire à un nouvel abonnement depuis <a href=\" %s \" target="
+"\"_blank\">votre tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Aucun abonnement à %s n'a été trouvé. Vous pouvez souscrire à un abonnement "
+"depuis <a href=\" %s \" target=\"_blank\">votre tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Aucune clé de licence %s n'a été trouvée. Peut-être que vous avez oublié "
+"d'entrer une clé de licence lors de l'installation de %s ou celle-ci  a été "
+"désactivée. Vous pouvez réactiver ou acheter une clé de licence depuis <a "
+"href=\" %s \" target=\"_blank\">votre tableau de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'autorisation de téléchargement pour %s a échoué probablement à cause d'une "
+"clé de licence ou dun abonnement expiré. Vous pouvez réactiver ou acheter "
+"une clé de licence au <a href=\"%s\" target=\"_blank\">tableau de bord</a> "
+"de votre compte."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"% s n'a pas été activé. Accédez à la <a href=\"%s\" target=\"_blank\"> page "
+"de paramètres </a> du plug-in et entrez la clé de licence et le courrier "
+"électronique de licence pour activer% s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Vous avez changé l'abonnement pour %s, aussi devez vous saisir votre "
+"nouvelle clé de licence API dans la page Réglages. Vous devez avoir la clé "
+"de licence dans vos courriers entrants, sinon vous pouvez l'obtenir en vous "
+"identifiant dans le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de "
+"votre compte."
+
+#: ups-woocommerce-shipping.php:26
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete UPS(Basic) "
+"Woocommerce Extension and then try again"
+msgstr ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete FedEx(Basic) "
+"Woocommerce Extension and then try again"
+
+#: ups-woocommerce-shipping.php:124
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ups-woocommerce-shipping.php:125
+msgid "Documentation"
+msgstr "Documentation du plugin"
+
+#: ups-woocommerce-shipping.php:126
+msgid "Support"
+msgstr "Support"
+
+#. Plugin Name of the plugin/theme
+msgid "UPS WooCommerce Shipping"
+msgstr "Calculer les tarifs d’expédition pour les services UPS."
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.pluginhive.com/product/woocommerce-ups-shipping-plugin-with-"
+"print-label/"
+msgstr ""
+"https://www.pluginhive.com/Product/woocommerce-UPS-Shipping-plugin-with-"
+"Print-label/"
+
+#. Description of the plugin/theme
+msgid ""
+"Obtain Real time shipping rates, Print shipping labels and Track Shipment "
+"via the UPS Shipping API."
+msgstr ""
+"Obtenir les tarifs d’expédition en temps réel, imprimer les étiquettes et "
+"les piste expédition via l’API d’expédition UPS expédition."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/about/"
+msgstr "https://www.pluginhive.com/about/"
+
+#~ msgid "Print Label"
+#~ msgstr "Imprimer libellé"
+
+#~ msgid ""
+#~ "Insurance will apply only if Order subtotal amount is greater or equal to "
+#~ "the Min Order Amount. Note - For Comparison it will take only the sum of "
+#~ "product price i.e Order Subtotal amount."
+#~ msgstr ""
+#~ "L’assurance s’appliquera uniquement si le montant de la commande sous-"
+#~ "total est supérieur ou égal à la quantité de commande Min. Remarque - "
+#~ "pour comparaison, il faudra que la somme de la quantité de commande sous-"
+#~ "total produit prix i.e."
+
+#~ msgid ""
+#~ "Selecting PNG will enable ~4x6 dimension label. Note that an external api "
+#~ "labelary is used."
+#~ msgstr ""
+#~ "Sélectionner les PNG permettra ~ 4 x 6 dimension label. Notez que l’api "
+#~ "externe labelary est utilisé."
+
+#~ msgid ""
+#~ "Enabling this will print the label in the browser instead of downloading "
+#~ "it. Useful if your downloaded file is getting currupted because of PHP "
+#~ "BOM (ByteOrderMark). This option is only applicable for supported formats."
+#~ msgstr ""
+#~ "Permettre ceci imprime l’étiquette dans le navigateur au lieu de le "
+#~ "télécharger. Utile si votre fichier téléchargé se currupted en raison de "
+#~ "PHP BOM (bigEndian). Cette option est uniquement applicable pour les "
+#~ "formats pris en charge."
+
+#~ msgid "Send Shipping Label via email"
+#~ msgstr ""
+#~ "Envoyer l’étiquette dans email au client après la génération du label"
+
+#~ msgid "Select Access Point Locator"
+#~ msgstr "Localisateur de points d’accès SELECT"
+
+#~ msgid ""
+#~ "PluginHive has moved <b><i>%s</i></b> plugin to PluginHive.com from "
+#~ "XAdapter marketplace to provide you better experience and support. Please "
+#~ "<a href='https://www.pluginhive.com/support/' target='_blank'>contact us</"
+#~ "a> to migrate your licence."
+#~ msgstr ""
+#~ "PluginHive a déménagé plugin <b><i>%s</i></b> à PluginHive.com de "
+#~ "XAdapter du marché pour vous apporter un soutien et la meilleure "
+#~ "expérience. S’il vous plaît <a href='https://www.pluginhive.com/support/' "
+#~ "target='_blank'>Contactez-nous</a> pour migrer votre permis de conduire."

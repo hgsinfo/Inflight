@@ -1,0 +1,126 @@
+/**
+	 * Jet products list
+	 */
+.woo-products-products-list{
+	list-style: none;
+	margin: 0;
+	
+	.woo-products-product-title{
+		font-size: 18px;
+	}
+	
+	.woo-products-product-rating{
+		margin: 5px 0 5px 0;
+	}
+	
+	.woo-products-products-list__item{
+		overflow: hidden;
+	}
+	
+	.woo-products-product-price{
+		ins{
+			border: none;
+			font-style: normal;
+		}
+	}
+	
+	.woo-products-products-list__item-img{
+		overflow: hidden;
+	}
+	
+	.woo-products-product-thumbnail{
+		font-size: 0;
+		
+		img{
+			width: 100%;
+		}
+	}
+	
+	.woo-products-product-button{
+		.button{
+			margin: 10px 0 10px 0;
+		}
+		
+		&.is--default{
+			.ajax_add_to_cart{
+				&.loading {
+					position: relative;
+					opacity: 0.25;
+					padding-right: 30px!important;
+					
+					&::after {
+						font-family: 'WooCommerce';
+						content: '\e01c';
+						vertical-align: top;
+						font-weight: 400;
+						position: absolute;
+						top: 50%;
+						right: 9px;
+						margin-top: -9px;
+						animation: spin 2s linear infinite;
+						font-size: 16px;
+						line-height: 1;
+					}
+				}
+				
+				&.added::after {
+					font-family: 'WooCommerce';
+					content: '\e017';
+					margin-left: 10px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	
+	.woo-products-products-list__inner-box {
+		display: flex;
+		flex-grow: 1;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.woo-products-product-categories{
+		ul{
+			margin: 0;
+			
+			> li{
+				list-style: none;
+				display: inline-block;
+			}
+		}
+	}
+	
+	&.products-layout-left{
+		.woo-products-products-list__inner-box{
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+	}
+	
+	&.products-layout-right{
+		.woo-products-products-list__inner-box{
+			flex-direction: row-reverse;
+			flex-wrap: wrap;
+		}
+	}
+	
+	&.products-layout-top{
+		.woo-products-products-list__inner-box{
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+	}
+	
+	// remove added to cart button
+	.added_to_cart.wc-forward{
+		display: none!important;
+	}
+}
+
+.woo-products-products-list__item-content{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}

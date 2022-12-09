@@ -1,0 +1,2652 @@
+# Copyright (C) 2021 SomewhereWarm
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Gift Cards 1.8.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-02T11:53:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: woocommerce-gift-cards\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Gift Cards"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/gift-cards/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create and sell digital gift cards that customers can redeem at your store."
+msgstr ""
+
+#. Author of the plugin
+msgid "SomewhereWarm"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://somewherewarm.com/"
+msgstr ""
+
+#: includes/admin/analytics/class-wc-gc-admin-analytics-sync.php:306
+msgid "Regenerate revenue analytics data"
+msgstr ""
+
+#: includes/admin/analytics/class-wc-gc-admin-analytics-sync.php:307
+#: includes/admin/class-wc-gc-admin-notices.php:642
+msgid "Regenerate data"
+msgstr ""
+
+#. translators: documentation link
+#: includes/admin/analytics/class-wc-gc-admin-analytics-sync.php:309
+msgid "Regenerates historical Revenue reports in WooCommerce Analytics to <a href=\"%s\" target=\"_blank\">account for prepaid gift cards correctly</a>."
+msgstr ""
+
+#: includes/admin/analytics/class-wc-gc-admin-analytics.php:108
+#: includes/admin/class-wc-gc-admin-menus.php:95
+#: includes/admin/class-wc-gc-admin-menus.php:175
+#: includes/admin/class-wc-gc-admin-menus.php:248
+#: includes/admin/class-wc-gc-admin-menus.php:312
+#: includes/admin/class-wc-gc-admin-menus.php:382
+#: includes/admin/class-wc-gc-admin-menus.php:390
+#: includes/admin/reports/class-wc-gc-admin-reports.php:41
+#: includes/admin/settings/class-wc-gc-admin-settings.php:31
+#: includes/admin/status/views/html-admin-page-status-report.php:18
+#: includes/admin/views/html-admin-gift-cards.php:18
+#: includes/class-wc-gc-account.php:328
+#: includes/class-wc-gc-account.php:435
+#: includes/compatibility/modules/class-wc-gc-pip-compatibility.php:71
+#: includes/compatibility/modules/class-wc-gc-pip-compatibility.php:76
+#: includes/compatibility/modules/class-wc-gc-wpowcpdf-compatibility.php:70
+#: assets/js/admin/analytics.js:180
+#: assets/js/admin/analytics.js:181
+#: assets/js/admin/analytics.js:174
+msgid "Gift Cards"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:161
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:161
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:162
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:491
+msgid "Gift card ID."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:167
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:167
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:168
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:497
+msgid "Gift card code."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:173
+msgid "Expired balance."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:179
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:179
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:936
+msgid "Creation date."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:185
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:185
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:953
+msgid "Expiration date."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:202
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:298
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:202
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:298
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:203
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:316
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:210
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:306
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:210
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:306
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:211
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:324
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:219
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:315
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:219
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:315
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:220
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:333
+msgid "Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:225
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:321
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:225
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:321
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:226
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:339
+msgid "Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:231
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:327
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:231
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:327
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:232
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:345
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:801
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:238
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:334
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:238
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:334
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:239
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:352
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:787
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:260
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:260
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:261
+msgid "Gift Card Code"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:261
+msgid "Expired Balance"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:262
+msgid "Expired At"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/class-wc-gc-analytics-expired-rest-controller.php:263
+msgid "Created At"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-data-store.php:146
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-data-store.php:162
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-data-store.php:142
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-data-store.php:158
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-data-store.php:146
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-data-store.php:162
+msgid "Sorry, fetching revenue data failed."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:149
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:149
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:151
+msgid "Number of Gift Cards"
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:150
+msgid "Number of gift cards expired."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:157
+msgid "Expired Balance."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:344
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:346
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:364
+msgid "Time interval to use for buckets in the returned data."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:358
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:360
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:378
+msgid "Segment the response by additional constraint."
+msgstr ""
+
+#: includes/admin/analytics/reports/expired/stats/class-wc-gc-analytics-expired-stats-rest-controller.php:368
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:370
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:388
+msgid "Limit stats fields to the specified items."
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:173
+msgid "Issued balance."
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:261
+msgid "Issued Balance"
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:262
+msgid "Issued Dated"
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/class-wc-gc-analytics-issued-rest-controller.php:263
+msgid "Expriration Date"
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:150
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:152
+msgid "Number of items sold."
+msgstr ""
+
+#: includes/admin/analytics/reports/issued/stats/class-wc-gc-analytics-issued-stats-rest-controller.php:157
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:915
+msgid "Issued Balance."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:174
+msgid "Used amount."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:180
+msgid "Refunded amount."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:186
+msgid "Net amount."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:262
+msgid "Used Balance"
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:263
+msgid "Refunded Balance"
+msgstr ""
+
+#: includes/admin/analytics/reports/used/class-wc-gc-analytics-used-rest-controller.php:264
+msgid "Net Balance"
+msgstr ""
+
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:159
+msgid "Used Amount."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:166
+msgid "Refunded Amount."
+msgstr ""
+
+#: includes/admin/analytics/reports/used/stats/class-wc-gc-analytics-used-stats-rest-controller.php:173
+msgid "Net Amount."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:101
+#: includes/class-wc-gc-gift-card-product.php:552
+msgid "Please enter at least one recipient e-mail."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:105
+#: includes/class-wc-gc-gift-card-product.php:556
+msgid "Please enter a recipient e-mail."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:114
+#: includes/class-wc-gc-gift-card-product.php:565
+msgid "Please enter only one recipient e-mail."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:117
+#: includes/class-wc-gc-gift-card-product.php:568
+msgid "Recipient e-mail invalid."
+msgstr ""
+
+#. translators: %s: Invalid email string
+#: includes/admin/class-wc-gc-admin-ajax.php:125
+#: includes/class-wc-gc-gift-card-product.php:576
+msgid "Invalid recipient e-mail: &quot;%s&quot;."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:131
+msgid "Please enter sender's name."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:139
+#: includes/class-wc-gc-gift-card-product.php:594
+msgid "Invalid delivery date timezone."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:144
+#: includes/class-wc-gc-gift-card-product.php:599
+msgid "Invalid delivery date."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:153
+msgid "Gift card code must be 19 characters long and follow the format XXXX-XXXX-XXXX-XXXX, where X can be any letter or number."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:157
+msgid "Assigning custom codes for multiple recipients is currently not possible. If you must assign a custom code, please enter one recipient only."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:162
+msgid "Gift card code exists."
+msgstr ""
+
+#. translators: %1$s: Product title, %2$d: Product ID
+#: includes/admin/class-wc-gc-admin-ajax.php:223
+msgid "%1s (#%2$d) configured."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:333
+msgid "Invalid gift card"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:341
+#: includes/admin/class-wc-gc-admin-ajax.php:453
+msgid "Invalid order"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:345
+msgid "Please calculate totals and save this order before applying a gift card code"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:349
+msgid "Please make sure that the order has a total to be paid"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:355
+msgid "Gift card not found"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:361
+#: includes/class-wc-gc-gift-card.php:241
+#: includes/class-wc-gc-gift-cards.php:63
+msgid "Gift card disabled."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:365
+#: includes/class-wc-gc-gift-card.php:245
+#: includes/class-wc-gc-gift-cards.php:67
+msgid "Gift card expired."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:369
+#: includes/class-wc-gc-gift-card.php:264
+#: includes/class-wc-gc-gift-cards.php:82
+msgid "Gift card has no remaining balance."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/admin/class-wc-gc-admin-ajax.php:383
+msgid "Applied gift card: %s"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-ajax.php:457
+msgid "Invalid items"
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/admin/class-wc-gc-admin-ajax.php:486
+msgid "Removed gift card: %s"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-exporters.php:72
+msgid "Insufficient privileges to export giftcards."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:68
+msgid "Delivery date must be at least one minute from now."
+msgstr ""
+
+#. translators: %s: Schedule date
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:81
+msgid "Gift card rescheduled for %s."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:96
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:178
+msgid "Gift card sent."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:120
+msgid "Invalid expiration date."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:152
+msgid "Gift card updated."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:181
+msgid "Action failed. Deactivated and expired gift cards cannot be e-mailed to their original recipients."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:219
+msgid "Action failed. The Gift card is disabled, has expired, or has already been redeemed."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:247
+msgid "Gift card deleted."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:284
+#: includes/class-wc-gc-cart.php:375
+#: includes/class-wc-gc-cart.php:437
+#: includes/class-wc-gc-gift-card.php:237
+#: includes/class-wc-gc-gift-cards.php:59
+#: includes/class-wc-gc-order.php:492
+msgid "Gift card not found."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:315
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:335
+msgid "Message:"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:316
+msgid "Private"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:317
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:321
+#: includes/class-wc-gc-gift-card-product.php:786
+msgid "This message was hidden to protect the sender & recipient’s privacy."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:325
+msgid "Sender requested a change?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:326
+msgid "Edit this message"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-gift-cards-page.php:330
+msgid "Write a new message&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-importers.php:50
+msgid "Gift Card Import"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-importers.php:97
+msgid "WooCommerce Gift Cards (CSV)"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-importers.php:97
+msgid "Import <strong>gift cards</strong> to your store via a csv file."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-importers.php:110
+msgid "Insufficient privileges to import products."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-menus.php:110
+#: includes/admin/class-wc-gc-admin-menus.php:321
+#: includes/admin/class-wc-gc-admin.php:224
+#: includes/admin/views/html-admin-gift-card-edit.php:20
+msgid "Edit Gift Card"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-menus.php:127
+#: includes/admin/views/html-admin-gift-cards.php:19
+msgid "Import"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-menus.php:144
+#: includes/admin/class-wc-gc-admin-menus.php:180
+#: includes/admin/class-wc-gc-admin-menus.php:250
+#: includes/admin/class-wc-gc-admin-menus.php:330
+#: includes/admin/views/html-admin-activity.php:18
+#: includes/admin/views/html-admin-gift-card-edit.php:211
+#: templates/myaccount/giftcards.php:95
+msgid "Activity"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-menus.php:324
+#: includes/admin/import/views/html-admin-csv-import-header.php:16
+msgid "Import Gift Cards"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-menus.php:401
+msgid "Actiity"
+msgstr ""
+
+#. translators: prompt
+#: includes/admin/class-wc-gc-admin-notices.php:351
+msgid "<strong>WooCommerce Gift Cards</strong> is updating your database.%s"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:356
+msgid "<strong>WooCommerce Gift Cards</strong> has been updated! To keep things running smoothly, your database needs to be updated, as well."
+msgstr ""
+
+#. translators: documentation link
+#: includes/admin/class-wc-gc-admin-notices.php:358
+msgid "Before you proceed, please take a few minutes to <a href=\"%s\" target=\"_blank\">learn more</a> about best practices when updating."
+msgstr ""
+
+#. translators: error
+#: includes/admin/class-wc-gc-admin-notices.php:364
+msgid "<strong>WooCommerce Gift Cards</strong> has not finished updating your database.%s"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:374
+msgid "<strong>WooCommerce Gift Cards</strong> has finished updating your database. Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:386
+msgid "Update database"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:404
+msgid "run it manually"
+msgstr ""
+
+#. translators: %s: Fallback link
+#: includes/admin/class-wc-gc-admin-notices.php:406
+msgid " The process seems to be taking a little longer than usual, so let's try to %s."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:420
+msgid "get in touch with us"
+msgstr ""
+
+#. translators: %s: support link
+#: includes/admin/class-wc-gc-admin-notices.php:422
+msgid " If this message persists, please restore your database from a backup, or %s."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:448
+msgid "Ready to start offering and accepting gift cards?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:449
+msgid "Thank you for installing WooCommerce Gift Cards."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:449
+msgid "Let's get started by creating and selling your first gift card."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:450
+msgid "Let's go!"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:518
+msgid "Loopback test passed!"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:520
+msgid "Loopback test failed!"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:545
+msgid "Gift Cards ran a quick check-up on your site, and found that loopback requests might be failing to complete. Loopback requests are used by WooCommerce to run scheduled events, such as database upgrades. To keep your site in top shape, please ask the host or administrator of your server to look into this for you."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:546
+msgid "Repeat test"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:580
+msgid "Gift Cards ran a quick check-up on your site, and found that the task scheduler built into WooCommerce might be failing to process gift card code deliveries in time. To keep your site in top shape, please ask the host or administrator of your server to look into this for you."
+msgstr ""
+
+#. translators: %1$s: documentation link
+#: includes/admin/class-wc-gc-admin-notices.php:612
+msgid "<strong>WooCommerce Gift Cards</strong> now integrates with WooCommerce Analytics, allowing you to generate <a href=\"%s\" target=\"_blank\">more accurate</a> Revenue reports:"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:613
+msgid "Orders paid using prepaid gift cards are now counted towards the reported gross and net revenue."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:614
+msgid "Purchases of prepaid gift cards are not counted towards the reported net revenue."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:616
+msgid "To apply these changes to historical revenue analytics data, click the <strong>Regenerate data</strong> button now. You can always do this later by navigating to <strong>WooCommerce > Status > Tools > Regenerate revenue analytics data</strong>."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:623
+msgid "<strong>WooCommerce Gift Cards</strong> is updating your historical Revenue Analytics data. This may take a while, so please be patient!"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin-notices.php:628
+msgid "<strong>WooCommerce Gift Cards</strong> has finished updating your Revenue Analytics data!"
+msgstr ""
+
+#. translators: Placeholders %1$s - opening link HTML tag, %2$s - closing link HTML tag
+#: includes/admin/class-wc-gc-admin-notices.php:671
+msgid "Heads up! The <strong>WooCommerce > Gift Cards</strong> menu item has been moved to %1$sMarketing > Gift Cards%2$s."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:149
+msgid "The installed version of <strong>Gift Cards</strong> is not compatible with the <code>selectSW</code> library found on your system. Please update Gift Cards to the latest version."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:185
+msgid "WooCommerce Gift Cards stores the following information, as provided by gift card buyers:"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:188
+msgid "Sender name."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:189
+msgid "Recipient name."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:190
+msgid "Recipient e-mail."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:191
+msgid "Message from sender to recipient."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:194
+msgid "This information can be used to personally identify the sender and recipient(s), and is stored indefinitely."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:197
+msgid "Full access to all gift card data is restricted to Store Administators only. Store Managers may view and search by sender, recipient and gift card code. However, gift card messages cannot be viewed by Store Managers."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:223
+msgid "Configure Gift Card"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:225
+msgid "Failed to initialize form. If this issue persists, please reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:226
+msgid "Failed to validate configuration. If this issue persists, please reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:228
+msgid "You are about to delete a gift card permanently. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:229
+msgid "You are about to delete the selected gift cards permanently. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:230
+msgid "The gift card message has been modified. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:231
+msgid "Choose Recipient Email Image"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:232
+msgid "Set Image"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:233
+msgid "Remove and refund gift card code %%code%%?"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:234
+msgid "Enter gift card code:"
+msgstr ""
+
+#: includes/admin/class-wc-gc-admin.php:239
+msgid "Export Gift Cards"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:100
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:508
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:634
+msgid "ID"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:101
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:509
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:635
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:192
+#: templates/myaccount/giftcards.php:48
+#: templates/myaccount/giftcards.php:67
+#: assets/js/admin/analytics.js:36
+#: assets/js/admin/analytics.js:35
+msgid "Code"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:102
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:510
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:636
+msgid "Recipient"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:103
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:511
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:637
+msgid "Sender"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:104
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:512
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:638
+msgid "Sender E-mail"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:105
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:513
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:639
+#: includes/class-wc-gc-gift-card-product.php:96
+#: includes/wc-gc-template-functions.php:265
+msgid "Message"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:106
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:514
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:640
+#: includes/admin/views/html-admin-gift-card-edit.php:124
+msgid "Issued value"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:107
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:515
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:641
+msgid "Balance"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:108
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:516
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:642
+msgid "Order ID"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:109
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:517
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:643
+msgid "Order item ID"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:110
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:518
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:644
+msgid "Template ID"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:111
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:519
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:645
+msgid "Create date"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:112
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:520
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:646
+msgid "Delivery date"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:113
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:521
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:647
+msgid "Expiration date"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:114
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:522
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:648
+msgid "Redeemed date"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:115
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:523
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:649
+msgid "Redeemed by user"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:116
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:524
+#: includes/wc-gc-template-functions.php:356
+msgid "Delivered"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:117
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:525
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:651
+msgid "Virtual"
+msgstr ""
+
+#: includes/admin/export/class-wc-gc-csv-exporter.php:118
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:526
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:652
+msgid "Status"
+msgstr ""
+
+#. translators: %s: meta data name
+#: includes/admin/export/class-wc-gc-csv-exporter.php:230
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:527
+msgid "Activities"
+msgstr ""
+
+#. translators: %s: meta data name
+#: includes/admin/export/class-wc-gc-csv-exporter.php:261
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:541
+msgid "Meta: %s"
+msgstr ""
+
+#: includes/admin/export/views/html-admin-modal-gift-cards-export.php:20
+msgid "Generate and download a CSV file with Gift Cards data."
+msgstr ""
+
+#: includes/admin/export/views/html-admin-modal-gift-cards-export.php:27
+msgid "Options"
+msgstr ""
+
+#: includes/admin/export/views/html-admin-modal-gift-cards-export.php:32
+msgid "Apply current filters"
+msgstr ""
+
+#: includes/admin/export/views/html-admin-modal-gift-cards-export.php:43
+msgid "Download CSV"
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:181
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:440
+msgid "Missing gift card code."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:199
+msgid "Invalid gift card code format."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:216
+#: includes/class-wc-gc-account.php:251
+#: includes/class-wc-gc-account.php:310
+#: includes/db/class-wc-gc-gift-cards-db.php:511
+msgid "Invalid gift card code."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:226
+msgid "Invalid gift card ID"
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:260
+msgid "Gift card codes must follow the XXXX-XXXX-XXXX-XXXX format. Leave this field blank to let the importer generate a code for you."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:264
+msgid "Assinging specific gift card ID requires a specific code as well. Leave the ID field blank to let the importer generate a code for you."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:273
+msgid "A gift card is found with the same properties."
+msgstr ""
+
+#: includes/admin/import/abstract-class-wc-gc-importer.php:287
+#: includes/db/class-wc-gc-gift-cards-db.php:440
+msgid "Missing gift card attributes."
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:650
+msgid "Import as \"Delivered\" value"
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:653
+msgid "Import as \"Activities\" JSON"
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer-controller.php:654
+msgid "Import as meta data"
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer.php:78
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#. translators: %d: giftcard ID
+#: includes/admin/import/class-wc-gc-csv-importer.php:333
+msgctxt "csv-import"
+msgid "ID %d"
+msgstr ""
+
+#. translators: %s: giftcard code
+#: includes/admin/import/class-wc-gc-csv-importer.php:337
+msgctxt "csv-import"
+msgid "Code %s"
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer.php:385
+msgid "A gift card with this ID already exists."
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer.php:397
+msgid "A gift card with this code already exists."
+msgstr ""
+
+#: includes/admin/import/class-wc-gc-csv-importer.php:409
+msgid "No matching gift card exists to update."
+msgstr ""
+
+#. translators: %d: gift cards count
+#: includes/admin/import/views/html-admin-csv-import-done.php:22
+msgid "%s gift card imported"
+msgid_plural "%s gift cards imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: gift cards count
+#: includes/admin/import/views/html-admin-csv-import-done.php:30
+msgid "%s gift card updated"
+msgid_plural "%s gift cards updated"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: gift cards count
+#: includes/admin/import/views/html-admin-csv-import-done.php:38
+msgid "%s gift card was skipped"
+msgid_plural "%s gift cards were skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: gift cards count
+#: includes/admin/import/views/html-admin-csv-import-done.php:46
+msgid "Failed to import %s gift card"
+msgid_plural "Failed to import %s gift cards"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/import/views/html-admin-csv-import-done.php:52
+msgid "View import log"
+msgstr ""
+
+#. translators: %s: File name
+#: includes/admin/import/views/html-admin-csv-import-done.php:58
+msgid "File uploaded: %s"
+msgstr ""
+
+#. translators: %d: import results
+#: includes/admin/import/views/html-admin-csv-import-done.php:64
+msgid "Import complete!"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-done.php:71
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:82
+#: includes/class-wc-gc-order.php:228
+#: templates/cart/cart-gift-cards.php:57
+#: templates/cart/cart-gift-cards.php:78
+#: templates/cart/cart-gift-cards.php:171
+msgid "Gift Card"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-done.php:72
+msgid "Reason for failure"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-done.php:104
+msgid "View gift cards"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:16
+msgid "Import gift cards from a CSV file"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:17
+msgid "This tool allows you to import (or merge) gift card data to your store from a CSV or TXT file."
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:25
+msgid "Choose a CSV file from your computer:"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:33
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#. translators: %s: maximum upload size
+#: includes/admin/import/views/html-admin-csv-import-form.php:47
+msgid "Maximum size: %s"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:59
+msgid "Alternatively, enter the path to a CSV file on your server:"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:68
+msgid "CSV Delimiter"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:72
+msgid "Use previous column mapping preferences?"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:94
+msgid "Hide advanced options"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:94
+msgid "Show advanced options"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-form.php:95
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-mapping.php:16
+msgid "Map CSV fields to gift card data"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-mapping.php:17
+msgid "Select fields from your CSV file to map against gift card fields, or to ignore during import."
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-progress.php:18
+msgid "Importing"
+msgstr ""
+
+#: includes/admin/import/views/html-admin-csv-import-progress.php:19
+msgid "Your gift cards are now being imported..."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:114
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:108
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:97
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:119
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:109
+msgid "View Order"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:176
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:188
+msgctxt "list table date hover format"
+msgid "Y/m/d g:i:s a"
+msgstr ""
+
+#. translators: %s: human time diff
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:181
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:193
+msgid "%s ago"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:183
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:195
+msgctxt "list table date format"
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:196
+msgctxt "column_name"
+msgid "Gift Card"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:197
+msgctxt "column_name"
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:198
+msgctxt "column_name"
+msgid "Event"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:199
+msgctxt "column_name"
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:200
+msgctxt "column_name"
+msgid "Date"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:303
+msgid "Gift Cards activity"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:306
+msgid "No activity recorded just yet."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:314
+msgid "No activity recorded"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:367
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:495
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:403
+msgid "All customers"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:420
+msgid "Filter by type"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:422
+msgid "All types"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:454
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:555
+msgid "Filter by date"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:456
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:557
+msgid "All dates"
+msgstr ""
+
+#. translators: %1$s: month %2$s: year
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-activity.php:469
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:572
+msgid "%1$s %2$d"
+msgstr ""
+
+#. translators: %s: Giftcard code
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:118
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr ""
+
+#. translators: %s: Giftcard code
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:133
+msgid "Select %s"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:184
+msgid "Unpublished"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:209
+#: templates/myaccount/giftcards.php:82
+msgid "Never"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:223
+msgctxt "column_name"
+msgid "Code"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:224
+msgctxt "column_name"
+msgid "Balance"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:225
+msgctxt "column_name"
+msgid "Status"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:226
+msgctxt "column_name"
+msgid "Issued"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:227
+msgctxt "column_name"
+msgid "From"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:228
+msgctxt "column_name"
+msgid "To"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:229
+msgctxt "column_name"
+msgid "Redeemed"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:230
+msgctxt "column_name"
+msgid "Expires"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:265
+#: includes/admin/views/html-admin-gift-card-edit.php:49
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:266
+#: includes/admin/views/html-admin-gift-card-edit.php:47
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:267
+#: includes/admin/views/html-admin-gift-card-edit.php:58
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:299
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:312
+msgid "Gift cards updated."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:320
+msgid "Gift cards deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:400
+msgid "No gift cards found"
+msgstr ""
+
+#. translators: %s: Giftcards count
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:418
+msgctxt "giftccard_status"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Redeemed giftcards count
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:434
+msgctxt "giftccard_status"
+msgid "Redeemed <span class=\"count\">(%s)</span>"
+msgid_plural "Redeemed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/list-tables/class-wc-gc-admin-list-table-gift-cards.php:530
+msgid "Redeemed by customer&hellip;"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:99
+msgid "Configure"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:136
+msgid "Done"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:167
+msgid "Apply gift card"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:189
+msgid "Generate a random code"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-order.php:193
+msgid "XXXX-XXXX-XXXX-XXXX"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:58
+msgid "You are almost ready to start selling your first gift card! To speed things up for you, we have already checked the <strong>Product Data > Gift Card</strong> option."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:83
+msgid "Gift cards are virtual products that can be purchased by customers and gifted to one or more recipients. Gift card code holders can redeem and use them as store credit."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:109
+msgid "Days to expire"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:110
+msgctxt "placeholder"
+msgid "Never"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:111
+msgid "Period of time given to gift card recipients to redeem or use their code before it becomes inactive. Leave this field empty to keep the issued gift card codes active indefinitely."
+msgstr ""
+
+#. translators: documentation link
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:189
+msgid "<a href=\"%s\" target=\"_blank\">Multi-purpose</a> prepaid gift cards are not taxable at purchase. Tax will be assessed on any products purchased when this gift card is redeemed. Please choose <strong>Tax Status > None</strong> under <strong>Product Data > General</strong>, or make sure that no tax will be calculated when this gift card is purchased."
+msgstr ""
+
+#. translators: documentation link
+#: includes/admin/meta-boxes/class-wc-gc-meta-box-product-data.php:192
+msgid "<a href=\"%s\" target=\"_blank\">Multi-purpose</a> prepaid gift cards are not taxable at purchase. Tax will be assessed on any products purchased when this gift card is redeemed. Please choose <strong>Tax Status > None</strong> under <strong>Product Data > General</strong>, or make sure that no tax will be calculated when any variation of this gift card is purchased."
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-admin-reports.php:44
+msgctxt "reports title"
+msgid "Gift Cards"
+msgstr ""
+
+#. translators: %s: total issued amount
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:122
+msgid "%s issued balance"
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:125
+msgid "Total value of gift cards issued in this period."
+msgstr ""
+
+#. translators: %s: total used amount
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:133
+msgid "%s used balance"
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:136
+msgid "Total gift cards balance used to pay for orders in this period."
+msgstr ""
+
+#. translators: %s: total expired amount
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:144
+msgid "%s expired balance"
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:147
+msgid "Total value of gift cards expired in this period."
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:299
+msgid "Issued balance"
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:309
+msgid "Used balance"
+msgstr ""
+
+#: includes/admin/reports/class-wc-gc-report-gift-cards.php:319
+msgid "Expired balance"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:55
+msgid "Account"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:61
+msgid "Enable account features"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:62
+msgid "Allow customers to store gift cards in their account, and pay for orders using their account balance"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:66
+msgid "When disabled, customers will always need to enter their gift card codes manually."
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:72
+msgid "Cart and Coupons"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:78
+msgid "Enable cart page features"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:79
+msgid "Allow customers to apply gift cards in the cart page"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:84
+msgid "When disabled, applied gift card details will be displayed in the checkout page only."
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:88
+msgid "Block gift card discounts"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:89
+msgid "Prevent customers from using coupons to discount gift cards"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:93
+msgid "When enabled, <strong>Percentage discount</strong> and <strong>Fixed product discount</strong> coupons will not be applied to gift cards in the cart, and <strong>Fixed cart discount</strong> coupons will be rejected when purchasing gift cards."
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:104
+msgid "Privacy"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:110
+msgid "Grant admin privileges to Shop Managers"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:111
+msgid "Allow Shop Managers to view gift card codes"
+msgstr ""
+
+#: includes/admin/settings/class-wc-gc-admin-settings.php:115
+msgid "By default, users with the Shop Manager role can see only the last 4 characters of gift card codes."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:23
+msgid "Database version"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:24
+msgid "The version of WooCommerce Gift Cards reported by the database. This should be the same as the plugin version."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:31
+msgid "Database version mismatch."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:37
+msgid "Loopback test"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:38
+msgid "Loopback requests are used by WooCommerce to process tasks in the background."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:47
+msgid "Loopback test failed."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:53
+msgid "Task queueing test"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:54
+msgid "The task queue built into WooCommerce must be operating properly to process scheduled tasks and events."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:61
+msgid "Task queueing test failed."
+msgstr ""
+
+#: includes/admin/views/html-admin-activity.php:24
+msgid "Search activity"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:21
+msgid "All Gift Cards"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:36
+msgid "Gift card actions"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:43
+msgid "Choose an action..."
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:45
+msgid "Send to recipient"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:61
+msgid "Update"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:71
+msgid "Redeem for customer"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:77
+msgid "Search for a customer&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:82
+#: includes/wc-gc-functions.php:27
+msgid "Redeem"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:106
+msgid "Available balance"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:120
+#: assets/js/admin/analytics.js:57
+msgid "Issued"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:128
+msgid "Order"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:132
+#: includes/wc-gc-template-functions.php:380
+msgid "Redeemed"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:136
+msgid "Redeemed by"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:159
+msgid "From:"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:161
+#: includes/admin/views/html-admin-gift-card-edit.php:170
+msgid "View other gift cards"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:169
+msgid "To:"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:193
+msgid "Delivery date:"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:194
+#: includes/admin/views/html-admin-gift-card-edit.php:202
+msgid "date"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:196
+#: includes/admin/views/html-admin-gift-card-edit.php:204
+msgid "h"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:197
+#: includes/admin/views/html-admin-gift-card-edit.php:205
+msgid "m"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-card-edit.php:201
+msgid "Expiration date:"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:20
+msgid "Export"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:30
+msgid "Search gift cards"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:43
+msgid "Hooray! You are now selling gift cards."
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:45
+msgid "Every time a gift card is ordered, a code will be issued and listed here."
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:47
+#: includes/admin/views/html-admin-gift-cards.php:59
+msgid "Learn more about Gift Cards"
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:54
+msgid "No gift card codes issued just yet."
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:56
+msgid "Gift card codes are issued when a Gift Card product is purchased."
+msgstr ""
+
+#: includes/admin/views/html-admin-gift-cards.php:58
+msgid "Create a Gift Card product"
+msgstr ""
+
+#: includes/class-wc-gc-account.php:226
+#: includes/class-wc-gc-account.php:278
+msgid "Please enter a valid gift card code."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:244
+#: includes/class-wc-gc-account.php:303
+msgid "The gift card has been added to your account."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:270
+msgid "Failed to redeem your gift card. Please try again later, or get in touch with us for assistance."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:282
+#: includes/class-wc-gc-cart.php:346
+msgid "Gift card code must be 19 characters."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:359
+msgid "Gift cards"
+msgstr ""
+
+#: includes/class-wc-gc-account.php:360
+msgid "Endpoint for the \"My account &rarr; Gift Cards\" page."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:467
+msgid "Currently viewing pending orders only."
+msgstr ""
+
+#: includes/class-wc-gc-account.php:468
+msgid "View all orders"
+msgstr ""
+
+#: includes/class-wc-gc-cart.php:334
+msgid "Gift cards cannot be purchased using other gift cards."
+msgstr ""
+
+#: includes/class-wc-gc-cart.php:343
+msgid "Please enter your gift card code."
+msgstr ""
+
+#: includes/class-wc-gc-cart.php:366
+msgid "Gift card code applied successfully!"
+msgstr ""
+
+#: includes/class-wc-gc-cart.php:407
+msgid "Invalid request. Please try again&hellip;"
+msgstr ""
+
+#. translators: Gift Card code
+#: includes/class-wc-gc-cart.php:430
+msgid "Gift card '%s' applied successfully!"
+msgstr ""
+
+#: includes/class-wc-gc-cart.php:505
+msgid "Sorry, this coupon is not applicable to gift card products."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:93
+#: includes/class-wc-gc-gift-card-product.php:94
+#: includes/wc-gc-template-functions.php:196
+#: includes/wc-gc-template-functions.php:201
+msgid "To"
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:95
+#: includes/wc-gc-template-functions.php:241
+msgid "From"
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:97
+#: includes/wc-gc-template-functions.php:298
+msgid "Delivery Date"
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:263
+msgid "Buy gift card"
+msgstr ""
+
+#. translators: %1$s: Product title %2$s: Quantity multiplier
+#: includes/class-wc-gc-gift-card-product.php:469
+msgid "Cart update failed. The quantity of &quot;%1$s&quot; must be a multiple of %2$d."
+msgstr ""
+
+#. translators: %1$s: Product title
+#: includes/class-wc-gc-gift-card-product.php:545
+msgid "&quot;%1$s&quot; cannot be purchased &ndash; some of its contents are missing from your cart."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:582
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:586
+msgid "Your name cannot exceed 128 characters."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:759
+msgctxt "order_item_display_key"
+msgid "Code"
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:761
+msgctxt "order_item_display_key"
+msgid "Amount"
+msgstr ""
+
+#: includes/class-wc-gc-gift-card-product.php:939
+msgid "Invalid custom code configuration. Please review the recipients count."
+msgstr ""
+
+#. translators: %d order id.
+#: includes/class-wc-gc-gift-card-product.php:1134
+msgid "Order #%d cannot be deleted at the moment. Some pending gift card code deliveries depend on data found in this order."
+msgstr ""
+
+#. translators: %d product id.
+#: includes/class-wc-gc-gift-card-product.php:1147
+msgid "Product #%d cannot be deleted at the moment. Some pending gift card code deliveries will fail if this product is deleted."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card.php:251
+msgid "Invalid gift card recipient."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card.php:256
+#: includes/class-wc-gc-gift-cards.php:71
+msgid "Gift card already redeemed."
+msgstr ""
+
+#: includes/class-wc-gc-gift-card.php:260
+msgid "Gift card is not redeemable."
+msgstr ""
+
+#: includes/class-wc-gc-gift-cards.php:89
+msgid "Gift card is currently used."
+msgstr ""
+
+#: includes/class-wc-gc-install.php:543
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-wc-gc-install.php:544
+msgid "Support"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:235
+#: templates/cart/cart-gift-cards.php:61
+#: templates/cart/cart-gift-cards.php:141
+#: templates/cart/cart-gift-cards.php:176
+msgid "Code:"
+msgid_plural "Codes:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-gc-order.php:243
+msgid "Used amount:"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:251
+msgid "Available balance:"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:259
+msgid "Expires:"
+msgstr ""
+
+#. translators: %s: Giftcard Expiration date
+#: includes/class-wc-gc-order.php:265
+msgid "Expired on %s"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:275
+msgid "View Gift Card &rarr;"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:306
+msgid "Remove gift card"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:354
+msgid "Order Total"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:356
+#: templates/cart/cart-gift-cards.php:36
+msgid "(before gift cards)"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:365
+#: includes/class-wc-gc-order.php:397
+msgid "Gift Card:"
+msgid_plural "Gift Cards:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-gc-order.php:392
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:359
+#: templates/cart/cart-gift-cards.php:34
+msgid "Total"
+msgstr ""
+
+#: includes/class-wc-gc-order.php:392
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:359
+msgid "(before Gift Cards)"
+msgstr ""
+
+#. translators: %s: Giftcard code
+#: includes/class-wc-gc-order.php:481
+msgid "Gift card code %s does not have enough balance. Removing gift card from order..."
+msgstr ""
+
+#: includes/class-wc-gc-order.php:589
+msgid "Failed to apply gift card codes."
+msgstr ""
+
+#. translators: Gift Card code
+#: includes/class-wc-gc-order.php:625
+msgid "Failed to apply gift card code %s."
+msgstr ""
+
+#: includes/class-wc-gc-order.php:746
+msgid "Moving Pending order with applied gift cards to the Trash."
+msgstr ""
+
+#: includes/class-wc-gc-order.php:973
+msgid "Pay or cancel this order now to release gift card funds on hold."
+msgstr ""
+
+#: includes/class-wc-gc-order.php:977
+msgid "Cancel order"
+msgstr ""
+
+#: includes/compatibility/class-wc-gc-compatibility.php:202
+msgid "Stripe Gateway"
+msgstr ""
+
+#: includes/compatibility/class-wc-gc-compatibility.php:203
+msgid "WooCommerce Stripe Gateway"
+msgstr ""
+
+#. translators: %1$s: extension %2$s: extension url %3$s: extension %4$s: version
+#: includes/compatibility/class-wc-gc-compatibility.php:206
+msgid "The installed version of <strong>%1$s</strong> is not supported by <strong>Gift Cards</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:121
+msgid "Renewal payment with gift cards balance failed: Insufficient funds."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:127
+msgid "Renewal payment with gift cards balance failed: Zero balance."
+msgstr ""
+
+#. translators: %1$s: Gift Card code %2$d: order ID
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:165
+msgid "Failed to use gift card code %1$s to pay for renewal order #%2$d."
+msgstr ""
+
+#. translators: order ID
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:172
+msgid "Used gift cards balance to pay for renewal order #%d."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:223
+msgid "Pay with gift cards balance"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:231
+msgid "Use gift cards balance to pay for renewals"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:238
+msgid "Stop using gift cards balance to pay for renewals"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:285
+msgid "Customer enabled renewal payments with gift cards balance."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:287
+msgid "Customer disabled renewal payments with gift cards balance."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:318
+msgid "The payment settings of this subscription have changed. Please refresh the page before triggering an early renewal."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:364
+msgid "Gift Card balance:"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:408
+msgid "Use gift cards balance for renewal payments:"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:410
+msgid "No"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:411
+msgid "Yes"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:440
+msgid "Enabled renewal payments with gift cards balance."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:442
+msgid "Disabled renewal payments with gift cards balance."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:464
+msgid "Allow Renewal Payments With Gift Cards Balance"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:465
+msgid "Let customers pay for renewals using their Gift Cards account balance"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-gc-subscriptions-compatibility.php:466
+msgid "Displays a &quot;Pay with gift cards balance&quot; toggle that customers can turn on and off from their View Subscription page."
+msgstr ""
+
+#: includes/db/class-wc-gc-activity-db.php:26
+#: includes/db/class-wc-gc-activity-db.php:33
+#: includes/db/class-wc-gc-db.php:40
+#: includes/db/class-wc-gc-db.php:47
+#: includes/db/class-wc-gc-gift-cards-db.php:26
+#: includes/db/class-wc-gc-gift-cards-db.php:33
+#: woocommerce-gift-cards.php:126
+#: woocommerce-gift-cards.php:133
+msgid "Foul!"
+msgstr ""
+
+#: includes/db/class-wc-gc-activity-db.php:280
+msgid "Missing activity attributes."
+msgstr ""
+
+#: includes/db/class-wc-gc-activity-db.php:341
+msgid "Invalid activity type."
+msgstr ""
+
+#. translators: Gift Card code
+#: includes/db/class-wc-gc-gift-cards-db.php:517
+msgid "Gift card code `%s` exists."
+msgstr ""
+
+#. translators: %s: Email string
+#: includes/db/class-wc-gc-gift-cards-db.php:523
+msgid "Recipient `%s` is an invalid email."
+msgstr ""
+
+#. translators: %s: Email string
+#: includes/db/class-wc-gc-gift-cards-db.php:528
+msgid "Sender `%s` is an invalid email."
+msgstr ""
+
+#: includes/db/class-wc-gc-gift-cards-db.php:548
+msgid "Failed to generate a random code. Maximum number of tries reached."
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:105
+msgid "Recipient email image"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:110
+msgid "None"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:111
+msgid "Use product"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:112
+msgid "Upload custom"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:114
+msgid "Choose an image to display in &quot;Gift Card Received&quot; emails sent to gift card recipients."
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:125
+msgid "Select image"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:126
+msgid "Remove image"
+msgstr ""
+
+#: includes/email-templates/class-wc-gc-email-template-default.php:150
+msgid "The specified \"Recipient Email Image\" was invalid. \"Gift Card Received\" emails will utilize the product image instead."
+msgstr ""
+
+#. translators: product ID
+#: includes/email-templates/class-wc-gc-email-template-default.php:176
+msgid "The specified \"Recipient Email Image\" for variation #%d was invalid. \"Gift Card Received\" emails will utilize the product image instead."
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:39
+msgid "Gift Card received"
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:40
+msgid "&quot;Gift Card Received&quot; e-mails are sent to Gift Card recipients when a new Gift Card code is issued and activated."
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:233
+msgid "{giftcard_from} sent you a {giftcard_amount} gift card for \"{site_title}\""
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:242
+msgid "Your gift card is ready"
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:253
+msgid "Hooray! You just received a gift card from {giftcard_from}:"
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:403
+msgid "Email content"
+msgstr ""
+
+#: includes/emails/class-wc-gc-email-gift-card-received.php:404
+msgid "Text to appear below the main email header."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:75
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:882
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#. translators: 1: param 2: type
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:135
+msgid "%1$s is not of type %2$s"
+msgstr ""
+
+#. translators: 1: param 2: format
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:143
+msgid "%1$s is not of date format: %2$s"
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:172
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:177
+msgid "Resource does not exist."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:310
+msgid "Τhe expiration date cannot precede the creation date."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:315
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:440
+msgid "The delivery date cannot precede the creation date."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:325
+msgid "Invalid meta_data array. \"key/value\" should exist in all entries."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:338
+msgid "Resource cannot be created."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:405
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:410
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:584
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:589
+msgid "Invalid gift card ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:435
+msgid "The expiration date cannot precede the creation date."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:450
+msgid "Invalid meta_data array. At least \"key\" should exist in all entries."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:491
+msgid "Changing the status of an expired gift card is not allowed."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:496
+msgid "Changing the delivery date of a delivered gift card is not allowed."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:527
+msgid "Resource cannot be updated."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:753
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:769
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:820
+msgid "Sorry, you cannot create resources."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:835
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:850
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:864
+msgid "Sorry, you are not allowed to batch manipulate this resource."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:888
+msgid "Code."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:893
+msgid "Recipient."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:899
+msgid "Sender."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:904
+msgid "Sender Email."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:910
+msgid "Message."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:920
+msgid "Remaining balance."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:926
+msgid "Order ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:931
+msgid "Order Item ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:943
+msgid "Delivery date."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:963
+msgid "Date redeemed."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:970
+msgid "Redeemed by user (ID)."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:975
+msgid "Delivered enum (\"no\", 0 for system deliver, > 0 admin id who triggered forced delivery)."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:981
+msgid "Status."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:988
+msgid "Activities."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:996
+msgid "ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1002
+msgid "Type."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1008
+msgid "User ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1014
+msgid "User Email."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1020
+msgid "Object ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1026
+msgid "Gift Card ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1032
+msgid "Gift Card Code."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1038
+msgid "Amount."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1044
+msgid "Date."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1050
+msgid "Note."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1059
+msgid "Meta data."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1066
+msgid "Meta ID."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1072
+msgid "Meta key."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1077
+msgid "Meta value."
+msgstr ""
+
+#. translators: %s: Request method.
+#: includes/rest-api/class-wc-gc-rest-api-gift-cards-v2-controller.php:1183
+msgid "%s batch action could not be executed. No available request attributes."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:171
+msgid "Cannot update gift cards on a non editable order."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:223
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:313
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:346
+msgid "Requested amount for gift card code %s exceeded the order total."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:232
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:317
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:351
+msgid "Not enough balance for gift card code %s."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:365
+msgid "Gift card code %s is invalid."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:370
+msgid "Gift card code %s does not have enough balance."
+msgstr ""
+
+#. translators: %s gift card code.
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:448
+msgid "Gift card code %s not found."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:452
+msgid "Gift card id and code do not match."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:484
+msgid "List of gift cards used in this order."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:504
+msgid "Amount used."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:509
+msgid "Delete flag."
+msgstr ""
+
+#: includes/rest-api/class-wc-gc-rest-api-order-controller.php:514
+msgid "Optional flag."
+msgstr ""
+
+#: includes/wc-gc-functions.php:26
+msgid "Issue"
+msgstr ""
+
+#: includes/wc-gc-functions.php:28
+msgid "Debit"
+msgstr ""
+
+#: includes/wc-gc-functions.php:29
+msgid "Credit"
+msgstr ""
+
+#. translators: %1$s: giftcard code
+#: includes/wc-gc-template-functions.php:25
+msgid "Added gift card code %1$s to your account"
+msgstr ""
+
+#. translators: %1$s: giftcard code, %2$s: order link
+#: includes/wc-gc-template-functions.php:29
+msgid "Refunded to gift card code %1$s via order %2$s"
+msgstr ""
+
+#. translators: %1$s: giftcard code, %2$s: order link
+#: includes/wc-gc-template-functions.php:33
+msgid "Used gift card code %1$s to pay for order %2$s"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:53
+msgid "and 1 more"
+msgstr ""
+
+#. translators: %s: number of emails used
+#: includes/wc-gc-template-functions.php:56
+msgid "and %s more"
+msgid_plural "and %s others"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Gift Card balance
+#: includes/wc-gc-template-functions.php:97
+msgid "Failed to apply gift card. %s on hold in pending orders."
+msgstr ""
+
+#. translators: %1$s pay link, %2$s cta text, %3$s notice text html
+#: includes/wc-gc-template-functions.php:100
+msgid "View orders"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:120
+msgid "Gift card has funds on hold in pending orders. Please contact us for assistance."
+msgstr ""
+
+#. translators: %1$s pending balance, %2$s pay link html
+#: includes/wc-gc-template-functions.php:129
+msgid "Failed to apply gift card. %1$s on hold in order %2$s."
+msgstr ""
+
+#. translators: %1$s pending balance, %2$s pay link html
+#: includes/wc-gc-template-functions.php:134
+msgid "%1$s on hold in order %2$s"
+msgstr ""
+
+#. translators: amount of orders
+#: includes/wc-gc-template-functions.php:159
+msgid " and %d more"
+msgstr ""
+
+#. translators: %1$s pending balance, %2$s paylinks comma separated, %3$s more string
+#: includes/wc-gc-template-functions.php:164
+msgid "Failed to apply gift card. %1$s on hold in orders %2$s%3$s."
+msgstr ""
+
+#. translators: %1$s pending balance, %2$s paylinks comma separated, %3$s more string
+#: includes/wc-gc-template-functions.php:169
+msgid "%1$s on hold in orders %2$s%3$s"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:197
+msgid "Enter recipient e-mail"
+msgstr ""
+
+#. translators: delimiter
+#: includes/wc-gc-template-functions.php:203
+msgid "Enter recipient e-mails, separated by comma (%s)"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:242
+msgid "Enter your name"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:266
+msgid "Add your message (optional)"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:299
+msgid "Now"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:302
+msgid "Clear"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:331
+#: assets/js/admin/analytics.js:50
+msgid "Expired"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:338
+msgid "Scheduled"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:348
+msgid "Deactivated"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:364
+msgid "Active"
+msgstr ""
+
+#: includes/wc-gc-template-functions.php:372
+msgid "Inactive"
+msgstr ""
+
+#: templates/cart/apply-gift-card-form.php:29
+msgid "Have a gift card?"
+msgstr ""
+
+#: templates/cart/apply-gift-card-form.php:32
+msgid "Enter your code&hellip;"
+msgstr ""
+
+#: templates/cart/apply-gift-card-form.php:33
+msgid "Apply"
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:39
+msgid "Total before gift cards"
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:70
+#: templates/cart/cart-gift-cards.php:154
+msgid "Remaining Balance:"
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:81
+msgid "Remove"
+msgstr ""
+
+#. translators: remaining balance
+#: templates/cart/cart-gift-cards.php:106
+msgid "Use <strong>%s</strong> from your gift cards balance."
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:110
+msgid "pending orders"
+msgstr ""
+
+#. translators: %1$s: text link, %2$s pending amount
+#: templates/cart/cart-gift-cards.php:113
+msgid " %2$s on hold in %1$s"
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:133
+#: templates/cart/cart-gift-cards.php:135
+msgid "Gift Cards Balance"
+msgstr ""
+
+#: templates/cart/cart-gift-cards.php:184
+msgid "Gift Card Balance"
+msgstr ""
+
+#: templates/emails/html-gift-card-container.php:48
+msgctxt "Email gift card received"
+msgid "Amount"
+msgstr ""
+
+#: templates/emails/html-gift-card-container.php:53
+msgctxt "Email gift card received"
+msgid "Add to your Account"
+msgstr ""
+
+#: templates/emails/html-gift-card-container.php:55
+msgctxt "Email gift card received"
+msgid "or"
+msgstr ""
+
+#: templates/emails/html-gift-card-container.php:58
+#: templates/emails/html-gift-card-container.php:68
+msgctxt "Email gift card received"
+msgid "Use this code at checkout"
+msgstr ""
+
+#: templates/emails/html-gift-card-container.php:63
+msgctxt "Email gift card received"
+msgid "Shop Now"
+msgstr ""
+
+#. translators: %s: Gift card expiration date
+#: templates/emails/html-gift-card-container.php:78
+#: templates/emails/plain/gift-card-received.php:37
+msgctxt "Email gift card received"
+msgid "Expires on %s"
+msgstr ""
+
+#. translators: %s: Gifcard amount
+#: templates/emails/plain/gift-card-received.php:31
+msgctxt "Email gift card received"
+msgid "Amount %s"
+msgstr ""
+
+#. translators: %s: Gifcard code
+#: templates/emails/plain/gift-card-received.php:33
+msgctxt "Email gift card received"
+msgid "Code: %s"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:27
+msgid "Your Balance"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:32
+msgid "Add a gift card?"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:34
+msgid "Enter code&hellip;"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:35
+msgid "Add to your account"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:39
+msgid "Active Gift Cards"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:45
+#: templates/myaccount/giftcards.php:64
+#: templates/myaccount/giftcards.php:101
+#: templates/myaccount/giftcards.php:116
+msgid "Date"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:51
+#: templates/myaccount/giftcards.php:70
+msgid "Available Balance"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:54
+#: templates/myaccount/giftcards.php:81
+msgid "Expires"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:89
+msgid "You have no active gift cards at the moment"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:104
+#: templates/myaccount/giftcards.php:119
+msgid "Description"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:107
+#: templates/myaccount/giftcards.php:122
+msgid "Amount"
+msgstr ""
+
+#: templates/myaccount/giftcards.php:130
+msgid "No activity recorded just yet"
+msgstr ""
+
+#. translators: %s: WC min version
+#: woocommerce-gift-cards.php:225
+msgid "WooCommerce Gift Cards requires at least WooCommerce <strong>%s</strong>."
+msgstr ""
+
+#: assets/js/admin/analytics.js:21
+msgctxt "analytics report menu item"
+msgid "Gift Cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:11
+msgid "Show Gift Cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:17
+msgctxt "analytics filter label"
+msgid "Used"
+msgstr ""
+
+#: assets/js/admin/analytics.js:21
+msgctxt "analytics filter label"
+msgid "Issued"
+msgstr ""
+
+#: assets/js/admin/analytics.js:25
+msgctxt "analytics filter label"
+msgid "Expired"
+msgstr ""
+
+#: assets/js/admin/analytics.js:12
+msgid "Expired Gift Cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:19
+#: assets/js/admin/analytics.js:43
+msgid "Expired Amount"
+msgstr ""
+
+#. translators: Number of Bundles
+#: assets/js/admin/analytics.js:41
+#: assets/js/admin/analytics.js:40
+msgid "%d gift cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:109
+#: assets/js/admin/analytics.js:120
+#: assets/js/admin/analytics.js:109
+#: assets/js/admin/analytics.js:120
+msgid "N/A"
+msgstr ""
+
+#: assets/js/admin/analytics.js:138
+msgid "gift card expired"
+msgid_plural "gift cards expired"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/analytics.js:147
+msgid "expired"
+msgstr ""
+
+#: assets/js/admin/analytics.js:14
+msgid "Issued Gift Cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:21
+#: assets/js/admin/analytics.js:43
+msgid "Issued Amount"
+msgstr ""
+
+#: assets/js/admin/analytics.js:50
+msgid "Issued Date"
+msgstr ""
+
+#: assets/js/admin/analytics.js:57
+msgid "Expiration Date"
+msgstr ""
+
+#: assets/js/admin/analytics.js:138
+msgid "gift card issued"
+msgid_plural "gift cards issued"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/analytics.js:147
+msgid "issued"
+msgstr ""
+
+#: assets/js/admin/analytics.js:12
+msgid "Used Gift Cards"
+msgstr ""
+
+#: assets/js/admin/analytics.js:19
+#: assets/js/admin/analytics.js:42
+msgid "Debited Amount"
+msgstr ""
+
+#: assets/js/admin/analytics.js:26
+#: assets/js/admin/analytics.js:49
+msgid "Credited Amount"
+msgstr ""
+
+#: assets/js/admin/analytics.js:33
+#: assets/js/admin/analytics.js:55
+msgid "Net Amount"
+msgstr ""
+
+#: assets/js/admin/analytics.js:122
+msgid "gift card used"
+msgid_plural "gift cards used"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/analytics.js:131
+msgid "debited"
+msgstr ""
+
+#: assets/js/admin/analytics.js:135
+msgid "credited"
+msgstr ""
+
+#: assets/js/admin/analytics.js:139
+msgid "net"
+msgstr ""

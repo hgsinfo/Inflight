@@ -1,0 +1,902 @@
+# Copyright (C) 2016 Ultimate Appointment Scheduling
+# This file is distributed under the same license as the Ultimate Appointment Scheduling package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Appointment Scheduling 0.13\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultimate-"
+"appointment-scheduling\n"
+"POT-Creation-Date: 2016-03-21 14:11:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-08-16 20:19+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#: Functions/EWD_UASP_Add_Views_Column.php:4
+msgid "# of Views"
+msgstr "Número de Vistas"
+
+#: Functions/EWD_UASP_Get_Events.php:279
+msgid "No Appointments Found"
+msgstr "No se han encontrado citas"
+
+#: Functions/EWD_UASP_IPN.php:137
+msgid "Appointment Payment Received"
+msgstr "Pago de la Cita Recibido"
+
+#: Functions/EWD_UASP_IPN.php:138
+msgid "Hello,"
+msgstr "Hola,"
+
+#: Functions/EWD_UASP_IPN.php:139
+msgid "We've received your payment for you appointment scheduled for "
+msgstr "Hemos recibido su pago por una cita reservada para "
+
+#: Functions/EWD_UASP_IPN.php:140 Functions/EWD_UASP_Reminders.php:52
+msgid "Please confirm the appointment by going to the following link: "
+msgstr "Rogamos confirme la cita visitando el siguiente enlace: "
+
+#: Functions/EWD_UASP_IPN.php:141
+msgid "Thank you and see you at your appointment,"
+msgstr "Gracias por su colaboración, nos vemos en la cita,"
+
+#: Functions/EWD_UASP_Process_Ajax.php:73
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:259
+msgid "Any"
+msgstr "Cualquiera"
+
+#: Functions/EWD_UASP_Reminders.php:50
+msgid "Greetings from "
+msgstr "Saludos de "
+
+#: Functions/EWD_UASP_Reminders.php:53
+msgid "Thank you for your cooperation and see you at your appointment,"
+msgstr "Gracias por su colaboración, nos vemos en la cita,"
+
+#: Functions/EWD_UASP_Reminders.php:57
+msgid "Appointment reminder from "
+msgstr "Recordatorio de cita de "
+
+#: Functions/EWD_UASP_Return_Select_Options.php:37
+#: html/ExceptionDetailsPage.php:18 html/ExceptionsPage.php:227
+msgid "Location:"
+msgstr "Lugar:"
+
+#: Functions/EWD_UASP_Return_Select_Options.php:58
+msgid "Service:"
+msgstr "Servicio:"
+
+#: Functions/EWD_UASP_Return_Select_Options.php:79
+#: html/ExceptionDetailsPage.php:39 html/ExceptionsPage.php:248
+msgid "Service Provider:"
+msgstr "Facilitador de Servicio:"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:79
+msgid "Appointments have been successfully deleted."
+msgstr "Citas borradas."
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:91
+msgid "Hello "
+msgstr "Hola "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:92
+msgid ""
+"This is an automated notification that you've received a new appointment "
+"sign up with the following details:"
+msgstr ""
+"Este es un aviso automático. Has recibido una nueva cita con los siguientes "
+"detalles:"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:93
+msgid "Thanks for booking an appointment. Your appointment details are:"
+msgstr "Gracias por reservar la cita. Los datos de la cita son:"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:94
+msgid "Appointment Time: "
+msgstr "Hora de la Cita"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:95
+msgid "Client Name: "
+msgstr "Nombre del Cliente:"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:96
+msgid "Client Phone: "
+msgstr "Teléfono del cliente: "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:97
+msgid "Client Email: "
+msgstr "Email del cliente: "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:98
+msgid "Service: "
+msgstr "Facilitadores de Servicio: "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:99
+msgid "Service Provider: "
+msgstr "Facilitador de Servicio: "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:100
+msgid "Location: "
+msgstr "Lugar: "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:101
+msgid ""
+"If you need to make any changes to this appointment, please head to the "
+"'Appointments' section of your administration area"
+msgstr ""
+"Si necesita realizar cualquier cambio en esta cita visite la sección de "
+"\"Citas\" de su zona de administración"
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:106
+msgid "New Appointment on "
+msgstr "Nueva Cita el día "
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:179
+msgid "Locations have been successfully deleted."
+msgstr "Citas borradas."
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:225
+msgid "Services have been successfully deleted."
+msgstr "Servicios borrados."
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:299
+msgid "Service providers have been successfully deleted."
+msgstr "Facilitadores de Servicios borrados."
+
+#: Functions/Prepare_EWD_UASP_Data_For_Insertion.php:350
+msgid "Exceptions have been successfully deleted."
+msgstr "Excepciones borradas."
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:5
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:7 html/MainScreen.php:5
+msgid "Locations"
+msgstr "Lugares"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:6
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:39
+#: html/AppointmentsPage.php:86 html/AppointmentsPage.php:134
+#: html/DashboardPage.php:165 html/DashboardPage.php:213
+#: html/ExceptionsPage.php:51 html/ExceptionsPage.php:99
+#: html/ServiceProviderDetailsPage.php:98 html/ServiceProvidersPage.php:177
+#: html/SettingsPage.php:565
+msgid "Location"
+msgstr "Lugar"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:8
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:43
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:78
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:9
+#: html/LocationsPage.php:204
+msgid "Add New Location"
+msgstr "Añadir Nuevo Lugar"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:10
+#: html/LocationDetailsPage.php:49 html/LocationDetailsPage.php:129
+msgid "Edit Location"
+msgstr "Editar Lugar"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:11
+msgid "New Location"
+msgstr "Nuevo Lugar"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:12
+msgid "View Location"
+msgstr "Ver Lugar"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:13
+msgid "Search Locations"
+msgstr "Buscar en Lugares"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:14
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:49
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:84
+msgid "Nothing found"
+msgstr "No se ha encontrado nada"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:15
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:50
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:85
+msgid "Nothing found in Trash"
+msgstr "No se ha encontrado nada en la Papelera"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:40 html/MainScreen.php:6
+msgid "Services"
+msgstr "Servicios"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:41
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:42
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:37
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:41
+#: html/AppointmentsPage.php:72 html/AppointmentsPage.php:120
+#: html/DashboardPage.php:151 html/DashboardPage.php:199
+#: html/SettingsPage.php:571
+msgid "Service"
+msgstr "Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:44
+#: html/ServicesPage.php:157
+msgid "Add New Service"
+msgstr "Añadir Nuevo Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:45
+#: html/ServiceDetailsPage.php:17 html/ServiceDetailsPage.php:49
+msgid "Edit Service"
+msgstr "Editar Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:46
+msgid "New Service"
+msgstr "Nuevo Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:47
+msgid "View Service"
+msgstr "Ver Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:48
+msgid "Search Services"
+msgstr "Buscar en Servicios"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:75
+msgid "Service Providers"
+msgstr "Facilitadores de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:76
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:77
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:43
+#: html/ExceptionsPage.php:58 html/ExceptionsPage.php:106
+#: html/SettingsPage.php:577
+msgid "Service Provider"
+msgstr "Facilitador de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:79
+#: html/ServiceProvidersPage.php:263
+msgid "Add New Service Provider"
+msgstr "Añadir Nuevo Facilitador de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:80
+#: html/ServiceProviderDetailsPage.php:44
+#: html/ServiceProviderDetailsPage.php:212
+msgid "Edit Service Provider"
+msgstr "Editar Facilitador de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:81
+msgid "New Service Provider"
+msgstr "Nuevo Facilitador de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:82
+msgid "View Service Provider"
+msgstr "Ver Facilitador de Servicio"
+
+#: Functions/Register_EWD_UASP_Posts_Taxonomies.php:83
+msgid "Search Service Providers"
+msgstr "Buscar en Facilitadores de Servicio"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:26
+msgid "Appointment has been successfully created."
+msgstr "Su Cita ha sido creada"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:53
+msgid "Appointment has been successfully edited."
+msgstr "Su Cita ha sido Editada"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:67
+msgid "Appointment has been successfully deleted."
+msgstr "Cita borrada."
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:86
+msgid "Location has been successfully created."
+msgstr "El Lugar ha sido Creado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:106
+msgid "Location has been successfully edited."
+msgstr "El Lugar ha sido Editado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:115
+msgid "Location has been successfully deleted."
+msgstr "Lugar borrado."
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:134
+msgid "Service has been successfully created."
+msgstr "El Servicio ha sido Creado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:154
+msgid "Service has been successfully edited."
+msgstr "El Servicio ha sido Editado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:163
+msgid "Service has been successfully deleted."
+msgstr "Servicio borrado."
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:186
+msgid "Service provider has been successfully created."
+msgstr "El Facilitador de Servicio ha sido Creado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:210
+msgid "Service provider has been successfully edited."
+msgstr "El Facilitador de Servicio ha sido Editado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:219
+msgid "Service provider has been successfully deleted."
+msgstr "El Facilitador de Servicio ha sido Borrado"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:238
+msgid "Exception has been successfully created."
+msgstr "La Excepción ha sido Creada"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:259
+msgid "Exception has been successfully edited."
+msgstr "La Excepción ha sido Editada"
+
+#: Functions/Update_EWD_UASP_Admin_Databases.php:273
+msgid "Exception has been successfully deleted."
+msgstr "Excepción borrada."
+
+#: Functions/Update_EWD_UASP_Content.php:65
+msgid "The form has not worked correctly. Please contact the plugin developer."
+msgstr ""
+"El formulario no ha funcionado bien. Rogamos contacte con el creador del "
+"plugin"
+
+#: Shortcodes/EWD_UASP_Appointment_Confirmation.php:12
+msgid "Your appointment has been confirmed. Thank you!"
+msgstr "Su Cita ha sido Confirmada ¡Muchas Gracias !"
+
+#: Shortcodes/EWD_UASP_Appointment_Confirmation.php:13
+msgid ""
+"Your appointment could not be confirmed. Please contact the site "
+"administrator."
+msgstr ""
+"No se ha podido confirmar la cita. Póngase en contacto con el administrador "
+"de sitio por favor."
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:29
+msgid "Sign Up"
+msgstr "Apuntarse"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:31
+#: html/AppointmentsPage.php:51 html/AppointmentsPage.php:99
+#: html/DashboardPage.php:130 html/DashboardPage.php:178
+#: html/LocationDetailsPage.php:56 html/LocationsPage.php:42
+#: html/LocationsPage.php:60 html/LocationsPage.php:131
+#: html/ServiceDetailsPage.php:24 html/ServiceProviderDetailsPage.php:51
+#: html/ServiceProvidersPage.php:43 html/ServiceProvidersPage.php:61
+#: html/ServiceProvidersPage.php:132 html/ServicesPage.php:43
+#: html/ServicesPage.php:61 html/ServicesPage.php:132 html/SettingsPage.php:538
+msgid "Name"
+msgstr "Nombre"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:33
+#: html/AppointmentsPage.php:58 html/AppointmentsPage.php:106
+#: html/DashboardPage.php:137 html/DashboardPage.php:185
+msgid "Phone"
+msgstr "Teléfono"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:35
+#: html/ServiceProviderDetailsPage.php:61 html/ServiceProvidersPage.php:142
+#: html/SettingsPage.php:550
+msgid "Email"
+msgstr "Email"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:45
+msgid "Appointment"
+msgstr "Cita"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:47
+msgid "Appointment Date"
+msgstr "Fecha de la Cita"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:49
+#: html/SettingsPage.php:598
+msgid "Find Appointments"
+msgstr "Buscar Citas"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:51
+#: html/SettingsPage.php:603
+msgid "Book Appointment"
+msgstr "Reservar Cita"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:105
+msgid "Please log in to book an appointment"
+msgstr "Por favor regístrese para reservar cita"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:107
+msgid "Login Options:"
+msgstr "Opciones de Registro"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:307
+msgid "Pay in Advance"
+msgstr "Pago por Adelantado"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:345
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:355
+msgid "Logout"
+msgstr "Terminar Sesión"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:361
+msgid "You have been successfully logged out via Facebook. "
+msgstr "Ha Terminado la Sesión vía Facebook"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:363
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:371
+msgid "Please reload the page"
+msgstr "Vuelva a cargar la página, por favor"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:365
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:373
+msgid "if you'd like to log in again"
+msgstr "si quiere volver a iniciar sesión"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:369
+msgid "You have been successfully logged out via Twitter. "
+msgstr "Ha Terminado la Sesión via Twitter"
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:428
+msgid "WordPress Login"
+msgstr "Iniciar Sesión con WordPress "
+
+#: Shortcodes/EWD_UASP_Dropdown_Appointment_Selector.php:433
+msgid "Login"
+msgstr "Iniciar Sesión"
+
+#: html/AdminHeader.php:2
+msgid "Ultimate Appointment Scheduling Settings"
+msgstr "Ajustes de Ultimate Appointment Scheduling"
+
+#: html/AppointmentDetailsPage.php:11 html/AppointmentDetailsPage.php:43
+msgid "Edit Appointment"
+msgstr "Editar Cita"
+
+#: html/AppointmentDetailsPage.php:28 html/AppointmentsPage.php:232
+msgid "Client Name"
+msgstr "Nombre del Cliente"
+
+#: html/AppointmentDetailsPage.php:30 html/AppointmentsPage.php:234
+msgid "The name of the client that the appointment is being booked for."
+msgstr "Nombre del cliente para el que se está reservando la cita"
+
+#: html/AppointmentDetailsPage.php:33 html/AppointmentsPage.php:237
+msgid "Client Phone"
+msgstr "Teléfono del Cliente"
+
+#: html/AppointmentDetailsPage.php:35 html/AppointmentsPage.php:239
+msgid ""
+"The phone number of the client that the appointment is being booked for."
+msgstr "Teléfono del cliente para el que se está reservando la cita"
+
+#: html/AppointmentDetailsPage.php:38 html/AppointmentsPage.php:242
+msgid "Client Email"
+msgstr "Email del Cliente"
+
+#: html/AppointmentDetailsPage.php:40 html/AppointmentsPage.php:244
+msgid "The email of the client that the appointment is being booked for."
+msgstr "Email del cliente para el que se está reservando la cita"
+
+#: html/AppointmentsPage.php:27 html/AppointmentsPage.php:179
+#: html/DashboardPage.php:106 html/DashboardPage.php:258
+#: html/ExceptionsPage.php:27 html/ExceptionsPage.php:191
+#: html/LocationsPage.php:26 html/LocationsPage.php:107
+#: html/ServiceProvidersPage.php:27 html/ServiceProvidersPage.php:108
+#: html/ServicesPage.php:27 html/ServicesPage.php:108
+msgid "Bulk Actions"
+msgstr "Acciones en Masa"
+
+#: html/AppointmentsPage.php:28 html/AppointmentsPage.php:156
+#: html/AppointmentsPage.php:180 html/DashboardPage.php:107
+#: html/DashboardPage.php:235 html/DashboardPage.php:259
+#: html/ExceptionsPage.php:28 html/ExceptionsPage.php:156
+#: html/ExceptionsPage.php:169 html/ExceptionsPage.php:192
+#: html/LocationsPage.php:88 html/LocationsPage.php:108
+#: html/ServiceProvidersPage.php:89 html/ServiceProvidersPage.php:109
+#: html/ServicesPage.php:89 html/ServicesPage.php:109
+msgid "Delete"
+msgstr "Eliminar"
+
+#: html/AppointmentsPage.php:30 html/AppointmentsPage.php:182
+#: html/DashboardPage.php:109 html/DashboardPage.php:261
+#: html/ExceptionsPage.php:30 html/ExceptionsPage.php:194
+#: html/LocationsPage.php:29 html/ServiceProvidersPage.php:30
+#: html/ServicesPage.php:30
+msgid "Apply"
+msgstr "Aplicar"
+
+#: html/AppointmentsPage.php:33 html/AppointmentsPage.php:185
+#: html/DashboardPage.php:112 html/DashboardPage.php:264
+#: html/ExceptionsPage.php:33 html/ExceptionsPage.php:197
+msgid "items"
+msgstr "items"
+
+#: html/AppointmentsPage.php:37 html/AppointmentsPage.php:189
+#: html/DashboardPage.php:116 html/DashboardPage.php:268
+#: html/ExceptionsPage.php:37 html/ExceptionsPage.php:201
+msgid "of"
+msgstr "de"
+
+#: html/AppointmentsPage.php:65 html/AppointmentsPage.php:113
+#: html/DashboardPage.php:144 html/DashboardPage.php:192
+msgid "Date/Time"
+msgstr "Fecha/Hora"
+
+#: html/AppointmentsPage.php:79 html/AppointmentsPage.php:127
+#: html/DashboardPage.php:158 html/DashboardPage.php:206
+msgid "Provider"
+msgstr "Facilitador de Servicio"
+
+#: html/AppointmentsPage.php:216 html/AppointmentsPage.php:247
+msgid "Add New Appointment"
+msgstr "Añadir Nueva Cita"
+
+#: html/AppointmentsPage.php:224
+msgid "Schedule Appointment"
+msgstr "Fijar la Hora de la Cita"
+
+#: html/DashboardPage.php:5
+msgid "Full Version"
+msgstr "Versión Completa"
+
+#: html/DashboardPage.php:17
+msgid ""
+"Thanks for being an early adopter! As an early adopter, you'll have access "
+"to all the premium features of Ultimate Appointment Scheduling for free."
+msgstr ""
+"Gracias por ser Adoptador Temprano. Como adoptador temprano tendrá acceso a "
+"todos las funciones premium de Ultimate Appointment Scheduling a título "
+"gratuito"
+
+#: html/DashboardPage.php:68
+msgid "Support Options:"
+msgstr "Opciones de Apoyo"
+
+#: html/ExceptionDetailsPage.php:11
+msgid "Edit Exception"
+msgstr "Editar Excepción"
+
+#: html/ExceptionDetailsPage.php:36 html/ExceptionsPage.php:245
+msgid ""
+"The name of the location where the exception is happening (if applicable)."
+msgstr "Nombre del lugar donde ocurre la excepción (si procede)."
+
+#: html/ExceptionDetailsPage.php:55 html/ExceptionsPage.php:264
+msgid ""
+"The name of the service provider the exception applies to (if applicable)."
+msgstr "Nombre del facilitador afectado por la excepción (si procede)"
+
+#: html/ExceptionDetailsPage.php:58 html/ExceptionsPage.php:267
+msgid "Exception Start Date/Time"
+msgstr "Fecha/ Hora del Comienzo de la Excepción"
+
+#: html/ExceptionDetailsPage.php:60 html/ExceptionsPage.php:269
+msgid "The start date/time of the exception."
+msgstr "la fecha/ hora en que comienza la excepción"
+
+#: html/ExceptionDetailsPage.php:63 html/ExceptionsPage.php:272
+msgid "Exception End Date/Time"
+msgstr "Fecha/ Hora del Fin de la Excepción"
+
+#: html/ExceptionDetailsPage.php:65 html/ExceptionsPage.php:274
+msgid "The end date/time of the exception."
+msgstr "la fecha/ hora en que finaliza la excepción"
+
+#: html/ExceptionDetailsPage.php:68 html/ExceptionsPage.php:79
+#: html/ExceptionsPage.php:127 html/ExceptionsPage.php:277
+msgid "Status"
+msgstr ""
+
+#: html/ExceptionDetailsPage.php:73 html/ExceptionsPage.php:282
+msgid "The status that applies during the exception."
+msgstr "El status que se aplica durante la excepción"
+
+#: html/ExceptionDetailsPage.php:76 html/ExceptionsPage.php:86
+#: html/ExceptionsPage.php:134 html/ExceptionsPage.php:285
+msgid "Reason"
+msgstr "Motivo"
+
+#: html/ExceptionDetailsPage.php:78 html/ExceptionsPage.php:287
+msgid "The reason for the exception (if you'd like it to be displayed)."
+msgstr "El motivo de la excepción (si quieres que se muestre) "
+
+#: html/ExceptionDetailsPage.php:80 html/ExceptionsPage.php:220
+#: html/ExceptionsPage.php:289
+msgid "Add New Exception"
+msgstr "Añadir Nueva Excepción"
+
+#: html/ExceptionsPage.php:65 html/ExceptionsPage.php:113
+msgid "Start Date/Time"
+msgstr "Fecha/ Hora Comienzo"
+
+#: html/ExceptionsPage.php:72 html/ExceptionsPage.php:120
+msgid "End Date/Time"
+msgstr "Fecha/ Hora Fin"
+
+#: html/LocationDetailsPage.php:58 html/LocationsPage.php:133
+msgid "The name of the location that will be displayed."
+msgstr "Nombre de Lugar que se Mostrará."
+
+#: html/LocationDetailsPage.php:61 html/LocationsPage.php:47
+#: html/LocationsPage.php:65 html/LocationsPage.php:136
+#: html/ServiceDetailsPage.php:29 html/ServiceProviderDetailsPage.php:56
+#: html/ServiceProvidersPage.php:48 html/ServiceProvidersPage.php:66
+#: html/ServiceProvidersPage.php:137 html/ServicesPage.php:48
+#: html/ServicesPage.php:66 html/ServicesPage.php:137
+msgid "Description"
+msgstr "Descripción"
+
+#: html/LocationDetailsPage.php:63 html/LocationsPage.php:138
+msgid "The description of the location, to help customers itentify it."
+msgstr "Descripción del lugar para ayudar a los clientes a identificarlo"
+
+#: html/LocationDetailsPage.php:69 html/LocationsPage.php:144
+msgid "Open?"
+msgstr "¿Abierto?"
+
+#: html/LocationDetailsPage.php:70 html/LocationsPage.php:145
+#: html/ServiceProviderDetailsPage.php:97 html/ServiceProvidersPage.php:176
+msgid "Day"
+msgstr "Día"
+
+#: html/LocationDetailsPage.php:71 html/LocationsPage.php:146
+msgid "Open"
+msgstr "Abierto"
+
+#: html/LocationDetailsPage.php:72 html/LocationsPage.php:147
+msgid "Close"
+msgstr "Cierre"
+
+#: html/LocationDetailsPage.php:73 html/LocationsPage.php:148
+msgid "Note"
+msgstr "Nota"
+
+#: html/LocationsPage.php:125
+msgid "Add a New Location"
+msgstr "Añadir nuevo lugar"
+
+#: html/MainScreen.php:3
+msgid "Dashboard"
+msgstr "Panel de Control"
+
+#: html/MainScreen.php:4
+msgid "Appointments"
+msgstr "Citas"
+
+#: html/MainScreen.php:7
+msgid "Providers"
+msgstr "Facilitadores de Servicio"
+
+#: html/MainScreen.php:8
+msgid "Exceptions"
+msgstr "Excepciones"
+
+#: html/MainScreen.php:9
+msgid "Settings"
+msgstr "Ajustes"
+
+#: html/ServiceDetailsPage.php:26 html/ServicesPage.php:134
+msgid "The name of the service that will be displayed."
+msgstr "Nombre de Servicio que se Mostrará."
+
+#: html/ServiceDetailsPage.php:31 html/ServicesPage.php:139
+msgid "The description of the service, to help customers itentify it."
+msgstr "Descripción del servicio para ayudar a los clientes a identificarlo"
+
+#: html/ServiceDetailsPage.php:34 html/ServicesPage.php:142
+msgid "Capacity"
+msgstr "Aforo"
+
+#: html/ServiceDetailsPage.php:36 html/ServicesPage.php:144
+msgid ""
+"The number of clients that can sign up for a given session of a service (eg: "
+"class size)."
+msgstr ""
+"El número de clientes que pueden apuntarse a una sesión determinada de un "
+"servicio (por ejemplo: tamaño de grupo) "
+
+#: html/ServiceDetailsPage.php:39 html/ServicesPage.php:147
+msgid "Duration"
+msgstr "Duración"
+
+#: html/ServiceDetailsPage.php:41 html/ServicesPage.php:149
+msgid ""
+"How long it takes for the service to happen (appointment length in minutes)."
+msgstr ""
+"Cuánto tiempo hace falta para realizar el servicio (duración de la cita en "
+"minutos) "
+
+#: html/ServiceDetailsPage.php:44 html/ServicesPage.php:152
+msgid "Price"
+msgstr "Precio"
+
+#: html/ServiceDetailsPage.php:46 html/ServicesPage.php:154
+msgid "How much it costs to sign up for the service."
+msgstr "Cuánto cuesta apuntarse al servicio"
+
+#: html/ServiceProviderDetailsPage.php:53 html/ServiceProvidersPage.php:134
+msgid "The name of the service provider that will be displayed."
+msgstr "Nombre de Facilitador de Servicio que se Mostrará."
+
+#: html/ServiceProviderDetailsPage.php:58 html/ServiceProvidersPage.php:139
+msgid "The description of the service provider, to help customers itentify it."
+msgstr ""
+"Descripción del/la facilitador/a del servicio para ayudar a los clientes a "
+"identificarlo/a"
+
+#: html/ServiceProviderDetailsPage.php:63 html/ServiceProvidersPage.php:144
+msgid ""
+"The email of the service provider, if you'd like to enable emails to the "
+"service provider when an appointment is scheduled."
+msgstr ""
+"El email del/la facilitador/a si quieres habilitar la posibilida de enviarle "
+"un email cuando se fija una cita"
+
+#: html/ServiceProviderDetailsPage.php:66 html/ServiceProvidersPage.php:147
+msgid "Services Offered:"
+msgstr "Servicios Ofrecidos:"
+
+#: html/ServiceProviderDetailsPage.php:82 html/ServiceProvidersPage.php:161
+msgid "What services does the provider offer?"
+msgstr "¿Qué servicios ofrece el/ la facilitador/a?"
+
+#: html/ServiceProviderDetailsPage.php:96 html/ServiceProvidersPage.php:175
+msgid "Working?"
+msgstr "¿Trabajando?"
+
+#: html/ServiceProviderDetailsPage.php:99 html/ServiceProvidersPage.php:178
+msgid "Start"
+msgstr "Comienzo"
+
+#: html/ServiceProviderDetailsPage.php:100 html/ServiceProvidersPage.php:179
+msgid "Finish"
+msgstr "Fin"
+
+#: html/ServiceProvidersPage.php:126
+msgid "Add a New Service Provider"
+msgstr "Añadir Nuevo Facilitador de Servicio"
+
+#: html/ServicesPage.php:126
+msgid "Add a New Service"
+msgstr "Añadir Nuevo Servicio"
+
+#: html/SettingsPage.php:472
+msgid "Australian Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:473
+msgid "Brazilian Real"
+msgstr ""
+
+#: html/SettingsPage.php:474
+msgid "Canadian Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:475
+msgid "Czech Koruna"
+msgstr ""
+
+#: html/SettingsPage.php:476
+msgid "Danish Krone"
+msgstr ""
+
+#: html/SettingsPage.php:477
+msgid "Euro"
+msgstr ""
+
+#: html/SettingsPage.php:478
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:479
+msgid "Hungarian Forint"
+msgstr ""
+
+#: html/SettingsPage.php:480
+msgid "Israeli New Sheqel"
+msgstr "Shequel Israelí"
+
+#: html/SettingsPage.php:481
+msgid "Japanese Yen"
+msgstr ""
+
+#: html/SettingsPage.php:482
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: html/SettingsPage.php:483
+msgid "Mexican Peso"
+msgstr ""
+
+#: html/SettingsPage.php:484
+msgid "Norwegian Krone"
+msgstr ""
+
+#: html/SettingsPage.php:485
+msgid "New Zealand Dollar"
+msgstr "Dólar Neozelandés"
+
+#: html/SettingsPage.php:486
+msgid "Philippine Peso"
+msgstr ""
+
+#: html/SettingsPage.php:487
+msgid "Polish Zloty"
+msgstr ""
+
+#: html/SettingsPage.php:488
+msgid "Pound Sterling"
+msgstr "libra esterlina"
+
+#: html/SettingsPage.php:489
+msgid "Russian Ruble"
+msgstr ""
+
+#: html/SettingsPage.php:490
+msgid "Singapore Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:491
+msgid "Swedish Krona"
+msgstr ""
+
+#: html/SettingsPage.php:492
+msgid "Swiss Franc"
+msgstr ""
+
+#: html/SettingsPage.php:493
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:494
+msgid "Thai Baht"
+msgstr ""
+
+#: html/SettingsPage.php:495
+msgid "Turkish Lira"
+msgstr ""
+
+#: html/SettingsPage.php:496
+msgid "U.S. Dollar"
+msgstr ""
+
+#: html/SettingsPage.php:532
+msgid "'Sign Up' Title"
+msgstr "Titulo \"Apuntarse\""
+
+#: html/SettingsPage.php:544
+msgid "Phone'"
+msgstr "Teléfono"
+
+#: html/SettingsPage.php:559
+msgid "'Service' Title"
+msgstr "Título de \"Servicio\" "
+
+#: html/SettingsPage.php:587
+msgid "'Appointment' Title"
+msgstr "Título de \"Cita\" "
+
+#: html/SettingsPage.php:593
+msgid "Appointment Date'"
+msgstr "Fecha de la Cita"
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Appointment Scheduling"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.EtoileWebDesign.com/wordpress-plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin that lets you schedule appointments, sync with Google calendar, "
+"send out automated reminders, etc."
+msgstr ""
+"Un plugin que te permite fijar citas, sincronizar con el calendario de "
+"Google enviar recordatorios etc. "
+
+#. Author of the plugin/theme
+msgid "Tim Ruse"
+msgstr "Tim Ruse"

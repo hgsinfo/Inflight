@@ -1,0 +1,1701 @@
+/****************************************************
+* SETTING OPTIONS
+****************************************************/
+.ewd-uasp-clear {
+	clear:both;
+}
+.ewd-uasp-hidden {
+  display: none;
+}
+
+.ewd-uasp-textarea {
+	height:150px;
+	width:450px;
+}
+
+.ewd-uasp-appointment-scheduling-button {
+	cursor: pointer;
+	color:#0073aa;
+}
+
+#ewd-uasp-calendar-div{
+	display: none;
+}
+
+.ewd-uasp-calendar-selector  {
+	width: 25%;
+	padding-left: 8%;
+	float: left;
+}
+
+.ewd-uasp-grey-out {
+  background: #CCCCCC;
+  opacity:0.75;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  height: 100%;
+  width: 100%;
+  margin-left: -180px;
+  z-index: 9991;
+}
+.ewd-uasp-calendar-main-event {
+  opacity: 1;
+  position:absolute;
+  top: 80px;
+  margin: 0 auto;
+  width:100%;
+  z-index:9992;
+  background: #FFFFFF;
+  padding: 24px;
+  margin-left: -90px;
+  max-width: 1200px;
+}
+
+
+/****************************************************
+* DROPDOWN APPOINTMENT SCHEDULING STYLES
+****************************************************/
+
+.ewd-uasp-appointment-listing {
+  float: left;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+}
+.ewd-uasp-selected-appointment-time {
+  background: #e0e0e0;
+  border: 1px solid #333333;
+}
+
+
+/***********************************************************
+STATISTICS (IN DASHBOARD)
+***********************************************************/
+
+.ewd-uasp-dashboard-stats {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.ewd-uasp-dashboard-stats-most-booked {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 8px 0;
+  background: #A317BD;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 18px;
+}
+.ewd-uasp-dashboard-stats-most-booked-heading {
+  position: relative;
+  float: left;
+  width: 25%;
+  padding: 8px 0 0;
+  background: #C72BE3;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+.ewd-uasp-dashboard-stats-most-booked-value {
+  position: relative;
+  float: left;
+  width: 25%;
+  padding: 8px 0;
+  background: #C72BE3;
+  color: #fff;
+  text-align: center;
+}
+.ewd-uasp-dashboard-stats-most-booked-value span{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+/********************************************
+NEW CSS
+********************************************/
+.toplevel_page_EWD-UASP-options #Settings select {
+  width: 100% !important;
+}
+
+.ewd-uasp-location-edit-screen {
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  margin-left: 20px;
+}
+
+
+/******************************************************************
+NEW STYLING FOR ADD/DELETE AREAS LIKE WOOCOMMERCE EMAIL REMINDERS
+******************************************************************/
+#ewd-uasp-email-reminders-table th, #ewd-uasp-email-messages-table th {
+  padding: 0 10px !important;
+}
+.ewd-uasp-new-admin-add-button {
+  position: relative;
+  float: left;
+  width: calc(100% - 4px);
+  border: 2px dotted #bbb;
+  text-align: center;
+  padding: 12px 0;
+  color: #999;
+}
+.ewd-uasp-new-admin-add-button:hover {
+  background: #f5f5f5;
+  color: #888;
+}
+
+
+
+
+/***************************************************
+NEW FORMAT FOR APPOINTEMTS TAB
+***************************************************/
+.toplevel_page_EWD-UASP-options #Appointments #col-right.ewd-uasp-admin-products-table-full {
+  width: 100%;
+}
+
+.ewd-uasp-admin-new-product-page-top-part {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.ewd-uasp-admin-new-tab-headings {
+  margin-left: 2px;
+}
+.ewd-uasp-admin-new-product-page-top-part-left {
+  position: relative;
+  float: left;
+  width: 49%;
+}
+.ewd-uasp-admin-add-new-product-buttons-area {
+  position: relative;
+  float: left;
+  width: 100%;
+  width: calc(100% - 2px);
+  margin-bottom: 16px;
+  margin-left: 2px;
+}
+.ewd-uasp-admin-add-new-product-button {
+  position: relative;
+  float: left;
+  margin-right: 13px !important;
+}
+.ewd-uasp-admin-new-product-page-top-part-right {
+  position: relative;
+  float: right;
+  width: 49%;
+  text-align: right;
+}
+.ewd-uasp-admin-export-buttons-area {
+  position: relative;
+  float: right;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.ewd-uasp-admin-export-button {
+  position: relative;
+  float: right;
+  margin-left: 13px !important;
+}
+
+.ewd-uasp-admin-search-orders {
+  position: relative;
+  float: right;
+  width: 320px;
+}
+.ewd-uasp-admin-search-orders-inside {
+  position: relative;
+  float: left;
+  width: 100%;
+  clear: both;
+}
+.ewd-uasp-admin-delete-all-products-button {
+  margin: 8px 0 6px 4px !important;
+  text-align: center;
+  float: right;
+  background-color: #E8274B !important;
+  color: #fff !important;
+}
+.ewd-uasp-admin-delete-all-products-button:hover {
+  background-color: #FA254C !important;
+  color: #fff !important;
+}
+.ewd-uasp-admin-show-hidden-button, .ewd-uasp-admin-search-orders-box, .ewd-uasp-admin-search-orders-input {
+  float: right;
+}
+.ewd-uasp-admin-search-orders-input {
+  margin-right: 4px;
+}
+
+.toplevel_page_EWD-UASP-options #Appointments .form-field p {
+  color: #777;
+}
+
+
+/***************************************************
+NEW FORMAT FOR CREATE AND EDIT APPOINTEMENT SCREENS
+***************************************************/
+
+#ewd-uasp-new-edit-appointment-screen {
+  position: relative;
+  float: left;
+  width: 100%;
+  width: calc(100% - 48px);
+  margin: 0 24px;
+}
+#ewd-uasp-new-edit-appointment-screen #col-left, #ewd-uasp-new-edit-appointment-screen #col-right, .ewd-uasp-appointment-details-wrap {
+  width: 100%;
+}
+.ewd-uasp-admin-add-edit-appointment-content {
+  position: relative;
+  float: left;
+  width: 67%;
+  margin-top: 23px;
+}
+.ewd-uasp-admin-add-edit-appointment-sidebar {
+  position: relative;
+  float: right;
+  width: 30%;
+  margin-top: 23px;
+}
+
+.ewd-uasp-admin-add-edit-appointment-content table.ewd-uasp-admin-edit-product-table-no-th th {
+  display: none;
+}
+.ewd-uasp-admin-add-edit-appointment-content table.ewd-uasp-admin-edit-product-table-no-th td {
+  width: 100%;
+}
+
+.ewd-uasp-admin-closeable-widget-box .ewd-uasp-dashboard-new-widget-box-top {
+  cursor: pointer;
+}
+.ewd-uasp-admin-widget-box-start-closed .ewd-uasp-dashboard-new-widget-box-bottom {
+  display: none;
+}
+.ewd-uasp-admin-edit-product-down-caret {
+  display: none;
+  float: right;
+}
+.ewd-uasp-admin-widget-box-start-closed .ewd-uasp-admin-edit-product-down-caret {
+  display: inline;
+}
+.ewd-uasp-admin-edit-product-up-caret {
+  display: inline;
+  float: right;
+}
+.ewd-uasp-admin-widget-box-start-closed .ewd-uasp-admin-edit-product-up-caret {
+  display: none;
+}
+
+.ewd-uasp-admin-add-edit-appointment-content-full-widget-box {
+  width: 100% !important;
+}
+
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-content .ewd-uasp-dashboard-new-widget-box-bottom th {
+  width: 160px;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-content .ewd-uasp-dashboard-new-widget-box-bottom td {
+  width: calc(100% - 160px);
+}
+
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom p {
+  color: #999;
+}
+
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-sidebar .ewd-uasp-dashboard-new-widget-box-bottom th {
+  width: 80px;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-sidebar .ewd-uasp-dashboard-new-widget-box-bottom td {
+  width: calc(100% - 80px);
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-sidebar .ewd-uasp-dashboard-new-widget-box-bottom select {
+  max-width: 100%;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-sidebar .ewd-uasp-dashboard-new-widget-box-bottom .uasp-tag-input {
+  width: 16px !important;
+  margin-left: 0 !important;
+}
+
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-dropdown-appointment-selector {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto !important;
+  margin-bottom: 0; 
+  padding-bottom: 0;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-book-button-container {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container .ewd-uasp-field {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #23282d;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container .ewd-uasp-appointment-listing {
+  position: relative;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container .ewd-uasp-available-appointments {
+  position: relative;
+  margin: 4px 0 15px 1px;
+  float: left;
+  width: 100%;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container .ewd-uasp-input-label {
+  width: 180px;
+  float: left;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-container .ewd-uasp-input {
+  float: left;
+}
+
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-book-button-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  display: none;
+}
+#ewd-uasp-new-edit-appointment-screen .ewd-uasp-dashboard-new-widget-box-bottom .ewd-uasp-book-button-container label[for="captcha_text"] {
+  width: 180px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.ewd-uasp-admin-edit-product-tag-groups {
+  padding: 0 10px 30px 0;
+}
+.ewd-uasp-admin-edit-product-tag-groups:last-of-type {
+  padding: 0 10px 10px 0;
+}
+
+.ewd-uasp-admin-edit-product-delete-add-image {
+  background: #B32E2E;
+  color: #fff;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.ewd-uasp-admin-edit-product-delete-add-image:hover {
+  background: #D13D3D;
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-wrap p.ewd-uasp-admin-edit-product-submit-p {
+  margin: 0;
+}
+p.submit.ewd-uasp-admin-edit-product-submit-p {
+    padding-top: 0;
+}
+.button-primary.ewd-uasp-admin-edit-product-save-button {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 782px) {
+  .ewd-uasp-admin-add-edit-appointment-content, .ewd-uasp-admin-add-edit-appointment-sidebar {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .ewd-uasp-admin-add-edit-appointment-content-full-widget-box {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  #ewd-uasp-new-edit-appointment-screen .ewd-uasp-admin-add-edit-appointment-sidebar .ewd-uasp-dashboard-new-widget-box-bottom .uasp-tag-input {
+    width: 25px !important;
+  }
+}
+
+
+/*************************************
+NEED HELP BOX ON APPOINTMENT EDIT SCREEN
+*************************************/
+.ewd-uasp-need-help-text {
+  margin: 24px 0 22px;
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.ewd-uasp-need-help-button {
+  display: inherit;
+  width: 70%;
+  padding: 8px 0;
+  margin: 0 15% 16px;
+  text-align: center;
+  background: #f2b52f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ewd-uasp-need-help-button:hover {
+  background: #d7a73f;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/*
+==============================================
+NEW DASHBOARD
+==============================================
+*/
+
+/*** WRAP ***/
+
+.appointments_page_ewd-uasp-dashboard #wpcontent {
+  padding-left: 0;
+}
+
+.ewd-uasp-import-export-container {
+  position: relative;
+  float: left;
+  margin-left: 32px;
+  width: calc(100% - 32px);
+}
+
+
+/*** BANNER ***/
+
+.ewd-uasp-dashboard-new-upgrade-banner {
+  position: relative;
+  float: left;
+  margin-left: -20px;
+  width: calc(100% + 20px);
+  height: 256px;
+  background: url(../img/ewd-uasp-dashboard-banner.png) center no-repeat #1b0f49;
+}
+.ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-icon {
+  position: absolute;
+  height: 112px;
+  width: 112px;
+  left: 172px;
+  top: 72px;
+  background: url(../img/ewd-uasp-icon.png) no-repeat;
+  background-size: 112px 112px;
+}
+.ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-buttons {
+  position: absolute;
+  height: 112px;
+  width: 192px;
+  right: 128px;
+  top: 84px;
+}
+.ewd-uasp-dashboard-new-upgrade-button  {
+  position: relative;
+  float: right;
+  width: 188px;
+  border: 2px solid #0acbaa;
+  background-color: #0acbaa;
+  color: #fff;
+  padding: 6px 0;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.ewd-uasp-dashboard-new-upgrade-button:hover  {
+  background-color: #1CE6C3;
+  border-color: #1CE6C3;
+  color: #fff;
+}
+.ewd-uasp-dashboard-new-upgrade-button.ewd-uasp-dashboard-new-trial-button  {
+  background-color: transparent;
+  color: #0acbaa;
+  font-size: 11px;
+  cursor: pointer;
+  width: 192px;
+}
+.ewd-uasp-dashboard-new-upgrade-button.ewd-uasp-dashboard-new-trial-button:hover  {
+  background-color: #0acbaa;
+  border-color: #0acbaa;
+  color: #fff;
+}
+.ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-text {
+  position: absolute;
+  width: calc(100% - 680px);
+  height: 112px;
+  top: 76px;
+  left: 320px;
+  color: #fff;
+}
+.ewd-uasp-dashboard-banner-title {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 29px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-banner-brief {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1700px) {
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-icon {
+    left: 272px;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-buttons {
+    right: 228px;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-text {
+    width: calc(100% - 880px);
+    left: 420px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-icon {
+    left: 54px;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-buttons {
+    right: 32px;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-text {
+    width: calc(100% - 466px);
+    left: 202px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ewd-uasp-dashboard-new-upgrade-banner {
+    height: 512px;
+    height: 300px;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-icon {
+    left: calc(50% - 56px);
+    top: 48px;
+    display: none;
+  }
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-text {
+    width: 80%;
+    left: 10%;
+    top: 208px;
+    height: 160px;
+    text-align: center;
+    height: 140px;
+    top: 42px;
+  }
+  .ewd-uasp-dashboard-banner-brief {
+    display: none;
+  }  
+  .ewd-uasp-dashboard-new-upgrade-banner .ewd-uasp-dashboard-banner-buttons {
+    right: calc(50% - 96px);
+    top: 368px;
+    top: 172px;
+  }
+}
+
+
+
+/*** MENU ***/
+
+.ewd-uasp-admin-header-menu {
+  background-color: #6026B4;
+  margin-bottom: 16px;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+body.post-type-uasp-service .ewd-uasp-admin-header-menu,
+body.post-type-uasp-location .ewd-uasp-admin-header-menu,
+body.post-type-uasp-provider .ewd-uasp-admin-header-menu,
+body.post-type-uasp-exception .ewd-uasp-admin-header-menu,
+.toplevel_page_ewd-uasp-appointments .ewd-uasp-admin-header-menu,
+.appointments_page_ewd-uasp-settings .ewd-uasp-admin-header-menu,
+.appointments_page_ewd-uasp-import .ewd-uasp-admin-header-menu,
+.appointments_page_ewd-uasp-export .ewd-uasp-admin-header-menu,
+.appointments_page_ewd-uasp-add-edit-appointment .ewd-uasp-admin-header-menu {
+  margin-left: -20px;
+  width: calc(100% + 20px);
+}
+.ewd-uasp-admin-header-menu .nav-tab-wrapper, .wrap .ewd-uasp-admin-header-menu h2.nav-tab-wrapper {
+  border-bottom: 0 !important;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: inherit;
+}
+.ewd-uasp-admin-header-menu .nav-tab {
+  border: none;
+  margin-left: 0;
+  padding: 12px 48px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #6026B4;
+  color: #fff;
+  border-right: 1px solid #854DD6;
+}
+
+.ewd-uasp-admin-header-menu .nav-tab:hover {
+  background: #682CBF;
+}
+.ewd-uasp-admin-header-menu .nav-tab-active {
+  background: #682CBF;
+  color: #fff;
+}
+.ewd-uasp-admin-header-menu .nav-tab-active:hover {
+  background: #682CBF;
+  color: #fff;
+}
+.ewd-uasp-admin-header-menu .nav-tab#ewd-uasp-dash-mobile-menu-open {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .ewd-uasp-admin-header-menu .nav-tab {
+    padding: 12px 32px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .ewd-uasp-admin-header-menu .nav-tab {
+    padding: 12px 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ewd-uasp-admin-header-menu .nav-tab {
+    padding: 12px 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid #854DD6;
+  }
+  .ewd-uasp-admin-header-menu .nav-tab:last-of-type {
+    border-bottom: none;
+  }
+  .ewd-uasp-admin-header-menu .nav-tab {
+    display: none;
+  }
+  .ewd-uasp-admin-header-menu .nav-tab#ewd-uasp-dash-mobile-menu-open {
+    display: block;
+  }
+  #ewd-uasp-dash-mobile-menu-up-caret {
+    display: none;
+  }
+  #ewd-uasp-dash-mobile-menu-down-caret {
+    display: inline;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*** CONTENT ***/
+
+#ewd-uasp-dashboard-content-area {
+  position: relative;
+  float: left;
+  width: calc(100% - 162px);
+  margin: 32px 20px 32px 142px;
+}
+#ewd-uasp-dashboard-content-left {
+  position: relative;
+  float: left;
+  width: 74%;
+}
+#ewd-uasp-dashboard-content-right {
+  position: relative;
+  float: right;
+  width: 24%;
+}
+
+.ewd-uasp-dashboard-new-widget-box {
+  position: relative;
+  float: left;
+  background: #fff;
+  box-shadow: -2px 2px 6px #ccc;
+  margin-bottom: 16px;
+}
+.ewd-uasp-dashboard-new-widget-box.ewd-widget-box-full {
+  width: 100%;
+}
+.ewd-uasp-dashboard-new-widget-box.ewd-widget-box-two-thirds {
+  width: 66%;
+}
+.ewd-uasp-dashboard-new-widget-box.ewd-widget-box-one-third {
+  width: 32%;
+  margin-left: 2%;
+}
+.ewd-uasp-dashboard-new-widget-box-top, .ewd-uasp-dashboard-new-widget-box-bottom {
+  position: relative;
+  float: left;
+  width: calc(100% - 32px);
+  padding: 8px 16px;
+  color: #777;
+}
+.ewd-uasp-dashboard-new-widget-box-top {
+  padding: 12px 16px;
+  font-weight: bold;
+  color: #444;
+}
+.ewd-uasp-dashboard-new-widget-box-bottom {
+  border-top: 1px solid #e2e2e2;
+}
+
+.ewd-uasp-dashboard-key-widget {
+  position: relative; 
+  float: left;
+  width: calc(100% - 144px);
+  min-height: 30px;
+  margin: 24px 24px 8px;
+  padding: 0 0 0 96px;
+  background-image: url(../img/dash-asset-key.png);
+  background-position: left top;
+  background-size: 64px 30px;
+  background-repeat: no-repeat;
+}
+.ewd-uasp-dashboard-key-widget-input {
+  position: relative;
+  float: left;
+  width: calc(65% - 2px);
+  height: 30px;
+  padding: 4px 8px !important;
+  background: none;
+  border: 1px solid #e2e2e2 !important;
+  margin: 0 !important;
+}
+.ewd-uasp-dashboard-key-widget-input::placeholder {
+  color: #bbb;
+}
+.ewd-uasp-dashboard-key-widget-submit {
+  position: relative;
+  float: left;
+  width: 35%;
+  height: 30px;
+  font-size: 14px;
+  background: #f2b52f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 !important;
+}
+.ewd-uasp-dashboard-key-widget-submit:hover {
+  background: #F2BD49;
+}
+.ewd-uasp-dashboard-key-widget-text {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 7px;
+  font-size: 11px;
+  color: #888;
+  font-style: italic;
+  font-weight: normal;
+}
+.ewd-uasp-dashboard-key-widget-text a {
+  color: #0acbaa;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-key-widget-text a:hover {
+  color: #1CE6C3;
+  text-decoration: none;
+}
+
+#ewd-uasp-dashboard-support-widget-box .ewd-uasp-dashboard-new-widget-box-top {
+  cursor: pointer;
+}
+#ewd-uasp-dash-mobile-support-down-caret {
+  display: none;
+  float: right;
+}
+#ewd-uasp-dash-mobile-support-up-caret {
+  display: inline;
+  float: right;
+}
+.ewd-uasp-dashboard-support-widgets {
+  position: relative;
+  float: left;
+  width: 90%;
+  padding: 14px 5%;
+}
+.ewd-uasp-dashboard-support-widgets li {
+  position: relative;
+  float: left;
+  width: 18.25%;
+  margin-right: 9%;
+}
+.ewd-uasp-dashboard-support-widgets li:last-of-type {
+  margin-right: 0;
+}
+.ewd-uasp-dashboard-support-widgets li a {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-support-widgets li a:hover {
+  color: #6026B4;
+}
+.ewd-uasp-dashboard-support-widgets li img {
+  position: relative;
+  float: left;
+  width: 80%;
+  height: auto;
+  border: none;
+  padding: 0 10% 12px;
+}
+.ewd-uasp-dashboard-support-widgets li .ewd-uasp-dashboard-support-widgets-text {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 2px;
+}
+
+#ewd-uasp-dashboard-optional-table .ewd-uasp-dashboard-new-widget-box-top {
+  cursor: pointer;
+}
+#ewd-uasp-dash-optional-table-down-caret {
+  display: none;
+  float: right;
+}
+#ewd-uasp-dash-optional-table-up-caret {
+  display: inline;
+  float: right;
+}
+
+.ewd-uasp-dashboard-testimonials {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.ewd-uasp-dashboard-testimonials li {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.ewd-uasp-dashboard-testimonials li img {
+  position: relative;
+  float: left;
+  width: 140px;
+  height: auto;
+  margin-top: 8px;
+  margin-left: calc(50% - 70px);
+}
+.ewd-uasp-dashboard-testimonials li .ewd-uasp-dashboard-testimonial-title {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 28px 0 20px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-testimonials li .ewd-uasp-dashboard-testimonial-author {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 16px;
+}
+.ewd-uasp-dashboard-testimonials li .ewd-uasp-dashboard-testimonial-text {
+  position: relative;
+  float: left;
+  width: 80%;
+  margin: 24px 10% 0;
+  font-size: 12px;
+}
+.ewd-uasp-dashboard-testimonials li .ewd-uasp-dashboard-testimonial-text a {
+  color: #0acbaa;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-testimonials li .ewd-uasp-dashboard-testimonial-text a:hover {
+  color: #1CE6C3;
+}
+
+.ewd-uasp-dashboard-review-ask {
+  position: relative;
+  float: left;
+  width: calc(100% - 32px);
+  padding: 16px 16px 12px;
+  text-align: center;
+}
+.ewd-uasp-dashboard-review-ask img {
+  position: relative;
+  float: left;
+  width: 110px;
+  height: auto;
+  margin-left: calc(50% - 55px);
+}
+.ewd-uasp-dashboard-review-ask-text {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 24px 0;
+}
+.ewd-uasp-dashboard-review-ask-button  {
+  clear: both;
+  position: relative;
+  float: left;
+  width: calc(100% - 2px);
+  border: 1px solid #888;
+  background-color: transparent;
+  color: #888;
+  padding: 6px 0;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.ewd-uasp-dashboard-review-ask-button:hover  {
+  background-color: #888;
+  border-color: #888;
+  color: #fff;
+}
+.ewd-uasp-dashboard-review-ask-dismiss {
+  position: relative;
+  float: left;
+  background: transparent;
+  border: none;
+  margin: 16px 0 0 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.ewd-uasp-dashboard-review-ask-dismiss:hover {
+  color: #555;
+}
+
+.ewd-uasp-dashboard-guarantee {
+  position: relative; 
+  float: left;
+  width: calc(100% - 208px);
+  min-height: 127px;
+  margin: 20px 24px;
+  padding: 0 0 0 160px;
+  background-image: url(../img/dash-asset-badge.png);
+  background-position: left top;
+  background-size: 128px 127px;
+  background-repeat: no-repeat;
+  color: #777;
+}
+.ewd-uasp-dashboard-guarantee-title, .ewd-uasp-dashboard-guarantee-text {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 16px;
+}
+.ewd-uasp-dashboard-guarantee-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+.ewd-uasp-dashboard-guarantee-text {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.ewd-uasp-dashboard-get-premium-widget-trial-time {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  background: #6026B4;
+}
+.ewd-uasp-dashboard-get-premium-widget-trial-days, .ewd-uasp-dashboard-get-premium-widget-trial-hours {
+  position: relative;
+  float: left;
+  text-align: center;
+  color: #fff;
+  font-size: 43px;
+  line-height: 35px;
+  padding: 24px 0 8px;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-get-premium-widget-trial-days span, .ewd-uasp-dashboard-get-premium-widget-trial-hours span {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-weight: normal;  
+}
+.ewd-uasp-dashboard-get-premium-widget-trial-days {
+  width: calc(50% - 7px);
+  border-right: 7px solid #fff;
+}
+.ewd-uasp-dashboard-get-premium-widget-trial-hours {
+  width: 50%;
+}
+.ewd-uasp-dashboard-get-premium-widget-trial-time-left {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 28px 0 24px;
+  color: #6026B4;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-get-premium-widget-features-title {
+  position: relative;
+  float: left;
+  width: calc(100% - 16px);
+  padding: 8px 8px 10px;
+  color: #0acbaa;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-get-premium-widget-features {
+  position: relative;
+  float: left;
+  width: calc(100% - 16px);
+  padding: 0 8px;
+  -webkit-margin-after: 0;
+}
+.ewd-uasp-dashboard-get-premium-widget-features li {
+  clear: both;
+  position: relative;
+  float: left;
+  width: calc(100% - 36px);
+  margin-bottom: 8px;
+  padding-left: 36px;
+  background-image: url(../img/dash-asset-checkmark.png);
+  background-position: left top;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-style: italic;
+}
+.ewd-uasp-dashboard-get-premium-widget-features li:last-of-type {
+  background-image: none;
+}
+.ewd-uasp-dashboard-get-premium-widget-button  {
+  clear: both;
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  margin: 16px 8px 10px;
+  border: 2px solid #0acbaa;
+  background-color: #0acbaa;
+  color: #fff;
+  padding: 6px 0;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.ewd-uasp-dashboard-get-premium-widget-button:hover  {
+  background-color: #1CE6C3;
+  border-color: #1CE6C3;
+  color: #fff;
+}
+.ewd-uasp-dashboard-get-premium-widget-button.ewd-uasp-dashboard-new-trial-button  {
+  background-color: transparent;
+  color: #0acbaa;
+  font-size: 11px;
+  cursor: pointer;
+  width: calc(100% - 16px);
+  margin: 0 8px 16px; 
+}
+.ewd-uasp-dashboard-get-premium-widget-button.ewd-uasp-dashboard-new-trial-button:hover  {
+  background-color: #0acbaa;
+  border-color: #0acbaa;
+  color: #fff;
+}
+
+.ewd-uasp-dashboard-other-plugins {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.ewd-uasp-dashboard-other-plugins li {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.ewd-uasp-dashboard-other-plugins li:last-of-type {
+  margin-bottom: 12px;
+}
+.ewd-uasp-dashboard-other-plugins li img {
+  position: relative;
+  float: left;
+  width: 64px;
+  height: auto;
+  margin-right: 16px;
+  border: none;
+}
+.ewd-uasp-dashboard-other-plugins li .ewd-uasp-dashboard-other-plugins-text {
+  position: relative;
+  float: left;
+  width: calc(100% - 80px);
+}
+.ewd-uasp-dashboard-other-plugins li .ewd-uasp-dashboard-other-plugins-title {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  color: #444;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-other-plugins li .ewd-uasp-dashboard-other-plugins-blurb {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 11px;
+  margin-top: 8px;
+}
+
+/** NEED HELP BOX ON PRODUCT EDIT SCREEN **/
+.ewd-uasp-need-help-text {
+  margin: 24px 0 22px;
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.ewd-uasp-need-help-button {
+  display: inherit;
+  width: 40%;
+  padding: 8px 0;
+  margin: 0 30% 16px;
+  text-align: center;
+  background: #f2b52f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.ewd-uasp-need-help-button:hover {
+  background: #d7a73f;
+  color: #fff;
+  text-decoration: none;
+}
+
+#ewd-uasp-dashboard-restart-walkthrough-widget-box .ewd-uasp-dashboard-new-widget-box-top {
+  cursor: pointer;
+}
+#ewd-uasp-dashboard-restart-walkthrough-down-caret {
+  display: none;
+  float: right;
+}
+#ewd-uasp-dashboard-restart-walkthrough-up-caret {
+  display: inline;
+  float: right;
+}
+
+@media screen and (min-width: 1441px) {
+  #ewd-uasp-dashboard-content-area {
+    width: calc(100% - 194px);
+    margin: 32px 20px 32px 174px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #ewd-uasp-dashboard-content-area {
+    width: calc(100% - 40px);
+    margin: 16px 20px 32px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ewd-uasp-dashboard-key-widget-submit {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #ewd-uasp-dashboard-content-left, #ewd-uasp-dashboard-content-right {
+    float: left;
+    width: 100%;
+  }
+  .ewd-uasp-dashboard-new-widget-box.ewd-widget-box-two-thirds, .ewd-uasp-dashboard-new-widget-box.ewd-widget-box-one-third {
+    width: 100%;
+    margin-left: 0;
+  }  
+
+  .ewd-uasp-dashboard-key-widget {
+    width: calc(100% - 48px);
+    margin: 16px 24px 8px;
+    padding: 54px 0 0 0;
+    background-image: url(../img/dash-asset-key.png);
+    background-size: 64px 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .ewd-uasp-dashboard-key-widget-input {
+    width: 100%;
+  }
+  .ewd-uasp-dashboard-key-widget-submit {
+    width: 100%;
+    margin: 8px 0 0 0 !important;
+    font-size: 14px;
+  }
+  .ewd-uasp-dashboard-key-widget-text {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .ewd-uasp-dashboard-support-widgets {
+    width: 90%;
+    padding: 0 5%;
+  }
+  .ewd-uasp-dashboard-support-widgets li {
+    width: 100%;
+    margin: 0 0 12px 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  .ewd-uasp-dashboard-support-widgets li:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .ewd-uasp-dashboard-support-widgets li a {
+    text-align: left;
+    color: #444;
+  }
+  .ewd-uasp-dashboard-support-widgets li a:hover {
+    color: #6026B4;
+  }
+  .ewd-uasp-dashboard-support-widgets li img {
+    width: 32px;
+    height: 32px;
+    padding: 0 24px 0 16px;
+  }
+  .ewd-uasp-dashboard-support-widgets li .ewd-uasp-dashboard-support-widgets-text {
+    width: calc(100% - 72px);
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  #ewd-uasp-dashboard-support-widget-box .ewd-uasp-dashboard-new-widget-box-bottom {
+    border-top: none;
+  }
+
+  #ewd-uasp-dashboard-get-premium-widget-box {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #ewd-uasp-dashboard-guarantee-widget-box {
+    background: #6026B4;    
+  }
+  .ewd-uasp-dashboard-guarantee {
+    width: calc(100% - 48px);
+    padding: 0;
+    height: 199px;
+    background-image: url(../img/dash-asset-badge.png);
+    background-size: 200px 199px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .ewd-uasp-dashboard-guarantee-title, .ewd-uasp-dashboard-guarantee-text {
+    display: none;
+  }
+}
+
+
+
+/*** FOOTER ***/
+
+#ewd-uasp-dashboard-new-footer-one {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #fff;
+  color: #777;
+}
+.ewd-uasp-dashboard-new-footer-one-inside {
+  position: relative;
+  float: left;
+  width: 80%;
+  margin: 0 10%;
+}
+.ewd-uasp-dashboard-new-footer-one-left {
+  position: relative;
+  float: left;
+  width: calc(100% - 224px);
+  margin-bottom: 32px;
+}
+.ewd-uasp-dashboard-new-footer-one-title {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 56px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.ewd-uasp-dashboard-new-footer-one-benefits {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 32px;
+}
+.ewd-uasp-dashboard-new-footer-one-benefits li {
+  position: relative;
+  float: left;
+  width: calc(33.333333% - 36px);
+  margin-bottom: 11px;
+  padding-left: 36px;
+  background-image: url(../img/dash-asset-checkmark.png);
+  background-position: left top;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-style: italic;
+}
+
+.ewd-uasp-dashboard-new-footer-one-buttons {
+  position: relative;
+  float: right;
+  width: 192px;
+  margin-top: 112px;
+}
+
+#ewd-uasp-dashboard-new-footer-two {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #150947;
+  color: #efd3f5;
+}
+.ewd-uasp-dashboard-new-footer-two-inside {
+  position: relative;
+  float: left;
+  width: 90%;
+  margin: 48px 5%;
+}
+.ewd-uasp-dashboard-new-footer-two-icon {
+  position: relative;
+  float: left;
+  width: 110px;
+  height: auto;
+  margin-right: 40px;
+}
+.ewd-uasp-dashboard-new-footer-two-blurb {
+  position: relative;
+  float: left;
+  width: 300px;
+  line-height: 1.7;
+  font-size: 12px;
+}
+.ewd-uasp-dashboard-new-footer-two-menu {
+  position: relative;
+  float: right;
+  width: 150px;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+.ewd-uasp-dashboard-new-footer-two-menu li {
+  clear: both;
+  position: relative;
+  float: right;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 13px;
+}
+.ewd-uasp-dashboard-new-footer-two-menu li:first-of-type {
+  margin-bottom: 9px;
+}
+.ewd-uasp-dashboard-new-footer-two-menu li:last-of-type {
+  margin-bottom: 0;
+}
+.ewd-uasp-dashboard-new-footer-two-menu li a {
+  font-weight: normal;
+  color: #D3DFF5;
+  text-decoration: none;
+  font-size: 12px;
+}
+.ewd-uasp-dashboard-new-footer-two-menu li a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .ewd-uasp-dashboard-new-footer-one-left {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .ewd-uasp-dashboard-new-footer-one-title {
+    margin-top: 56px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .ewd-uasp-dashboard-new-footer-one-benefits li {
+    width: calc(50% - 36px);
+  }
+  .ewd-uasp-dashboard-new-footer-one-buttons {
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+  .ewd-uasp-dashboard-new-footer-one-buttons .ewd-uasp-dashboard-new-upgrade-button {
+    float: left;
+    margin-left: calc(50% - 96px);
+  }
+
+  .ewd-uasp-dashboard-new-footer-two-icon {
+    clear: both;
+    float: left;
+    margin: 0 0 16px calc(50% - 55px);
+  }
+  .ewd-uasp-dashboard-new-footer-two-blurb {
+    display: none;
+  }
+  .ewd-uasp-dashboard-new-footer-two-menu {
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .ewd-uasp-dashboard-new-footer-two-menu li {
+    float: left;
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 17px;
+  }
+  .ewd-uasp-dashboard-new-footer-two-menu li:first-of-type {
+    margin-bottom: 9px;
+  }
+  .ewd-uasp-dashboard-new-footer-two-menu li:last-of-type {
+    margin-bottom: 0;
+  }
+  .ewd-uasp-dashboard-new-footer-two-menu li a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .ewd-uasp-dashboard-new-footer-one-benefits li {
+    clear: both;
+    width: calc(100% - 36px);
+  }
+}
+
+
+/************
+**** NEW ****
+************/
+
+.ewd-uasp-send-test-email {
+  background: #0acbaa;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.ewd-uasp-send-test-email:hover {
+  background: #34eccd;
+}
+
+/** date filtering **/
+
+.ewd-uasp-views {
+  position: relative;
+  float: left;
+  z-index: 2;
+}
+
+.ewd-uasp-views-date_range {
+  float: none;
+  clear: both;
+}
+.ewd-uasp-views-date_range li {
+  margin-top: 8px;
+}
+
+#ewd-uasp-filters {
+	position: relative;
+}
+
+#ewd-uasp-filters .date-filters {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	display: inline-block;
+	padding: 12px;
+  background: #fff;
+  box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+#ewd-uasp-filters.date-filters-visible .date-filters {
+	position: relative;
+	top: 15px;
+  left: 0;
+  width: 300px;
+}
+
+#ewd-uasp-filters .date-filters .datepicker {
+	max-width: 10em;
+}
+
+#ewd-uasp-filters .date-filter-range {
+	padding: 0.25em;
+}
+
+#ewd-uasp-date-filter-link {
+	position: relative;
+}
+
+#ewd-uasp-date-filter-link .dashicons {
+	line-height: 1.5;
+}
+
+#ewd-uasp-filters .date-filter-range + #ewd-uasp-date-filter-link {
+	margin-left: 0.5em;
+}
+
+#ewd-uasp-date-filter-link .ewd-uasp-date-filter-label {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#ewd-uasp-filters.date-filters-visible #ewd-uasp-date-filter-link {
+	color: #777;
+}
+
+.ewd-uasp-admin-bookings-filters-start,
+.ewd-uasp-admin-bookings-filters-end {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 4px;
+}
+.ewd-uasp-admin-bookings-filters-start input,
+.ewd-uasp-admin-bookings-filters-end input {
+  position: relative;
+  float: left;
+  width: calc(50% - 4px);
+  margin: 0 2px 4px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  color: #555;
+  border-radius: 2px;
+}
+.ewd-uasp-admin-bookings-filters-start input::placeholder,
+.ewd-uasp-admin-bookings-filters-end input::placeholder {
+  color: #555;
+}
+
+/** Locations, Services and Providers meta boxes **/
+.ewd-uasp-meta-field {
+  margin-bottom: 12px;
+}
+.ewd-uasp-meta-field label {
+  display: inline-block;
+  width: 150px;
+}
+@media screen and (max-width: 768px) {
+  .ewd-uasp-meta-field label {
+    width: 100%;
+  }
+}
+
+
+/**********************************
+*** NEW EDIT APPOINTMENT SCREEN ***
+**********************************/
+
+.ewd-uasp-admin-add-edit-appointment-content .ewd-uasp-service,
+.ewd-uasp-admin-add-edit-appointment-content .ewd-uasp-find-appointment,
+.ewd-uasp-admin-add-edit-appointment-content .ewd-uasp-registration-form {
+  border: none;
+}
+
+/*************************
+SETTINGS PREVIEW SCREENS
+*************************/
+.ewd-uasp-settings-preview h2 {
+  font-size: 24px !important;
+}
+.ewd-uasp-settings-preview h2 span {
+  position: absolute;
+  margin-left: 16px;
+  font-size: .45em;
+  color: #fff;
+  background: #aaa;
+  border-radius: 50px;
+  padding: 2px 8px;
+  text-transform: uppercase;
+}
+
+.ewd-uasp-settings-preview-images {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 36px 0 48px;
+}
+.ewd-uasp-settings-preview img {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  width: 35%;
+  height: auto;
+  border: 8px solid #ddd;
+  margin-right: 40px;
+}
+
+.ewd-uasp-settings-preview .ewd-uasp-dashboard-new-footer-one-benefits {
+  margin-top: 24px;
+}
+
+.ewd-uasp-settings-preview .ewd-uasp-dashboard-new-footer-one-buttons {
+  float: left;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 568px) {
+  .ewd-uasp-settings-preview img {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 12px;
+  }  
+}

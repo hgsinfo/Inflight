@@ -1,0 +1,28 @@
+= 1.0.6 =
+* [Bug] Responsive control error
+* [Bug] Elementor 3.6.2 Compatvility Issue
+
+= 1.0.5 =
+* [Bug] Slick slider deprecated issue
+* [Bug] Elementor 3.0 Color Scheme deperacted issue
+* [Bug] Elementor 3.0 Color Typography deperacted issue
+* [Bug] Fix compativility with WordPress 5.7.2
+
+= 1.0.4 =
+* [Feature] Filter by title
+* [Feature] Short Description included at product list widget
+
+= 1.0.3 =
+* [Feature] Integrate control to increase maximum product
+* [Feature] Integrate More Query Stock and Out of stock products
+* [Feature] Integrate Out of stock product hides
+* [Feature] Integrate Indicator of Stock and Out of stock product with sale badges.
+
+* [Bug] Fix Carousel width issue
+
+
+= 1.0.2 =
+* Integrate premium version and include freemius for manage supports 
+
+= 1.0.0 =
+* Initial release

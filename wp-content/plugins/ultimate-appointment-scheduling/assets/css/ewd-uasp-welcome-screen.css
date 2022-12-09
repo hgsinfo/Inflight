@@ -1,0 +1,195 @@
+.ewd-uasp-welcome-clear {
+	clear: both;
+}
+
+.ewd-uasp-welcome-screen-header h1 {
+	padding: 48px 0 16px 0;
+	margin: 0;
+}
+.ewd-uasp-welcome-screen-header p {
+	margin-bottom: 32px;
+	font-size: 15px;
+}
+.ewd-uasp-welcome-screen h2 {
+	background: #6700B2;
+	color: #fff;
+	padding: 18px;
+	margin: 0;
+	z-index: 2;
+	position: relative;
+	float: left;
+	width: calc(100% - 36px);
+	border-top: 1px solid #854DD6;
+}
+.ewd-uasp-welcome-screen h2:hover {
+	background: #682CBF;
+}
+
+.ewd-uasp-welcome-screen-box .ewd-uasp-welcome-screen-box-content {
+	display: none;
+} 
+
+.ewd-uasp-welcome-screen-box.ewd-uasp-welcome-screen-open .ewd-uasp-welcome-screen-box-content {
+	display: block;
+}
+
+.ewd-uasp-welcome-screen-box {
+    padding: 0px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ewd-uasp-welcome-screen-header,
+.ewd-uasp-welcome-screen-skip-container {
+	max-width: 800px;
+    margin: 0 auto;
+}
+
+.ewd-uasp-welcome-screen-header {
+	text-align: center;
+}
+
+.ewd-uasp-welcome-screen-box h2 {
+	cursor: pointer;
+}
+
+.ewd-uasp-welcome-screen-box-content {
+	position: relative;
+	float: left;
+	background: #fff;
+	width: 90%;
+    margin: 0 auto 16px;
+    box-shadow: 0 1px 12px #ddd;
+    display: block;
+    padding: 18px 5%;	
+}
+
+.ewd-uasp-welcome-screen-add-service-button,
+.ewd-uasp-welcome-screen-add-location-button,
+.ewd-uasp-welcome-screen-add-provider-button,
+.ewd-uasp-welcome-screen-add-booking-page-button,
+.ewd-uasp-welcome-screen-save-options-button {
+	position: relative; 
+	float: left;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #0acbaa;
+	color: #fff;
+	border-radius: 2px;
+	background: #0acbaa;
+	width: auto;
+	text-align: center;
+	margin-top: 12px;
+}
+.ewd-uasp-welcome-screen-add-service-button:hover,
+.ewd-uasp-welcome-screen-add-location-button:hover,
+.ewd-uasp-welcome-screen-add-provider-button:hover,
+.ewd-uasp-welcome-screen-add-booking-page-button:hover,
+.ewd-uasp-welcome-screen-save-options-button:hover {
+	border-color: #17d6b3;
+	background: #17d6b3;
+}
+
+.ewd-uasp-welcome-screen-next-button, 
+.ewd-uasp-welcome-screen-previous-button,
+.ewd-uasp-welcome-screen-finish-button a {
+	position: relative; 
+	float: right;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #6700B2;
+	color: #6700B2;
+	border-radius: 2px;
+	background: transparent;
+	width: auto;
+	text-align: center;
+	margin-top: 32px;
+	text-decoration: none;
+}
+.ewd-uasp-welcome-screen-next-button:hover, 
+.ewd-uasp-welcome-screen-previous-button:hover,
+.ewd-uasp-welcome-screen-finish-button a:hover {
+	color: #fff;
+	background: #6700B2;
+	text-decoration: none;
+}
+.ewd-uasp-welcome-screen-next-button-not-top-margin {
+	margin-top: 12px;
+}
+.ewd-uasp-welcome-screen-previous-button {
+	float: left;
+}
+
+.ewd-uasp-welcome-screen-skip-button {
+	position: relative; 
+	float: right;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #ccc;
+	color: #999;
+	border-radius: 2px;
+	background: transparent;
+	width: auto;
+	text-align: center;
+	margin-top: 12px;
+}
+.ewd-uasp-welcome-screen-skip-button:hover {
+	border-color: #aaa;
+	color: #fff;
+	background: #aaa;
+}
+
+.ewd-uasp-welcome-screen-box-content input {
+	margin: 0;
+}
+.ewd-uasp-welcome-screen-box-content-divs {
+	margin-bottom: 8px;
+}
+
+.ewd-uasp-welcome-screen-show-created-categories {
+	display: none;
+}
+.ewd-uasp-welcome-screen-show-created-faqs {
+	display: none;
+}
+
+.ewd-uasp-welcome-screen-add-catalogue-categories h3 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.ewd-uasp-save-message {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 16px 0;
+}
+.ewd-uasp-save-message-inside {
+	position: relative;
+	float: left;
+	padding: 8px 12px;
+	background: #eee;
+}
+
+/*CREATED TABLES*/
+.ewd-uasp-welcome-screen-show-created-services,
+.ewd-uasp-welcome-screen-show-created-locations,
+.ewd-uasp-welcome-screen-show-created-providers {
+	width: 100%;
+	border-collapse: collapse;
+}
+.ewd-uasp-welcome-screen-show-created-services th,
+.ewd-uasp-welcome-screen-show-created-services td,
+.ewd-uasp-welcome-screen-show-created-locations th,
+.ewd-uasp-welcome-screen-show-created-locations td,
+.ewd-uasp-welcome-screen-show-created-providers th,
+.ewd-uasp-welcome-screen-show-created-providers td {
+	border: 1px solid #ccc;
+	padding: 12px;
+}
+.ewd-uasp-welcome-screen-show-created-services img,
+.ewd-uasp-welcome-screen-show-created-locations img,
+.ewd-uasp-welcome-screen-show-created-providers img {
+	max-width: 100%;
+}

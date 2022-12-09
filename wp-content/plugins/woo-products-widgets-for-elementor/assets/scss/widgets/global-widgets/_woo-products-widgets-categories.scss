@@ -1,0 +1,229 @@
+/**
+	 * Jet categories
+	 */
+.woo-products-categories {
+	
+	.woo-products-category-count__wrap {
+		display: block;
+		width: 100%;
+		
+		.woo-products-category-count {
+			display: inline-block;
+		}
+	}
+	
+	&--preset-1 {
+		.woo-products-categories-thumbnail__wrap{
+			position: relative;
+			
+			.woo-products-category-count__wrap {
+				position: absolute;
+				right: 0;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				pointer-events: none;
+			}
+		}
+	}
+	
+	&--preset-2 {
+		.woo-products-categories-content {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			transform: translateY(-50%);
+			display: block;
+			max-width: 100%;
+			padding: 10px 50px;
+			pointer-events: none;
+		}
+		
+		.woo-products-category-count {
+			opacity: 0;
+		}
+		
+		.woo-products-categories__item {
+			// hover style for layout 2
+			&:hover {
+				.woo-products-category-count {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	
+	&--preset-3 {
+		.woo-products-categories__item {
+			.woo-products-categories-title__wrap {
+				> * {
+					display: inline-block;
+				}
+			}
+			
+			.woo-products-categories-content {
+				position: absolute;
+				top: auto;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				display: block;
+				max-width: 100%;
+				padding: 10px 50px;
+				transition: all .3s ease;
+				pointer-events: none;
+				
+				.woo-products-category-excerpt {
+					max-height: 0;
+					overflow: hidden;
+					transition: all .2s ease;
+				}
+			}
+			
+			&:hover {
+				.woo-products-categories-content {
+					.woo-products-category-excerpt {
+						max-height: 500px;
+					}
+				}
+				
+				.woo-products-categories-content{
+					bottom: 50%;
+					transform: translateY(50%);
+				}
+			}
+		}
+	}
+	
+	&--preset-4 {
+		.woo-products-categories__item {
+			.woo-products-categories-title__wrap {
+				> * {
+					display: inline-block;
+				}
+			}
+			
+			.woo-products-categories-content {
+				position: absolute;
+				top: auto;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				display: block;
+				max-width: 100%;
+				padding: 10px 50px;
+				transition: all .3s ease;
+				pointer-events: none;
+				
+				.woo-products-category-excerpt {
+					transition: all .2s ease;
+				}
+			}
+		}
+	}
+	
+	&--preset-5 {
+		.woo-products-categories-content{
+			display: flex;
+			align-items: center;
+			
+			.woo-products-category-content__inner{
+				flex: 1 1 100%;
+			}
+			
+			.woo-products-category-count__wrap{
+				flex: 0 1 auto;
+				width: auto;
+			}
+		}
+	}
+	
+	.woo-products-categories__inner-box {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.woo-products-category-thumbnail {
+		overflow: hidden;
+		text-align: center;
+		font-size: 0;
+	}
+	
+	.woo-products-category-title {
+		font-size: 18px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	
+	.woo-products-category-count {
+		transition: .2s all ease;
+	}
+	
+	.woo-products-category-excerpt {
+		padding: 0 10px;
+	}
+	
+	.woo-products-category-img-overlay__hover,
+	.woo-products-category-img-overlay {
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	
+	.woo-products-categories__item {
+		.woo-products-category-img-overlay__hover {
+			opacity: 0;
+		}
+		
+		&:hover{
+			.woo-products-category-img-overlay{
+				opacity: 0;
+			}
+			.woo-products-category-img-overlay__hover {
+				opacity: 1;
+			}
+		}
+	}
+	
+	&.woo-products-equal-cols {
+		.slick-track {
+			display: flex;
+			align-items: stretch;
+			.woo-products-categories__item {
+				flex: 0 0 auto;
+			}
+		}
+		
+		.woo-products-categories__item {
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			
+			.woo-products-categories__inner-box {
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				width: 100%;
+				box-sizing: border-box;
+			}
+			
+			.woo-products-categories__inner-content {
+				flex-grow: 1;
+			}
+		}
+	}
+}
+
+.woo-products-category-thumbnail {
+	img {
+		width: 100%;
+	}
+}
